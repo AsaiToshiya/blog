@@ -1,0 +1,45 @@
+.links-of-author a::before {
+  content: none;
+}
+
+.headband {
+  display: none;
+}
+
+.archive .collection-title {
+  display: none !important;
+}
+
+.post h2 {
+  border-bottom: 1px solid var(--text-color);
+}
+
+.site-nav-toggle, .site-nav-right, .site-nav {
+  display: none;
+}
+
+.sidebar-toggle {
+  bottom: 19px;
+  display: inline;
+}
+
+.sidebar {
+  display: inline;
+}
+
+.header-inner {
+  padding-bottom: 100px;
+
+  +mobile() {
+    padding-bottom: 50px;
+  }
+}
+
+.back-to-top {
+  left: auto;
+  right: 30px;
+
+  +mobile() {
+    right: 20px;
+  }
+}

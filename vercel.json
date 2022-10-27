@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { 
+      "source": "/show-commit-logs-across-all-own-github-repos/",
+      "destination": "/show-commit-logs-of-own-all-github-repos/",
+      "permanent": true
+    }
+  ]
+}
