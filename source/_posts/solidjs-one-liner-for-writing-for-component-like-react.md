@@ -1,5 +1,7 @@
 ---
 title: "SolidJS: For コンポーネントを React のように記述するためのワンライナー"
+date: 2022-11-03 23:26:37
+updated: 2022-11-03 23:26:37
 tags: [SolidJS]
 ---
 
