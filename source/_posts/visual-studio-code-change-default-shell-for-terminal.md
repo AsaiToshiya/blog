@@ -1,5 +1,7 @@
 ---
 title: "Visual Studio Code: ターミナルのデフォルトのシェルを変更する"
+date: 2022-11-19 00:26:41
+updated: 2022-11-19 00:26:41
 tags: [Visual Studio Code]
 ---
 
