@@ -2,6 +2,7 @@
 title: Raspberry Pi に電源ボタンを付ける
 date: 2020-12-01 23:22:04
 updated: 2020-12-17 13:03:46
+tags: [Raspberry Pi]
 ---
 
 Raspberry Pi に電源ボタンを付けるサンプル。
