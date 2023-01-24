@@ -1,5 +1,7 @@
 ---
 title: "Electron Forge: node-abi のエラーが発生した場合の対処方法"
+date: 2023-01-24 22:20:28
+updated: 2023-01-24 22:20:28
 tags: [Electron Forge, トラブルシューティング]
 ---
 
