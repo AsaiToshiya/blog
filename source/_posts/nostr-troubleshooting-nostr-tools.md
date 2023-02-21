@@ -1,5 +1,7 @@
 ---
 title: "Nostr: nostr-tools のトラブルシューティング"
+date: 2023-02-22 06:31:40
+updated: 2023-02-22 06:31:40
 tags: [Nostr, nostr-tools, トラブルシューティング]
 ---
 
