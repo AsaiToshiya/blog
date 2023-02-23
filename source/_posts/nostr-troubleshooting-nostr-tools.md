@@ -112,7 +112,7 @@ const temp = setTimeout;
 setTimeout = (func) => temp(func, 30 * 1000);
 ```
 
-## `TypeError: Cannot read properties of undefined (reading 'sendCloseFrame')`
+## `UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block`
 
 ```javascript
 const RELAYS = [
