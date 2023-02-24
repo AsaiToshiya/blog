@@ -107,7 +107,7 @@ const posts = await pool.list(RELAYS, [
 
 `pool.list` の前に以下のコードを追加し、nostr-tools のタイムアウトを長くする。
 
-```
+```javascript
 const temp = setTimeout;
 setTimeout = (func) => temp(func, 30 * 1000);
 ```
