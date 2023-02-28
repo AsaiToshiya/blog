@@ -147,3 +147,18 @@ node:internal/process/promises:279
 ```
 
 未解決。暫定的に、エラーを引き起こすリレー サーバーを削除する。
+
+## `pool.publish` で `wss://xxxx not connected`
+
+```javascript
+const pool = new SimplePool();
+pool.publish(RELAYS, event);
+```
+
+`pool.publish` の前に `pool.ensureRelay` を呼び出す必要がある。
+
+```
+const pool = new SimplePool();
+await Promise.all(RELAYS.map(async (relay) => await pool.ensureRelay(relay)));
+pool.publish(RELAYS, event);
+```
