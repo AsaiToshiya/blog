@@ -157,7 +157,7 @@ pool.publish(RELAYS, event);
 
 `pool.publish` の前に `pool.ensureRelay` を呼び出す必要がある。
 
-```
+```javascript
 const pool = new SimplePool();
 await Promise.all(RELAYS.map(async (relay) => await pool.ensureRelay(relay)));
 pool.publish(RELAYS, event);
