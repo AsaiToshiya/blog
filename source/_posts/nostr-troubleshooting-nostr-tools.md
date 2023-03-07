@@ -16,6 +16,8 @@ JavaScript モジュールで [nostr-tools](https://github.com/nbd-wtf/nostr-too
 
 ## `SyntaxError: Named export 'SimplePool' not found. The requested module 'nostr-tools' is a CommonJS module, which may not support all module.exports as named exports.`
 
+注: 1.6.0 で修正された。
+
 ```javascript
 import { SimplePool } from "nostr-tools";
 ```
@@ -112,7 +114,17 @@ const temp = setTimeout;
 setTimeout = (func) => temp(func, 30 * 1000);
 ```
 
+注: 1.6.3 でタイムアウトを設定できるようになった。
+
+```javascript
+const pool = new SimplePool({ eoseSubTimeout: 30 * 1000, getTimeout: 30 * 1000 });
+```
+
 ## `UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block`
+
+注: 1.6.1 で修正された。
+
+参考: [Websocket connection failure via pool results in uncaught exception · Issue #130 · nbd-wtf/nostr-tools](https://github.com/nbd-wtf/nostr-tools/issues/130)
 
 ```javascript
 const RELAYS = [
