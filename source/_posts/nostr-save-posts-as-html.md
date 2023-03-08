@@ -38,6 +38,12 @@ const PK = "0a2f19dc1a185792c3b0376f1d7f9971295e8932966c397935a5dddd1451a25a";
 $ node index.js
 ```
 
-カレント ディレクトリーに index.html が作成される。
+カレント ディレクトリーに index.html と hashtag.html が作成される。
+
+index.html:
 
 ![index-html.png](nostr-save-posts-as-html/index-html.png)
+
+hashtag.html:
+
+![hashtag-html.png](nostr-save-posts-as-html/hashtag-html.png)
