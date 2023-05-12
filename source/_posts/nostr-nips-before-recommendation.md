@@ -1,0 +1,54 @@
+---
+title: "Nostr: 勧告前の NIPs"
+tags: [Nostr]
+---
+
+![image.jpg](nostr-nips-before-recommendation/image.jpg)
+
+Nostr の気になった勧告前の NIPs。
+
+随時更新。
+
+<!-- more -->
+
+## NIP-30: Custom Emoji
+
+https://github.com/alexgleason/nips/blob/emojis/30.md
+
+カスタム絵文字。
+
+PR: https://github.com/nostr-protocol/nips/pull/484
+
+## NIP-93: NSON
+
+https://github.com/nostr-protocol/nips/blob/nip93-nson/93.md
+
+JSON のデコードを高速化するための `nson` フィールド。
+
+NSON は造語？
+
+PR: https://github.com/nostr-protocol/nips/pull/515
+
+## NIP-95 - Storage and Shared File
+
+https://github.com/frbitten/nostr-nips/blob/NIP-95/95.md
+
+Nostr でファイル ストレージ。
+
+PR: https://github.com/nostr-protocol/nips/pull/345
+
+## NIP-99: Prediction markets
+
+https://github.com/ekzyis/nips/blob/nip-prediction-markets/99.md
+
+予測市場 (先物市場)。
+
+PR: https://github.com/nostr-protocol/nips/pull/517
+
+## NIP-109: Pubkey Deletion
+
+https://github.com/alexgleason/nips/blob/delete-pubkey/109.md
+
+公開鍵の削除。
+
+PR: https://github.com/nostr-protocol/nips/pull/377
