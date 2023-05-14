@@ -171,6 +171,32 @@ supported=1 detected=1
 
 `detected=1` が有効。
 
+### ロケールを変更
+
+`raspi-config` コマンド -> 「5 Localization Options」-> 「L1 Locale」で変更する。
+
+```bash
+pi@raspberrypi:~ $ sudo raspi-config
+```
+
+![locale-1.png](notes-on-raspberry-pi/locale-1.png)
+
+![locale-2.png](notes-on-raspberry-pi/locale-2.png)
+
+![locale-3.png](notes-on-raspberry-pi/locale-3.png)
+
+![locale-4.png](notes-on-raspberry-pi/locale-4.png)
+
+![locale-5.png](notes-on-raspberry-pi/locale-5.png)
+
+![locale-6.png](notes-on-raspberry-pi/locale-6.png)
+
+![locale-7.png](notes-on-raspberry-pi/locale-7.png)
+
+![locale-8.png](notes-on-raspberry-pi/locale-8.png)
+
+![locale-9.png](notes-on-raspberry-pi/locale-9.png)
+
 ## 電子工作
 
 ### GPIO のピンの配置
