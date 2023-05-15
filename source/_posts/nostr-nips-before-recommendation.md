@@ -21,6 +21,24 @@ https://github.com/alexgleason/nips/blob/emojis/30.md
 
 PR: https://github.com/nostr-protocol/nips/pull/484
 
+## NIP-54 - Inline Resource Metadata
+
+https://github.com/arthurfranca/nips/blob/inline-resource-metadata/54.md
+
+URL や [NIP-21](https://github.com/nostr-protocol/nips/blob/master/21.md) の末尾に追加される `#t=24&a%20name=a%20value` のようなパラメーター。
+
+[DIP-01](https://github.com/damus-io/dips/blob/master/01.md) も参照のこと。
+
+PR: https://github.com/nostr-protocol/nips/pull/521
+
+## NIP-89
+
+https://github.com/pablof7z/nips/blob/application-handlers/89.md
+
+未知の kind を処理するための推奨アプリケーション。
+
+PR: https://github.com/nostr-protocol/nips/pull/530
+
 ## NIP-93: NSON
 
 https://github.com/nostr-protocol/nips/blob/nip93-nson/93.md
