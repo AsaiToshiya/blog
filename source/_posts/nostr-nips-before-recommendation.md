@@ -13,13 +13,17 @@ Nostr の気になった勧告前の NIPs。
 
 <!-- more -->
 
-## NIP-30: Custom Emoji
+## ~~NIP-30: Custom Emoji~~
 
-https://github.com/alexgleason/nips/blob/emojis/30.md
+マージされた。
 
-カスタム絵文字。
+https://github.com/nostr-protocol/nips/blob/master/30.md
 
-PR: https://github.com/nostr-protocol/nips/pull/484
+~~https://github.com/alexgleason/nips/blob/emojis/30.md~~
+
+~~カスタム絵文字。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/484~~
 
 ## NIP-54 - Inline Resource Metadata
 
