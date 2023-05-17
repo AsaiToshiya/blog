@@ -25,6 +25,16 @@ https://github.com/nostr-protocol/nips/blob/master/30.md
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/484~~
 
+## NIP-32
+
+https://github.com/staab/nips/blob/nip-32-labeling/32.md
+
+ラベリング。
+
+[NIP-68](#NIP-68) も参照のこと。
+
+PR: https://github.com/nostr-protocol/nips/pull/532
+
 ## NIP-54 - Inline Resource Metadata
 
 https://github.com/arthurfranca/nips/blob/inline-resource-metadata/54.md
@@ -34,6 +44,16 @@ URL や [NIP-21](https://github.com/nostr-protocol/nips/blob/master/21.md) の�
 [DIP-01](https://github.com/damus-io/dips/blob/master/01.md) も参照のこと。
 
 PR: https://github.com/nostr-protocol/nips/pull/521
+
+## NIP-68
+
+https://github.com/rabble/nips/blob/nip-69/68.md
+
+ラベリング。
+
+[NIP-32](#NIP-32) も参照のこと。
+
+PR: https://github.com/nostr-protocol/nips/pull/457
 
 ## NIP-89
 
