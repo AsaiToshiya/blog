@@ -81,6 +81,18 @@ Nostr でファイル ストレージ。
 
 PR: https://github.com/nostr-protocol/nips/pull/345
 
+## NIP-98 HTTP Auth
+
+https://github.com/v0l/nips/blob/nip98/98.md
+
+Nostr のイベントで HTTP 認証。
+
+エンドポイントを含む `kind: 27235` のイベントを base64 エンコードして、HTTP Authorization ヘッダーに乗せてリクエストする。
+
+リファレンス実装: [NostrAuth.cs](https://gist.github.com/v0l/74346ae530896115bfe2504c8cd018d3) (C#、ASP.NET による認証ハンドラー)
+
+PR: https://github.com/nostr-protocol/nips/pull/469
+
 ## NIP-99: Prediction markets
 
 https://github.com/ekzyis/nips/blob/nip-prediction-markets/99.md
