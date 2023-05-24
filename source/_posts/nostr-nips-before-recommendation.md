@@ -45,6 +45,14 @@ URL や [NIP-21](https://github.com/nostr-protocol/nips/blob/master/21.md) の�
 
 PR: https://github.com/nostr-protocol/nips/pull/521
 
+## NIP-60
+
+https://github.com/Egge7/nips/blob/zapGates/60.md
+
+[NIP-98](#NIP-98-HTTP-Auth) (HTTP Auth) のリソースに [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) (Lightning Zaps) でアクセスできるようにする。
+
+PR: https://github.com/nostr-protocol/nips/pull/542
+
 ## NIP-68
 
 https://github.com/rabble/nips/blob/nip-69/68.md
@@ -80,6 +88,16 @@ https://github.com/frbitten/nostr-nips/blob/NIP-95/95.md
 Nostr でファイル ストレージ。
 
 PR: https://github.com/nostr-protocol/nips/pull/345
+
+## NIP-96
+
+https://github.com/arthurfranca/nips/blob/nip-95-contender/96.md
+
+Nostr で使用するファイル サーバー。
+
+通常の NIP と違って、HTTP REST API によるファイルのアップロードと、HTTP メソッドによるファイルのダウンロード、および削除のための仕様。
+
+PR: https://github.com/nostr-protocol/nips/pull/547
 
 ## NIP-98 HTTP Auth
 
