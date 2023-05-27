@@ -13,6 +13,19 @@ Nostr の気になった勧告前の NIPs。
 
 <!-- more -->
 
+## NIP-17: Tracking Git Commits with Nostr
+
+https://github.com/nip17/nips/blob/master/17.md
+
+Nostr で Git コミットを追跡できるようにする。
+
+この NIP ができるようにするユースケース:
+ - GitHub Actions
+ - 継続的インテグレーション/継続的デプロイメント (CI/CD)
+ - Travis CI
+
+PR: https://github.com/nostr-protocol/nips/pull/324
+
 ## ~~NIP-30: Custom Emoji~~
 
 マージされた。
@@ -134,3 +147,11 @@ https://github.com/alexgleason/nips/blob/delete-pubkey/109.md
 公開鍵の削除。
 
 PR: https://github.com/nostr-protocol/nips/pull/377
+
+## NIP-lol
+
+https://github.com/MaxHillebrand/nips/blob/NIPlol-private-messages/lol.md
+
+NIP-04 (Encrypted Direct Message) の代替。
+
+PR: https://github.com/nostr-protocol/nips/pull/564
