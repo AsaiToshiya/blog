@@ -38,7 +38,7 @@ https://github.com/nostr-protocol/nips/blob/master/30.md
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/484~~
 
-## NIP-32
+## NIP-32: Labeling
 
 https://github.com/staab/nips/blob/nip-32-labeling/32.md
 
@@ -48,7 +48,7 @@ https://github.com/staab/nips/blob/nip-32-labeling/32.md
 
 PR: https://github.com/nostr-protocol/nips/pull/532
 
-## NIP-54 - Inline Resource Metadata
+## NIP-54: Inline Resource Metadata
 
 https://github.com/arthurfranca/nips/blob/inline-resource-metadata/54.md
 
@@ -58,7 +58,7 @@ URL や [NIP-21](https://github.com/nostr-protocol/nips/blob/master/21.md) の�
 
 PR: https://github.com/nostr-protocol/nips/pull/521
 
-## NIP-60
+## NIP-60: Zap Gates
 
 https://github.com/Egge7/nips/blob/zapGates/60.md
 
@@ -66,7 +66,7 @@ https://github.com/Egge7/nips/blob/zapGates/60.md
 
 PR: https://github.com/nostr-protocol/nips/pull/542
 
-## NIP-68
+## NIP-68: Content Labeling (including Reviews & Recommendations)
 
 https://github.com/rabble/nips/blob/nip-69/68.md
 
@@ -76,7 +76,7 @@ https://github.com/rabble/nips/blob/nip-69/68.md
 
 PR: https://github.com/nostr-protocol/nips/pull/457
 
-## NIP-89
+## NIP-89: Recommended Application Handlers
 
 https://github.com/pablof7z/nips/blob/application-handlers/89.md
 
@@ -102,7 +102,7 @@ NSON は造語？
 
 PR: https://github.com/nostr-protocol/nips/pull/515
 
-## NIP-95 - Storage and Shared File
+## NIP-95: Storage and Shared File
 
 https://github.com/frbitten/nostr-nips/blob/NIP-95/95.md
 
@@ -110,7 +110,7 @@ Nostr でファイル ストレージ。
 
 PR: https://github.com/nostr-protocol/nips/pull/345
 
-## NIP-96
+## NIP-96: HTTP File Storage Integration
 
 https://github.com/arthurfranca/nips/blob/nip-95-contender/96.md
 
@@ -120,7 +120,7 @@ Nostr で使用するファイル サーバー。
 
 PR: https://github.com/nostr-protocol/nips/pull/547
 
-## NIP-98 HTTP Auth
+## NIP-98: HTTP Auth
 
 https://github.com/v0l/nips/blob/nip98/98.md
 
@@ -148,7 +148,7 @@ https://github.com/alexgleason/nips/blob/delete-pubkey/109.md
 
 PR: https://github.com/nostr-protocol/nips/pull/377
 
-## NIP-lol
+## NIP-lol: Truly Private Messages
 
 https://github.com/MaxHillebrand/nips/blob/NIPlol-private-messages/lol.md
 
