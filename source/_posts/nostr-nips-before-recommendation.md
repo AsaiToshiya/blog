@@ -48,6 +48,18 @@ https://github.com/staab/nips/blob/nip-32-labeling/32.md
 
 PR: https://github.com/nostr-protocol/nips/pull/532
 
+## NIP-43: Fast Authentication
+
+https://github.com/arthurfranca/nips/blob/nip-43/43.md
+
+[NIP-42](https://github.com/nostr-protocol/nips/blob/master/42.md) (Authentication of clients to relays) を代替する認証。
+
+リレーに接続するときに、クエリ パラメーターの `authorization` で認証を行う。
+
+`kind` は、[NIP-42](https://github.com/nostr-protocol/nips/blob/master/42.md) と同じ `kind: 22242` を使用する。ただし、`challenge` タグは含めない。
+
+PR: https://github.com/nostr-protocol/nips/pull/571
+
 ## NIP-54: Inline Resource Metadata
 
 https://github.com/arthurfranca/nips/blob/inline-resource-metadata/54.md
