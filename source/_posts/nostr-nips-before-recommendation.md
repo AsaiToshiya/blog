@@ -7,7 +7,9 @@ tags: [Nostr]
 
 ![image.jpg](nostr-nips-before-recommendation/image.jpg)
 
-Nostr の気になった勧告前の NIPs。
+Nostr の勧告前の NIPs。
+
+自分がある程度理解している NIP に限り記載する。
 
 随時更新。
 
