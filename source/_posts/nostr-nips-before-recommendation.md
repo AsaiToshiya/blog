@@ -28,6 +28,16 @@ Nostr で Git コミットを追跡できるようにする。
 
 PR: https://github.com/nostr-protocol/nips/pull/324
 
+## NIP-18: Private Direct Message
+
+https://github.com/Giszmo/nips/blob/PrivateDmEvent/18.md
+
+DM の受信者 (`p` タグ) を偽る [NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md) (Encrypted Direct Message) の改良版。
+
+オープンな PR の中で最も古い NIP。
+
+PR: https://github.com/nostr-protocol/nips/pull/17
+
 ## ~~NIP-30: Custom Emoji~~
 
 マージされた。
@@ -66,6 +76,14 @@ https://github.com/arthurfranca/nips/blob/nip-43/43.md
 
 PR: https://github.com/nostr-protocol/nips/pull/571
 
+## NIP-44: Encrypted Direct Message (Versioned)
+
+https://github.com/paulmillr/nips/blob/master-1/44.md
+
+暗号化アルゴリズムをバージョン管理 (選択) できるようにする [NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md) (Encrypted Direct Message) の代替。
+
+PR: https://github.com/nostr-protocol/nips/pull/574
+
 ## NIP-54: Inline Resource Metadata
 
 https://github.com/arthurfranca/nips/blob/inline-resource-metadata/54.md
@@ -75,6 +93,18 @@ URL や [NIP-21](https://github.com/nostr-protocol/nips/blob/master/21.md) の�
 [DIP-01](https://github.com/damus-io/dips/blob/master/01.md) も参照のこと。
 
 PR: https://github.com/nostr-protocol/nips/pull/521
+
+## NIP-59: Gift Wrap
+
+https://github.com/v0l/nips/blob/59/59.md
+
+イベントのメタデータ (DM のやり取りなど) の隠蔽。
+
+一時的な鍵ペアを使用してイベントをラップする。
+
+受信者には、`p` タグで通知する。
+
+PR: https://github.com/nostr-protocol/nips/pull/468
 
 ## NIP-60: Zap Gates
 
