@@ -7,9 +7,9 @@ tags: [Nostr]
 
 ![image.jpg](nostr-nips-before-recommendation/image.jpg)
 
-Nostr の勧告前の NIPs。
+Nostr の勧告前の NIPs (Nostr Implementation Possibilities)。
 
-自分がある程度理解している NIP に限り記載する。
+多数の提案がある中で、自分がある程度理解している NIP に限り記載する。
 
 随時更新。
 
@@ -32,7 +32,7 @@ PR: https://github.com/nostr-protocol/nips/pull/324
 
 https://github.com/Giszmo/nips/blob/PrivateDmEvent/18.md
 
-DM の受信者 (`p` タグ) を偽る [NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md) (Encrypted Direct Message) の改良版。
+DM の受信者 (`p` タグ) を偽る、[NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md) (Encrypted Direct Message) の改良版。
 
 オープンな PR の中で最も古い NIP。
 
