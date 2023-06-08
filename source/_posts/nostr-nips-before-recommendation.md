@@ -124,21 +124,25 @@ https://github.com/rabble/nips/blob/nip-69/68.md
 
 PR: https://github.com/nostr-protocol/nips/pull/457
 
-## NIP-89: Recommended Application Handlers
+## ~~NIP-89: Recommended Application Handlers~~
 
-https://github.com/pablof7z/nips/blob/application-handlers/89.md
+マージされた。
 
-未知の kind を処理するための推奨アプリケーション。
+https://github.com/nostr-protocol/nips/blob/master/89.md
 
-kind:
- - `kind: 31989`: アプリケーションを推奨するユーザーが作成するイベントの kind
- - `kind: 31990`: 推奨されたアプリケーションが作成するイベントの kind
+~~https://github.com/pablof7z/nips/blob/application-handlers/89.md~~
 
-未知の kind を受け取ったユーザーは、`kind: 31989` 経由、または直接 `kind: 31990` の REQ を投げて `kind: 31990` のイベントを取得する。
+~~未知の kind を処理するための推奨アプリケーション。~~
 
-`kind: 31990` には、推奨アプリケーションのリダイレクト情報が記述されている。
+~~kind:~~
+ - ~~`kind: 31989`: アプリケーションを推奨するユーザーが作成するイベントの kind~~
+ - ~~`kind: 31990`: 推奨されたアプリケーションが作成するイベントの kind~~
 
-PR: https://github.com/nostr-protocol/nips/pull/530
+~~未知の kind を受け取ったユーザーは、`kind: 31989` 経由、または直接 `kind: 31990` の REQ を投げて `kind: 31990` のイベントを取得する。~~
+
+~~`kind: 31990` には、推奨アプリケーションのリダイレクト情報が記述されている。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/530~~
 
 ## NIP-93: NSON
 
