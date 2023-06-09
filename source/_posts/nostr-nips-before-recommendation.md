@@ -56,7 +56,7 @@ https://github.com/staab/nips/blob/nip-32-labeling/32.md
 
 ラベリング。
 
-[NIP-68](#NIP-68) も参照のこと。
+[NIP-68](#NIP-68-Content-Labeling-including-Reviews-amp-Recommendations) も参照のこと。
 
 PR: https://github.com/nostr-protocol/nips/pull/532
 
@@ -120,7 +120,7 @@ https://github.com/rabble/nips/blob/nip-69/68.md
 
 ラベリング。
 
-[NIP-32](#NIP-32) も参照のこと。
+[NIP-32](#NIP-32-Labeling) も参照のこと。
 
 PR: https://github.com/nostr-protocol/nips/pull/457
 
@@ -216,7 +216,7 @@ PR: https://github.com/nostr-protocol/nips/pull/377
 
 https://github.com/earonesty/nips/blob/112/112.md
 
-[NIP-44](#NIP-44) (Encrypted Direct Message (Versioned)) と [NIP-59](#NIP-59) (Gift Wrap) を使用するプライベート グループ チャット。
+[NIP-44](#NIP-44-Encrypted-Direct-Message-Versioned) (Encrypted Direct Message (Versioned)) と [NIP-59](#NIP-59-Gift-Wrap) (Gift Wrap) を使用するプライベート グループ チャット。
 
 PR: https://github.com/nostr-protocol/nips/pull/580
 
