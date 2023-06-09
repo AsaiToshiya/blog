@@ -124,6 +124,18 @@ https://github.com/rabble/nips/blob/nip-69/68.md
 
 PR: https://github.com/nostr-protocol/nips/pull/457
 
+## NIP-77: Nostr Data Sharing URI Scheme
+
+https://github.com/mandelmonkey/nips/blob/master/77.md
+
+Nostr クライアントにテキストや画像を共有するための URI スキーマ (`nostr-share://`)。
+
+リファレンス実装:
+https://github.com/mandelmonkey/nostr-share-sample-game
+https://github.com/mandelmonkey/nostr-share-wallet-demo
+
+PR: https://github.com/nostr-protocol/nips/pull/491
+
 ## ~~NIP-89: Recommended Application Handlers~~
 
 マージされた。
@@ -199,6 +211,14 @@ https://github.com/alexgleason/nips/blob/delete-pubkey/109.md
 公開鍵の削除。
 
 PR: https://github.com/nostr-protocol/nips/pull/377
+
+## NIP-112: Encrypted Group Events
+
+https://github.com/earonesty/nips/blob/112/112.md
+
+[NIP-44](#NIP-44) (Encrypted Direct Message (Versioned)) と [NIP-59](#NIP-59) (Gift Wrap) を使用するプライベート グループ チャット。
+
+PR: https://github.com/nostr-protocol/nips/pull/580
 
 ## NIP-lol: Truly Private Messages
 
