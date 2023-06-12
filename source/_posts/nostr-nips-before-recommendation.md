@@ -84,6 +84,19 @@ https://github.com/paulmillr/nips/blob/master-1/44.md
 
 PR: https://github.com/nostr-protocol/nips/pull/574
 
+## NIP-52: Calendar Events
+
+https://github.com/tyiu/nips/blob/nip52-calendar-events/52.md
+
+カレンダーの一般的な意味での「イベント」。
+
+kind:
+ - `kind: 31923`: カレンダーのイベント
+ - `kind: 31924`: 出欠確認
+ - `kind: 31925`: カレンダー (`kind: 31923` のリスト)
+
+PR: https://github.com/nostr-protocol/nips/pull/597
+
 ## NIP-54: Inline Resource Metadata
 
 https://github.com/arthurfranca/nips/blob/inline-resource-metadata/54.md
