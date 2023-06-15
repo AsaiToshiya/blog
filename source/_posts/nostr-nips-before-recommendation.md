@@ -92,8 +92,15 @@ https://github.com/tyiu/nips/blob/nip52-calendar-events/52.md
 
 kind:
  - `kind: 31923`: カレンダーのイベント
- - `kind: 31924`: 出欠確認
- - `kind: 31925`: カレンダー (`kind: 31923` のリスト)
+ - `kind: 31924`: カレンダー (`kind: 31923` のリスト)
+
+## NIP-53: Calendar Event RSVPs
+
+https://github.com/tyiu/nips/blob/nip52-calendar-events/53.md
+
+[NIP-52](#NIP-52-Calendar-Events) (Calendar Events) の出欠確認。
+
+`kind: 31925`。
 
 PR: https://github.com/nostr-protocol/nips/pull/597
 
@@ -127,15 +134,17 @@ https://github.com/Egge7/nips/blob/zapGates/60.md
 
 PR: https://github.com/nostr-protocol/nips/pull/542
 
-## NIP-68: Content Labeling (including Reviews & Recommendations)
+## ~~NIP-68: Content Labeling (including Reviews & Recommendations)~~
 
-https://github.com/rabble/nips/blob/nip-69/68.md
+クローズされた。
 
-ラベリング。
+~~https://github.com/rabble/nips/blob/nip-69/68.md~~
 
-[NIP-32](#NIP-32-Labeling) も参照のこと。
+~~ラベリング。~~
 
-PR: https://github.com/nostr-protocol/nips/pull/457
+~~[NIP-32](#NIP-32-Labeling) も参照のこと。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/457~~
 
 ## NIP-77: Nostr Data Sharing URI Scheme
 
