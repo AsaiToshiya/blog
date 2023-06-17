@@ -15,6 +15,14 @@ Nostr の勧告前の NIPs (Nostr Implementation Possibilities)。
 
 <!-- more -->
 
+## NIP-17: Event Metadata
+
+https://github.com/arthurfranca/nips/blob/nip-17/17.md
+
+リレーのレスポンス (イベント) に追加されるメタデータ。
+
+PR: https://github.com/nostr-protocol/nips/pull/605
+
 ## NIP-17: Tracking Git Commits with Nostr
 
 https://github.com/nip17/nips/blob/master/17.md
@@ -59,6 +67,14 @@ https://github.com/staab/nips/blob/nip-32-labeling/32.md
 [NIP-68](#NIP-68-Content-Labeling-including-Reviews-amp-Recommendations) も参照のこと。
 
 PR: https://github.com/nostr-protocol/nips/pull/532
+
+## NIP-35: Member List
+
+https://github.com/arthurfranca/nips/blob/nip-35/35.md
+
+グループ、チャンネル、コミュニティーなどに属するユーザーの「連絡可能」、「退席中」などの状態。
+
+PR: https://github.com/nostr-protocol/nips/pull/607
 
 ## NIP-43: Fast Authentication
 
