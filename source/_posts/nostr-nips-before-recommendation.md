@@ -194,6 +194,14 @@ https://github.com/nostr-protocol/nips/blob/master/89.md
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/530~~
 
+## NIP-91: Bech32 URL Query
+
+https://github.com/tyiu/nips/blob/nip91-query-param/91.md
+
+[NIP-21](https://github.com/nostr-protocol/nips/blob/master/21.md) (`nostr:` URI scheme) の HTTP/HTTPS スキーム版。
+
+PR: https://github.com/nostr-protocol/nips/pull/609
+
 ## NIP-93: NSON
 
 https://github.com/nostr-protocol/nips/blob/nip93-nson/93.md
