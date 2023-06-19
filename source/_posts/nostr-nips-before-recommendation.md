@@ -232,15 +232,19 @@ PR: https://github.com/nostr-protocol/nips/pull/547
 
 ## NIP-98: HTTP Auth
 
-https://github.com/v0l/nips/blob/nip98/98.md
+マージされた。
 
-Nostr のイベントで HTTP 認証。
+https://github.com/nostr-protocol/nips/blob/master/98.md
 
-エンドポイントを含む `kind: 27235` のイベントを base64 エンコードして、HTTP Authorization ヘッダーに乗せてリクエストする。
+~~https://github.com/v0l/nips/blob/nip98/98.md~~
 
-リファレンス実装: [NostrAuth.cs](https://gist.github.com/v0l/74346ae530896115bfe2504c8cd018d3) (C#、ASP.NET による認証ハンドラー)
+~~Nostr のイベントで HTTP 認証。~~
 
-PR: https://github.com/nostr-protocol/nips/pull/469
+~~エンドポイントを含む `kind: 27235` のイベントを base64 エンコードして、HTTP Authorization ヘッダーに乗せてリクエストする。~~
+
+~~リファレンス実装: [NostrAuth.cs](https://gist.github.com/v0l/74346ae530896115bfe2504c8cd018d3) (C#、ASP.NET による認証ハンドラー)~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/469~~
 
 ## NIP-99: Prediction markets
 
