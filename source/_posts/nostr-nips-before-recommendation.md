@@ -58,15 +58,19 @@ https://github.com/nostr-protocol/nips/blob/master/30.md
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/484~~
 
-## NIP-32: Labeling
+## ~~NIP-32: Labeling~~
 
-https://github.com/staab/nips/blob/nip-32-labeling/32.md
+マージされた。
 
-ラベリング。
+https://github.com/nostr-protocol/nips/blob/master/32.md
 
-[NIP-68](#NIP-68-Content-Labeling-including-Reviews-amp-Recommendations) も参照のこと。
+~~https://github.com/staab/nips/blob/nip-32-labeling/32.md~~
 
-PR: https://github.com/nostr-protocol/nips/pull/532
+~~ラベリング。~~
+
+~~[NIP-68](#NIP-68-Content-Labeling-including-Reviews-amp-Recommendations) も参照のこと。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/532~~
 
 ## NIP-35: Member List
 
