@@ -46,6 +46,24 @@ DM の受信者 (`p` タグ) を偽る、[NIP-04](https://github.com/nostr-proto
 
 PR: https://github.com/nostr-protocol/nips/pull/17
 
+## NIP-24: Rich Text Note
+
+https://github.com/AsaiToshiya/nips/blob/nip-24-rich-text-note/24.md
+
+HTML や Markdown などの「リッチ テキスト メモ」。拙著。
+
+日本語: https://github.com/AsaiToshiya/nip-24-rich-text-note/blob/main/24-ja.md
+
+PR: https://github.com/nostr-protocol/nips/pull/619
+
+## NIP-29: Simple Group Chat
+
+https://github.com/nostr-protocol/nips/blob/simple-chat-groups/29.md
+
+リレー主導のグループ チャット。
+
+PR: https://github.com/nostr-protocol/nips/pull/566
+
 ## ~~NIP-30: Custom Emoji~~
 
 マージされた。
@@ -178,6 +196,14 @@ https://github.com/mandelmonkey/nostr-share-wallet-demo
 
 PR: https://github.com/nostr-protocol/nips/pull/491
 
+## NIP-84: Highlights
+
+https://github.com/pablof7z/nips/blob/highlights/84.md
+
+コンテンツの引用とハイライト。
+
+PR: https://github.com/nostr-protocol/nips/pull/501
+
 ## ~~NIP-89: Recommended Application Handlers~~
 
 マージされた。
@@ -224,6 +250,14 @@ Nostr でファイル ストレージ。
 
 PR: https://github.com/nostr-protocol/nips/pull/345
 
+## NIP-96: Code Collaboration over Nostr
+
+https://github.com/fostr-dev/nips/blob/master/96.md
+
+Nostr 上で GitHub のようなコラボレーションを実現する。
+
+PR: https://github.com/nostr-protocol/nips/pull/618
+
 ## NIP-96: HTTP File Storage Integration
 
 https://github.com/arthurfranca/nips/blob/nip-95-contender/96.md
@@ -258,6 +292,14 @@ https://github.com/ekzyis/nips/blob/nip-prediction-markets/99.md
 
 PR: https://github.com/nostr-protocol/nips/pull/517
 
+## NIP-102: Live Activities
+
+https://github.com/vitorpamplona/nips/blob/nip102-live-activities/102.md
+
+ライブ配信の場 (`kind: 30311`) とチャット (`kind: 1311`)。
+
+PR: https://github.com/nostr-protocol/nips/pull/498
+
 ## NIP-109: Pubkey Deletion
 
 https://github.com/alexgleason/nips/blob/delete-pubkey/109.md
@@ -281,6 +323,16 @@ https://github.com/vitorpamplona/nips/blob/moderated-communities/172.md
 投稿をモデレーションできる Reddit (掲示板) のようなコミュニティー。
 
 PR: https://github.com/nostr-protocol/nips/pull/602
+
+## NIP-320: Nostr Rating Mass
+
+https://github.com/motorina0/nips/blob/nip-320/320.md
+
+料金の支払いにより、レーティングの信頼性を保証する。
+
+ハッシュ ツリーを使用してリーフの重み (Rating Mass) と値 (Rating Value) から実際のレーティングを計算する。
+
+PR: https://github.com/nostr-protocol/nips/pull/604
 
 ## NIP-lol: Truly Private Messages
 
