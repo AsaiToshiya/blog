@@ -142,6 +142,14 @@ https://github.com/tyiu/nips/blob/nip52-calendar-events/53.md
 
 PR: https://github.com/nostr-protocol/nips/pull/597
 
+## NIP-52: Live Activities
+
+https://github.com/vitorpamplona/nips/blob/nip102-live-activities/102.md
+
+ライブ配信の場 (`kind: 30311`) とチャット (`kind: 1311`)。
+
+PR: https://github.com/nostr-protocol/nips/pull/498
+
 ## NIP-54: Inline Resource Metadata
 
 https://github.com/arthurfranca/nips/blob/inline-resource-metadata/54.md
@@ -291,14 +299,6 @@ https://github.com/ekzyis/nips/blob/nip-prediction-markets/99.md
 予測市場 (先物市場)。
 
 PR: https://github.com/nostr-protocol/nips/pull/517
-
-## NIP-102: Live Activities
-
-https://github.com/vitorpamplona/nips/blob/nip102-live-activities/102.md
-
-ライブ配信の場 (`kind: 30311`) とチャット (`kind: 1311`)。
-
-PR: https://github.com/nostr-protocol/nips/pull/498
 
 ## NIP-109: Pubkey Deletion
 
