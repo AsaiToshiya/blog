@@ -90,6 +90,16 @@ https://github.com/nostr-protocol/nips/blob/master/32.md
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/532~~
 
+## NIP-34: Algorithmic Filter
+
+https://github.com/arthurfranca/nips/blob/nip-34/34.md
+
+フィルターに `limit` が指定されている場合のイベントの並び順。
+
+`["REQ", <subscription_id>, { ..., limit: 5, nip34: "asc" }]` のように指定する。
+
+PR: https://github.com/nostr-protocol/nips/pull/579
+
 ## NIP-35: Member List
 
 https://github.com/arthurfranca/nips/blob/nip-35/35.md
@@ -97,6 +107,14 @@ https://github.com/arthurfranca/nips/blob/nip-35/35.md
 グループ、チャンネル、コミュニティーなどに属するユーザーの「連絡可能」、「退席中」などの状態。
 
 PR: https://github.com/nostr-protocol/nips/pull/607
+
+## NIP-37: Language Tag
+
+https://github.com/alexgleason/nips/blob/lang/37.md
+
+イベントの言語を示すタグ。
+
+PR: https://github.com/nostr-protocol/nips/pull/632
 
 ## NIP-43: Fast Authentication
 
@@ -211,6 +229,16 @@ https://github.com/pablof7z/nips/blob/highlights/84.md
 コンテンツの引用とハイライト。
 
 PR: https://github.com/nostr-protocol/nips/pull/501
+
+## NIP-88: Nostr Cash (simple Nostr cash/token/cheque)
+
+https://github.com/arcbtc/nips/blob/nostrcash/88.md
+
+Nostr ネイティブなウォレットとミント (造幣局)。
+
+クライアントはウォレットの役目を負い、リレーはミントの役目を負う。
+
+PR: https://github.com/nostr-protocol/nips/pull/627
 
 ## ~~NIP-89: Recommended Application Handlers~~
 
