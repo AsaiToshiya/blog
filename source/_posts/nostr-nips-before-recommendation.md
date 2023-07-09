@@ -160,13 +160,17 @@ https://github.com/tyiu/nips/blob/nip52-calendar-events/53.md
 
 PR: https://github.com/nostr-protocol/nips/pull/597
 
-## NIP-53: Live Activities
+## ~~NIP-53: Live Activities~~
 
-https://github.com/vitorpamplona/nips/blob/nip102-live-activities/53.md
+マージされた。
 
-ライブ配信の場 (`kind: 30311`) とチャット (`kind: 1311`)。
+https://github.com/nostr-protocol/nips/blob/master/53.md
 
-PR: https://github.com/nostr-protocol/nips/pull/498
+~~https://github.com/vitorpamplona/nips/blob/nip102-live-activities/53.md~~
+
+~~ライブ配信の場 (`kind: 30311`) とチャット (`kind: 1311`)。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/498~~
 
 ## NIP-54: Inline Resource Metadata
 
