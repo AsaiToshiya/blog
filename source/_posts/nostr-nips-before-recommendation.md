@@ -308,7 +308,7 @@ Nostr で使用するファイル サーバー。
 
 PR: https://github.com/nostr-protocol/nips/pull/547
 
-## NIP-98: HTTP Auth
+## ~~NIP-98: HTTP Auth~~
 
 マージされた。
 
