@@ -149,16 +149,19 @@ https://github.com/tyiu/nips/blob/nip52-calendar-events/52.md
 kind:
  - `kind: 31923`: カレンダーのイベント
  - `kind: 31924`: カレンダー (`kind: 31923` のリスト)
+ - `kind: 31925`: 出欠確認
 
-## NIP-53: Calendar Event RSVPs
+## ~~NIP-53: Calendar Event RSVPs~~
 
-https://github.com/tyiu/nips/blob/nip52-calendar-events/53.md
+[NIP-52](#NIP-52-Calendar-Events) (Calendar Events) に統合された。
 
-[NIP-52](#NIP-52-Calendar-Events) (Calendar Events) の出欠確認。
+~~https://github.com/tyiu/nips/blob/nip52-calendar-events/53.md~~
 
-`kind: 31925`。
+~~[NIP-52](#NIP-52-Calendar-Events) (Calendar Events) の出欠確認。~~
 
-PR: https://github.com/nostr-protocol/nips/pull/597
+~~`kind: 31925`。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/597~~
 
 ## ~~NIP-53: Live Activities~~
 
