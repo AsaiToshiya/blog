@@ -116,6 +116,19 @@ https://github.com/alexgleason/nips/blob/lang/37.md
 
 PR: https://github.com/nostr-protocol/nips/pull/632
 
+## NIP-37: Methods for dealing with lost or compromised keys
+
+https://github.com/nostr-protocol/nips/blob/key-invalidation-and-migration/37.md
+
+秘密鍵の漏えいの対応。
+
+kind:
+ - `kind: 10529`: 公開鍵の削除
+ - `kind: 10520`: 友人への秘密鍵の漏えいの通知
+ - `kind: 1521`: 友人が推奨する新しい公開鍵
+
+PR: https://github.com/nostr-protocol/nips/pull/637
+
 ## NIP-43: Fast Authentication
 
 再オープンされた。
@@ -216,6 +229,18 @@ PR: https://github.com/nostr-protocol/nips/pull/542
 ~~[NIP-32](#NIP-32-Labeling) も参照のこと。~~
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/457~~
+
+## NIP-69: Zap Poll event
+
+https://github.com/toadlyBroodle/nips/blob/master/69.md
+
+Zap による投票。
+
+質問のイベント (`kind: 6969`) に [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) (Lightning Zaps) の Zap リクエストのイベント (`kind: 9734`) で投票する。
+
+一部のクライアントでは既に実装されている。
+
+PR: https://github.com/nostr-protocol/nips/pull/320
 
 ## NIP-77: Nostr Data Sharing URI Scheme
 
@@ -335,6 +360,16 @@ https://github.com/ekzyis/nips/blob/nip-prediction-markets/99.md
 
 PR: https://github.com/nostr-protocol/nips/pull/517
 
+## NIP-104: Generative AI Prompt
+
+https://github.com/vitorpamplona/nips/blob/generative-ai-nip/104.md
+
+生成 AI のプロンプト。
+
+このイベントを受け取ったクライアントが画像や動画を生成する。
+
+PR: https://github.com/nostr-protocol/nips/pull/634
+
 ## NIP-109: Pubkey Deletion
 
 https://github.com/alexgleason/nips/blob/delete-pubkey/109.md
@@ -359,6 +394,14 @@ https://github.com/vitorpamplona/nips/blob/moderated-communities/172.md
 
 PR: https://github.com/nostr-protocol/nips/pull/602
 
+## NIP-199: a simple username password login
+
+https://github.com/nostr-protocol/nips/issues/639
+
+ユーザー名とパスワードによるログイン (秘密鍵の保管)。
+
+秘密鍵は PBKDF2 (ユーザー名とパスワードから導出された共通鍵) と AES で暗号化されて、`kind: 30669` でリレーに保管される。
+
 ## NIP-320: Nostr Rating Mass
 
 https://github.com/motorina0/nips/blob/nip-320/320.md
@@ -376,3 +419,9 @@ https://github.com/MaxHillebrand/nips/blob/NIPlol-private-messages/lol.md
 NIP-04 (Encrypted Direct Message) の代替。
 
 PR: https://github.com/nostr-protocol/nips/pull/564
+
+## NIP-XX: Data Vending Machine
+
+https://github.com/nostr-protocol/nips/blob/vending-machine/vending-machine.md
+
+「音声書き起こし」や「要約」などのジョブを実行する汎用的な仕組み。
