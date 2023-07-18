@@ -413,6 +413,18 @@ https://github.com/motorina0/nips/blob/nip-320/320.md
 
 PR: https://github.com/nostr-protocol/nips/pull/604
 
+## NIP-402: Classifieds
+
+https://github.com/erskingardner/nips/blob/new-event-for-classifieds/402.md
+
+「ジモティー」や「じゃマール」のようなクラシファイドと呼ばれる、商品、サービス、求人、およびレンタルなどのカテゴリーに分類された広告。
+
+より厳密な [NIP-15](https://github.com/nostr-protocol/nips/blob/master/15.md) (Nostr Marketplace (for resilient marketplaces)) とは異なる。
+
+実装: https://ostrich.work/
+
+PR: https://github.com/nostr-protocol/nips/pull/662
+
 ## NIP-lol: Truly Private Messages
 
 https://github.com/MaxHillebrand/nips/blob/NIPlol-private-messages/lol.md
