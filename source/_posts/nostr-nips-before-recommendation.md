@@ -165,6 +165,8 @@ kind:
  - `kind: 31924`: カレンダー (`kind: 31923` のリスト)
  - `kind: 31925`: 出欠確認
 
+実装: https://calendar.coracle.social/
+
 ## ~~NIP-53: Calendar Event RSVPs~~
 
 [NIP-52](#NIP-52-Calendar-Events) (Calendar Events) に統合された。
@@ -353,6 +355,22 @@ https://github.com/nostr-protocol/nips/blob/master/98.md
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/469~~
 
+## ~~NIP-99: Classified Listings~~
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/99.md
+
+~~https://github.com/erskingardner/nips/blob/new-event-for-classifieds/99.md~~
+
+~~「ジモティー」や「じゃマール」のようなクラシファイドと呼ばれる、商品、サービス、求人、およびレンタルなどのカテゴリーに分類された広告。~~
+
+~~より厳密な [NIP-15](https://github.com/nostr-protocol/nips/blob/master/15.md) (Nostr Marketplace (for resilient marketplaces)) とは異なる。~~
+
+~~実装: https://ostrich.work/~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/662~~
+
 ## NIP-99: Prediction markets
 
 https://github.com/ekzyis/nips/blob/nip-prediction-markets/99.md
@@ -360,6 +378,20 @@ https://github.com/ekzyis/nips/blob/nip-prediction-markets/99.md
 予測市場 (先物市場)。
 
 PR: https://github.com/nostr-protocol/nips/pull/517
+
+## ~~NIP-99: Social Note~~
+
+クローズされた。
+
+~~https://github.com/arthurfranca/nips/blob/social-notes/99.md~~
+
+~~編集可能な `kind: 1` (テキスト メモ)。~~
+
+~~`kind: 31111`。~~
+
+~~関連: https://github.com/nostr-protocol/nips/issues/646~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/659~~
 
 ## NIP-104: Generative AI Prompt
 
@@ -413,17 +445,17 @@ https://github.com/motorina0/nips/blob/nip-320/320.md
 
 PR: https://github.com/nostr-protocol/nips/pull/604
 
-## NIP-402: Classifieds
+## NIP-1078: Arbitrary custom app data
 
-https://github.com/erskingardner/nips/blob/new-event-for-classifieds/402.md
+https://github.com/BlowaterNostr/nips/blob/master/1078.md
 
-「ジモティー」や「じゃマール」のようなクラシファイドと呼ばれる、商品、サービス、求人、およびレンタルなどのカテゴリーに分類された広告。
+`kind: 30078` の Regular Event 版で `kind: 1078`。
 
-より厳密な [NIP-15](https://github.com/nostr-protocol/nips/blob/master/15.md) (Nostr Marketplace (for resilient marketplaces)) とは異なる。
+CRDT (Conflict-free Replicated Data Type) でイベントの整合性を保証する。
 
-実装: https://ostrich.work/
+関連: [NIP-78](https://github.com/nostr-protocol/nips/blob/master/78.md) (Arbitrary custom app data)
 
-PR: https://github.com/nostr-protocol/nips/pull/662
+PR: https://github.com/nostr-protocol/nips/pull/667
 
 ## NIP-lol: Truly Private Messages
 
