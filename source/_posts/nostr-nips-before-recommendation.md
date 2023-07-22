@@ -46,15 +46,17 @@ DM の受信者 (`p` タグ) を偽る、[NIP-04](https://github.com/nostr-proto
 
 PR: https://github.com/nostr-protocol/nips/pull/17
 
-## NIP-24: Rich Text Note
+## ~~NIP-24: Rich Text Note~~
 
-https://github.com/AsaiToshiya/nips/blob/nip-24-rich-text-note/24.md
+クローズした。
 
-HTML や Markdown などの「リッチ テキスト メモ」。拙著。
+~~https://github.com/AsaiToshiya/nips/blob/nip-24-rich-text-note/24.md~~
 
-日本語: https://github.com/AsaiToshiya/nip-24-rich-text-note/blob/main/24-ja.md
+~~HTML や Markdown などの「リッチ テキスト メモ」。拙著。~~
 
-PR: https://github.com/nostr-protocol/nips/pull/619
+~~日本語: https://github.com/AsaiToshiya/nip-24-rich-text-note/blob/main/24-ja.md~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/619~~
 
 ## NIP-29: Simple Group Chat
 
