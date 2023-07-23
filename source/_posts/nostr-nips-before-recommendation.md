@@ -472,3 +472,11 @@ PR: https://github.com/nostr-protocol/nips/pull/564
 https://github.com/nostr-protocol/nips/blob/vending-machine/vending-machine.md
 
 「音声書き起こし」や「要約」などのジョブを実行する汎用的な仕組み。
+
+## NIP-XXX: Order
+
+https://github.com/civkit/nips/blob/2023-07-nip-xxx-order/XXX.md
+
+オファー (BOLT12) のイベント。
+
+PR: https://github.com/nostr-protocol/nips/pull/638
