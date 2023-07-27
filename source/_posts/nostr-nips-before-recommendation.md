@@ -297,6 +297,14 @@ https://github.com/nostr-protocol/nips/blob/master/89.md
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/530~~
 
+## NIP-90: Data Vending Machine
+
+https://github.com/nostr-protocol/nips/blob/vending-machine/90.md
+
+「音声書き起こし」や「要約」などのジョブを実行する汎用的な仕組み。
+
+PR: https://github.com/nostr-protocol/nips/pull/682
+
 ## NIP-91: Bech32 URL Query
 
 https://github.com/tyiu/nips/blob/nip91-query-param/91.md
@@ -395,6 +403,42 @@ PR: https://github.com/nostr-protocol/nips/pull/517
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/659~~
 
+## NIP-100: Querying Events by Tags Presence
+
+https://github.com/fernandolguevara/nips/blob/nip100/100.md
+
+タグの有無によるフィルター (`tags`)。
+
+例:
+
+`g` タグが存在するイベントに一致するフィルター。
+
+```
+{
+  "tags": ["g"]
+}
+```
+
+`e` タグが存在しないイベントに一致するフィルター。
+
+```
+{
+  "tags": ["!e"]
+}
+```
+
+PR: https://github.com/nostr-protocol/nips/pull/683
+
+## ~~NIP-101: Standard HTTP REST API for Relays~~
+
+クローズされた。
+
+~~https://github.com/jacany/nips/blob/101/101.md~~
+
+~~リレーが提供する REST API。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/680~~
+
 ## NIP-104: Generative AI Prompt
 
 https://github.com/vitorpamplona/nips/blob/generative-ai-nip/104.md
@@ -466,12 +510,6 @@ https://github.com/MaxHillebrand/nips/blob/NIPlol-private-messages/lol.md
 NIP-04 (Encrypted Direct Message) の代替。
 
 PR: https://github.com/nostr-protocol/nips/pull/564
-
-## NIP-XX: Data Vending Machine
-
-https://github.com/nostr-protocol/nips/blob/vending-machine/vending-machine.md
-
-「音声書き起こし」や「要約」などのジョブを実行する汎用的な仕組み。
 
 ## NIP-XXX: Order
 
