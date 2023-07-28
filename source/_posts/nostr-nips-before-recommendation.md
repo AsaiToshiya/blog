@@ -155,6 +155,18 @@ https://github.com/paulmillr/nips/blob/master-1/44.md
 
 PR: https://github.com/nostr-protocol/nips/pull/574
 
+## ~~NIP-48: Nostr Wallet Connect Receiving~~
+
+[NIP-47](https://github.com/nostr-protocol/nips/blob/master/47.md) (Wallet Connect) に統合され、NIP としての提案ではなくなった。
+
+~~https://github.com/benthecarman/nips/blob/nwc-extensions/48.md~~
+
+~~Nostr Wallet Connect (NWC) によるライトニング インボイスの作成 (`get_invoice`) と状態 (`invoice_status`)。~~
+
+~~関連: [NIP-47](https://github.com/nostr-protocol/nips/blob/master/47.md)~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/685~~
+
 ## NIP-52: Calendar Events
 
 https://github.com/tyiu/nips/blob/nip52-calendar-events/52.md
