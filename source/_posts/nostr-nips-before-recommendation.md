@@ -58,6 +58,20 @@ PR: https://github.com/nostr-protocol/nips/pull/17
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/619~~
 
+## NIP-24: Sealed Private Messages and Private Group Chats
+
+https://github.com/vitorpamplona/nips/blob/sealed-dms/24.md
+
+未署名のイベント (Gossip)、XChaCha による暗号化 (Sealed Gossip)、およびイベントのラップ (Gift Wrap) で非公開にするイベントのプライバシーを保護。
+
+関連: [NIP-24](https://github.com/jeffthibault/nips/blob/private-messages-v2/24.md) (Private, Encrypted Direct Messages)
+関連: [NIP-44](#NIP-44-Encrypted-Direct-Message-Versioned) (Encrypted Direct Message (Versioned))
+関連: [NIP-59](#NIP-59-Gift-Wrap) (Gift Wrap)
+関連: [NIP-76](https://github.com/d-krause/nostr-nips/blob/nip76-draft-2/76.md) (Private Channels)
+関連: [NIP-103](https://github.com/threeseries/nips/blob/nip-103/103.md) (Onion Routed Direct Messages)
+
+PR: https://github.com/nostr-protocol/nips/pull/686
+
 ## NIP-29: Simple Group Chat
 
 https://github.com/nostr-protocol/nips/blob/simple-chat-groups/29.md
