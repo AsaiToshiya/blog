@@ -181,19 +181,23 @@ PR: https://github.com/nostr-protocol/nips/pull/574
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/685~~
 
-## NIP-52: Calendar Events
+## ~~NIP-52: Calendar Events~~
 
-https://github.com/tyiu/nips/blob/nip52-calendar-events/52.md
+マージされた。
 
-カレンダーの一般的な意味での「イベント」。
+https://github.com/nostr-protocol/nips/blob/master/52.md
 
-kind:
- - `kind: 31922`: 日付ベースのカレンダーのイベント
- - `kind: 31923`: 時間ベースのカレンダーのイベント
- - `kind: 31924`: カレンダー (`kind: 31923` のリスト)
- - `kind: 31925`: 出欠確認
+~~https://github.com/tyiu/nips/blob/nip52-calendar-events/52.md~~
 
-実装: https://calendar.coracle.social/
+~~カレンダーの一般的な意味での「イベント」。~~
+
+~~kind:~~
+ - ~~`kind: 31922`: 日付ベースのカレンダーのイベント~~
+ - ~~`kind: 31923`: 時間ベースのカレンダーのイベント~~
+ - ~~`kind: 31924`: カレンダー (`kind: 31923` のリスト)~~
+ - ~~`kind: 31925`: 出欠確認~~
+
+~~実装: https://calendar.coracle.social/~~
 
 ## ~~NIP-53: Calendar Event RSVPs~~
 
@@ -454,6 +458,20 @@ https://github.com/fernandolguevara/nips/blob/nip100/100.md
 ```
 
 PR: https://github.com/nostr-protocol/nips/pull/683
+
+## NIP-101: Mailing lists
+
+https://github.com/KaffinPX/nips/blob/patch-1/101.md
+
+メーリングリスト。
+
+`kind: 1923`。
+
+`p` タグにメールの送信者となる個人や組織。`content` に受信者の暗号化されたメール アドレス。
+
+メール アドレスは、ユーザーの秘密鍵と `p` タグの公開鍵で暗号化される ([NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md) (Encrypted Direct Message))。
+
+PR: https://github.com/nostr-protocol/nips/pull/691
 
 ## ~~NIP-101: Standard HTTP REST API for Relays~~
 
