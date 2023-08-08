@@ -181,6 +181,18 @@ PR: https://github.com/nostr-protocol/nips/pull/574
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/685~~
 
+## ~~NIP-48: Proxy Tags~~
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/48.md
+
+~~https://github.com/alexgleason/nips/blob/proxy/48.md~~
+
+~~ActivityPub、AT Protocol、RSS、および HTTP/HTTPS などの他のプロトコルのソースを示す `proxy` タグ。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/693~~
+
 ## ~~NIP-52: Calendar Events~~
 
 マージされた。
@@ -378,6 +390,16 @@ Nostr で使用するファイル サーバー。
 通常の NIP と違って、HTTP REST API によるファイルのアップロードと、HTTP メソッドによるファイルのダウンロード、および削除のための仕様。
 
 PR: https://github.com/nostr-protocol/nips/pull/547
+
+## NIP-97: Attachments
+
+https://github.com/ondra-novak/nostr-nip-97/blob/master/97.md
+
+バイナリー ファイル。
+
+`attachment` タグと 2 つのメッセージ タイプ (`ATTACH` と `FETCH`) でバイナリー ファイルを扱う。
+
+PR: https://github.com/nostr-protocol/nips/pull/694
 
 ## ~~NIP-98: HTTP Auth~~
 
