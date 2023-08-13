@@ -127,6 +127,18 @@ https://github.com/nostr-protocol/nips/blob/master/53.md
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/457~~
 
+## ~~NIP-72: Moderated Communities (Reddit Style)~~
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/72.md
+
+~~https://github.com/vitorpamplona/nips/blob/moderated-communities/172.md~~
+
+~~投稿をモデレーションできる Reddit (掲示板) のようなコミュニティー。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/602~~
+
 ## ~~NIP-89: Recommended Application Handlers~~
 
 マージされた。

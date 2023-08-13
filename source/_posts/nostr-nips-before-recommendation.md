@@ -339,14 +339,6 @@ https://github.com/earonesty/nips/blob/112/112.md
 
 PR: https://github.com/nostr-protocol/nips/pull/580
 
-## NIP-172: Moderated Communities (Reddit Style)
-
-https://github.com/vitorpamplona/nips/blob/moderated-communities/172.md
-
-投稿をモデレーションできる Reddit (掲示板) のようなコミュニティー。
-
-PR: https://github.com/nostr-protocol/nips/pull/602
-
 ## NIP-199: a simple username password login
 
 https://github.com/nostr-protocol/nips/issues/639
