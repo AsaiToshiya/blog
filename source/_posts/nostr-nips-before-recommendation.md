@@ -331,6 +331,14 @@ https://github.com/alexgleason/nips/blob/delete-pubkey/109.md
 
 PR: https://github.com/nostr-protocol/nips/pull/377
 
+## NIP-111: Accessibility (A11y)
+
+https://github.com/fernandolguevara/nips/blob/a11y/111.md
+
+ユーザーのアクセシビリティーの設定。
+
+PR: https://github.com/nostr-protocol/nips/pull/702
+
 ## NIP-112: Encrypted Group Events
 
 https://github.com/earonesty/nips/blob/112/112.md
