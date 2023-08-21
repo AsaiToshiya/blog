@@ -23,6 +23,16 @@ tags: [Nostr]
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/619~~
 
+## ~~NIP-29: Simple Group Chat~~
+
+クローズされた。
+
+~~https://github.com/nostr-protocol/nips/blob/simple-chat-groups/29.md~~
+
+~~リレー主導のグループ チャット。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/566~~
+
 ## ~~NIP-30: Custom Emoji~~
 
 マージされた。
@@ -48,6 +58,16 @@ https://github.com/nostr-protocol/nips/blob/master/32.md
 ~~[NIP-68](#NIP-68-Content-Labeling-including-Reviews-amp-Recommendations) も参照のこと。~~
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/532~~
+
+## ~~NIP-44: Encrypted Direct Message (Versioned)~~
+
+[#715](https://github.com/nostr-protocol/nips/pull/715) に置き換えられた。
+
+~~https://github.com/paulmillr/nips/blob/master-1/44.md~~
+
+~~暗号化アルゴリズムをバージョン管理 (選択) できるようにする [NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md) (Encrypted Direct Message) の代替。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/574~~
 
 ## ~~NIP-48: Nostr Wallet Connect Receiving~~
 
@@ -115,6 +135,20 @@ https://github.com/nostr-protocol/nips/blob/master/53.md
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/498~~
 
+## ~~NIP-59: Gift Wrap~~
+
+[#716](https://github.com/nostr-protocol/nips/pull/716) に置き換えられた。
+
+~~https://github.com/v0l/nips/blob/59/59.md~~
+
+~~イベントのメタデータ (DM のやり取りなど) の隠蔽。~~
+
+~~一時的な鍵ペアを使用してイベントをラップする。~~
+
+~~受信者には、`p` タグで通知する。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/468~~
+
 ## ~~NIP-68: Content Labeling (including Reviews & Recommendations)~~
 
 クローズされた。
@@ -158,6 +192,18 @@ https://github.com/nostr-protocol/nips/blob/master/89.md
 ~~`kind: 31990` には、推奨アプリケーションのリダイレクト情報が記述されている。~~
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/530~~
+
+## ~~NIP-97: Attachments~~
+
+[#719](https://github.com/nostr-protocol/nips/pull/719) に置き換えられた。
+
+~~https://github.com/ondra-novak/nostr-nip-97/blob/master/97.md~~
+
+~~バイナリー ファイル。~~
+
+~~`attachment` タグと 2 つのメッセージ タイプ (`ATTACH` と `FETCH`) でバイナリー ファイルを扱う。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/694~~
 
 ## ~~NIP-98: HTTP Auth~~
 

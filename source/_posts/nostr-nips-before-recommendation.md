@@ -46,7 +46,7 @@ DM の受信者 (`p` タグ) を偽る、[NIP-04](https://github.com/nostr-proto
 
 PR: https://github.com/nostr-protocol/nips/pull/17
 
-## NIP-24: Sealed Private Messages and Private Group Chats
+## NIP-24: Private Direct Messages and Small Group Chats
 
 https://github.com/vitorpamplona/nips/blob/sealed-dms/24.md
 
@@ -59,14 +59,6 @@ https://github.com/vitorpamplona/nips/blob/sealed-dms/24.md
 関連: [NIP-103](https://github.com/threeseries/nips/blob/nip-103/103.md) (Onion Routed Direct Messages)
 
 PR: https://github.com/nostr-protocol/nips/pull/686
-
-## NIP-29: Simple Group Chat
-
-https://github.com/nostr-protocol/nips/blob/simple-chat-groups/29.md
-
-リレー主導のグループ チャット。
-
-PR: https://github.com/nostr-protocol/nips/pull/566
 
 ## NIP-34: Algorithmic Filter
 
@@ -123,14 +115,6 @@ https://github.com/arthurfranca/nips/blob/nip-43/43.md
 
 PR: https://github.com/nostr-protocol/nips/pull/571
 
-## NIP-44: Encrypted Direct Message (Versioned)
-
-https://github.com/paulmillr/nips/blob/master-1/44.md
-
-暗号化アルゴリズムをバージョン管理 (選択) できるようにする [NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md) (Encrypted Direct Message) の代替。
-
-PR: https://github.com/nostr-protocol/nips/pull/574
-
 ## NIP-54: Inline Resource Metadata
 
 https://github.com/arthurfranca/nips/blob/inline-resource-metadata/54.md
@@ -140,18 +124,6 @@ URL や [NIP-21](https://github.com/nostr-protocol/nips/blob/master/21.md) の�
 [DIP-01](https://github.com/damus-io/dips/blob/master/01.md) も参照のこと。
 
 PR: https://github.com/nostr-protocol/nips/pull/521
-
-## NIP-59: Gift Wrap
-
-https://github.com/v0l/nips/blob/59/59.md
-
-イベントのメタデータ (DM のやり取りなど) の隠蔽。
-
-一時的な鍵ペアを使用してイベントをラップする。
-
-受信者には、`p` タグで通知する。
-
-PR: https://github.com/nostr-protocol/nips/pull/468
 
 ## NIP-60: Zap Gates
 
@@ -254,16 +226,6 @@ Nostr で使用するファイル サーバー。
 通常の NIP と違って、HTTP REST API によるファイルのアップロードと、HTTP メソッドによるファイルのダウンロード、および削除のための仕様。
 
 PR: https://github.com/nostr-protocol/nips/pull/547
-
-## NIP-97: Attachments
-
-https://github.com/ondra-novak/nostr-nip-97/blob/master/97.md
-
-バイナリー ファイル。
-
-`attachment` タグと 2 つのメッセージ タイプ (`ATTACH` と `FETCH`) でバイナリー ファイルを扱う。
-
-PR: https://github.com/nostr-protocol/nips/pull/694
 
 ## NIP-99: Prediction markets
 
