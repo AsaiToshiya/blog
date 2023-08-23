@@ -261,6 +261,34 @@ https://github.com/fernandolguevara/nips/blob/nip100/100.md
 
 PR: https://github.com/nostr-protocol/nips/pull/683
 
+## NIP-101: Enhancing Event Compression and Encoding Support
+
+https://github.com/b35363/nips/blob/master/101.md
+
+メッセージのペイロードの圧縮 (エンコード)。
+
+例:
+
+```
+["EVENT", <エンコードされたペイロード>, <エンコード方式>]
+```
+
+クライアントとリレーでサポートされるエンコード方式は、`CAP` メッセージで相互にやりとりする。
+
+例 (クライアントからリレー):
+
+```
+["CAP", {"supportedEncodings": ["base64", "gzip64", "plaintext"]}]
+```
+
+例 (リレーからクライアント):
+
+```
+["CAP", {"selectedEncoding": "gzip64"}]
+```
+
+PR: https://github.com/nostr-protocol/nips/pull/730
+
 ## NIP-101: Mailing lists
 
 https://github.com/KaffinPX/nips/blob/patch-1/101.md
