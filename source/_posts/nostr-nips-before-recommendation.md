@@ -345,6 +345,14 @@ https://github.com/nostr-protocol/nips/issues/639
 
 秘密鍵は PBKDF2 (ユーザー名とパスワードから導出された共通鍵) と AES で暗号化されて、`kind: 30669` でリレーに保管される。
 
+## NIP-315: User Statuses
+
+https://github.com/jb55/nips/blob/user-statuses/315.md
+
+ユーザーの「仕事中」、「ハイキング中」や視聴中の音楽などの状態。`kind 30315`。
+
+PR: https://github.com/nostr-protocol/nips/pull/737
+
 ## NIP-320: Nostr Rating Mass
 
 https://github.com/motorina0/nips/blob/nip-320/320.md
