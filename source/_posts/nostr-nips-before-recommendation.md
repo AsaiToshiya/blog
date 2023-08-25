@@ -303,6 +303,14 @@ https://github.com/KaffinPX/nips/blob/patch-1/101.md
 
 PR: https://github.com/nostr-protocol/nips/pull/691
 
+## NIP-102: Private Event
+
+https://github.com/arthurfranca/nips/blob/private/102.md
+
+NIP-43 (https://github.com/arthurfranca/nips/blob/private/43.md) と `PRIVATE_EVENT` メッセージでイベントの読み取りを制限。
+
+PR: https://github.com/nostr-protocol/nips/pull/739
+
 ## NIP-104: Generative AI Prompt
 
 https://github.com/vitorpamplona/nips/blob/generative-ai-nip/104.md
@@ -344,14 +352,6 @@ https://github.com/nostr-protocol/nips/issues/639
 ユーザー名とパスワードによるログイン (秘密鍵の保管)。
 
 秘密鍵は PBKDF2 (ユーザー名とパスワードから導出された共通鍵) と AES で暗号化されて、`kind: 30669` でリレーに保管される。
-
-## NIP-315: User Statuses
-
-https://github.com/jb55/nips/blob/user-statuses/315.md
-
-ユーザーの「仕事中」、「ハイキング中」や視聴中の音楽などの状態。`kind 30315`。
-
-PR: https://github.com/nostr-protocol/nips/pull/737
 
 ## NIP-320: Nostr Rating Mass
 

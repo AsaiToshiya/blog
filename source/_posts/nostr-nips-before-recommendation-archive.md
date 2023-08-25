@@ -59,6 +59,18 @@ https://github.com/nostr-protocol/nips/blob/master/32.md
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/532~~
 
+## ~~NIP-38: User Statuses~~
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/38.md
+
+~~https://github.com/jb55/nips/blob/user-statuses/315.md~~
+
+~~ユーザーの「仕事中」、「ハイキング中」や視聴中の音楽などの状態。`kind 30315`。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/737~~
+
 ## ~~NIP-44: Encrypted Direct Message (Versioned)~~
 
 [#715](https://github.com/nostr-protocol/nips/pull/715) に置き換えられた。
