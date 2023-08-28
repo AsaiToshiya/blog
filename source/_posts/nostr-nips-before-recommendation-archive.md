@@ -272,3 +272,13 @@ https://github.com/nostr-protocol/nips/blob/master/99.md
 ~~リレーが提供する REST API。~~
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/680~~
+
+## ~~NIP-lol: Truly Private Messages~~
+
+[ディスカッション](https://github.com/nostr-protocol/nips/discussions/658)に移動された。
+
+~~https://github.com/MaxHillebrand/nips/blob/NIPlol-private-messages/lol.md~~
+
+~~NIP-04 (Encrypted Direct Message) の代替。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/564~~

@@ -375,13 +375,23 @@ CRDT (Conflict-free Replicated Data Type) でイベントの整合性を保証�
 
 PR: https://github.com/nostr-protocol/nips/pull/667
 
-## NIP-lol: Truly Private Messages
+## NIP-XX: Decentralized Web Hosting on Nostr
 
-https://github.com/MaxHillebrand/nips/blob/NIPlol-private-messages/lol.md
+https://github.com/nostr-protocol/nips/issues/742
 
-NIP-04 (Encrypted Direct Message) の代替。
+Nostr で Web ホスティング。kaiji さん著。
 
-PR: https://github.com/nostr-protocol/nips/pull/564
+kind:
+ - `kind: 5392`: HTML
+ - `kind: 5393`: CSS
+ - `kind: 5394`: JavaScript
+
+kind (パラメーター化された置き換え可能なイベント):
+ - `kind: 35392`: HTML
+ - `kind: 35393`: CSS
+ - `kind: 35394`: JavaScript
+
+実装: https://github.com/studiokaiji/nostr-webhost
 
 ## NIP-XXX: Order
 
