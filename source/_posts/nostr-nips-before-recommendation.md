@@ -70,6 +70,23 @@ https://github.com/arthurfranca/nips/blob/nip-34/34.md
 
 PR: https://github.com/nostr-protocol/nips/pull/579
 
+## NIP-34: Media Attachments
+
+https://github.com/alexgleason/nips/blob/media-tag/34.md
+
+イベントの添付ファイルを示すタグ。
+
+```
+["media", <url>, <data, optional>]
+```
+
+マイクロブログなどでは、`content` にメディア URL が記載されている必要がないため、それを代替する。
+
+関連: [NIP-94](https://github.com/nostr-protocol/nips/blob/master/94.md) (File Metadata)
+関連: [NIP-54](#NIP-54-Inline-Resource-Metadata) (Inline Resource Metadata)
+
+PR: https://github.com/nostr-protocol/nips/pull/751
+
 ## NIP-35: Member List
 
 https://github.com/arthurfranca/nips/blob/nip-35/35.md
@@ -115,11 +132,26 @@ https://github.com/arthurfranca/nips/blob/nip-43/43.md
 
 PR: https://github.com/nostr-protocol/nips/pull/571
 
+## NIP-44: Encrypted Payloads (Versioned)
+
+https://github.com/paulmillr/nips/blob/NIP-44/44.md
+
+選択暗号文攻撃 (Chosen-ciphertext attack) に対して安全な暗号化標準。
+
+暗号化アルゴリズムをバージョン管理 (選択) できる。
+
+バージョン 1 では任意の秘密鍵 (ECDH) と XChaCha20 で暗号化する。
+
+関連: https://github.com/nostr-protocol/nips/pull/574
+関連: https://github.com/nostr-protocol/nips/pull/715
+
+PR: https://github.com/nostr-protocol/nips/pull/746
+
 ## NIP-54: Inline Resource Metadata
 
 https://github.com/arthurfranca/nips/blob/inline-resource-metadata/54.md
 
-URL や [NIP-21](https://github.com/nostr-protocol/nips/blob/master/21.md) の末尾に追加される `#t=24&a%20name=a%20value` のようなパラメーター。
+`content` 内のインライン リソースの読み込みを強化するために、URL や [NIP-21](https://github.com/nostr-protocol/nips/blob/master/21.md) の末尾に追加される `#t=24&a%20name=a%20value` のようなパラメーター。
 
 [DIP-01](https://github.com/damus-io/dips/blob/master/01.md) も参照のこと。
 
@@ -374,6 +406,12 @@ CRDT (Conflict-free Replicated Data Type) でイベントの整合性を保証�
 関連: [NIP-78](https://github.com/nostr-protocol/nips/blob/master/78.md) (Arbitrary custom app data)
 
 PR: https://github.com/nostr-protocol/nips/pull/667
+
+## NIP-XX: Digital Contracts
+
+https://github.com/nostr-protocol/nips/discussions/752
+
+電子契約・電子署名。
 
 ## NIP-XX: Decentralized Web Hosting on Nostr
 
