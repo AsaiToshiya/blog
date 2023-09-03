@@ -189,6 +189,30 @@ https://github.com/mandelmonkey/nostr-share-wallet-demo
 
 PR: https://github.com/nostr-protocol/nips/pull/491
 
+## NIP-79: Digital Contracts
+
+https://github.com/xemuj/nips/blob/DigitalContracts/79.md
+~~https://github.com/nostr-protocol/nips/discussions/752~~
+
+電子契約・電子署名。
+
+PR: https://github.com/nostr-protocol/nips/pull/755
+
+## NIP-79: `window.nostr` offline message signature & verificiation
+
+https://github.com/b35363/nips/blob/master/79.md
+
+`window.nostr` ([NIP-07: `window.nostr` capability for web browsers](07.md)) の拡張で、文字列に対する署名と検証のためのメソッド。
+
+```
+async window.nostr.signMessage(msg : string): string
+async window.nostr.verifyMessage(sig: string, pubkey : string): boolean
+```
+
+Nostr 外から使用されることを想定。
+
+PR: https://github.com/nostr-protocol/nips/pull/730
+
 ## NIP-84: Highlights
 
 https://github.com/pablof7z/nips/blob/highlights/84.md
@@ -407,11 +431,11 @@ CRDT (Conflict-free Replicated Data Type) でイベントの整合性を保証�
 
 PR: https://github.com/nostr-protocol/nips/pull/667
 
-## NIP-XX: Digital Contracts
+## NIP-XX: Use Nostr as storage for chart data
 
-https://github.com/nostr-protocol/nips/discussions/752
+https://github.com/nostr-protocol/nips/issues/743
 
-電子契約・電子署名。
+チャート データ。Shino3 さん著。
 
 ## NIP-XX: Decentralized Web Hosting on Nostr
 
