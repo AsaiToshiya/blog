@@ -185,6 +185,20 @@ https://github.com/nostr-protocol/nips/blob/master/72.md
 
 ~~PR: https://github.com/nostr-protocol/nips/pull/602~~
 
+## ~~NIP-75: Zap Goals~~
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/75.md
+
+~~https://github.com/nostr-protocol/nips/blob/goals/75.md~~
+
+~~クラウド ファンディングのような目標金額を示すイベント。~~
+
+~~パラメーター化された置き換え可能なイベント (PRE) に `goal` タグを指定すると、そのイベントへの Zap も集計対象にすることができる。~~
+
+~~PR: https://github.com/nostr-protocol/nips/pull/757~~
+
 ## ~~NIP-89: Recommended Application Handlers~~
 
 マージされた。
