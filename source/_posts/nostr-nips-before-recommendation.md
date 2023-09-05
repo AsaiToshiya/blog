@@ -443,11 +443,11 @@ CRDT (Conflict-free Replicated Data Type) でイベントの整合性を保証�
 
 PR: https://github.com/nostr-protocol/nips/pull/667
 
-## NIP-3166: Geo-Location
+## NIP-3166: Country Code
 
 https://github.com/steliosrammos/nips/blob/nip-3166-geo-location-tag/3166.md
 
-2 文字の ISO 国名コード (JP、US、BR など) を持つ `G` タグ。
+2 文字の ISO 国名コード (JP、US、BR など) を持つ `c` タグ。
 
 PR: https://github.com/nostr-protocol/nips/pull/763
 
