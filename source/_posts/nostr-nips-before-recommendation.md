@@ -213,6 +213,18 @@ Nostr 外から使用されることを想定。
 
 PR: https://github.com/nostr-protocol/nips/pull/730
 
+## NIP-81: Relationship Status
+
+https://github.com/vitorpamplona/nips/blob/relationship-status/81.md
+
+フォローしているユーザーとの関係性。
+
+パラメーター化された置き換え可能なイベント (PRE) で、各フォローに対して 1 つのイベント。
+
+参考: https://github.com/nostr-protocol/nips/pull/349#issuecomment-1472395508
+
+PR: https://github.com/nostr-protocol/nips/pull/761
+
 ## NIP-84: Highlights
 
 https://github.com/pablof7z/nips/blob/highlights/84.md
@@ -430,6 +442,14 @@ CRDT (Conflict-free Replicated Data Type) でイベントの整合性を保証�
 関連: [NIP-78](https://github.com/nostr-protocol/nips/blob/master/78.md) (Arbitrary custom app data)
 
 PR: https://github.com/nostr-protocol/nips/pull/667
+
+## NIP-3166: Geo-Location
+
+https://github.com/steliosrammos/nips/blob/nip-3166-geo-location-tag/3166.md
+
+2 文字の ISO 国名コード (JP、US、BR など) を持つ `G` タグ。
+
+PR: https://github.com/nostr-protocol/nips/pull/763
 
 ## NIP-XX: Use Nostr as storage for chart data
 
