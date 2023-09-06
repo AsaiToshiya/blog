@@ -50,11 +50,23 @@ PR: https://github.com/nostr-protocol/nips/pull/17
 
 https://github.com/vitorpamplona/nips/blob/sealed-dms/24.md
 
-未署名のイベント (Gossip)、XChaCha による暗号化 (Sealed Gossip)、およびイベントのラップ (Gift Wrap) で非公開にするイベントのプライバシーを保護。
+未署名のイベント (Rumor、`kind: 14`)、Rumor のラップ (Seal、`kind: 13`)、および Seal のラップ (Gift Wrap、`kind: 1059`) で DM のプライバシーを保護。
+
+`content` の暗号化には XChaCha を使用する。
+
+各イベントの目的:
+ - Rumor: ブロードキャストを防ぐ
+ - Seal: 署名
+ - Gift Wrap: メタデータ (送信者) の漏えいを防ぐ
+
+各イベントの例え:
+ - Rumor: 署名されていない手紙
+ - Seal: 署名だけされた中封筒
+ - Gift Wrap: 宛先だけが書かれた差出人不明の封筒
 
 関連: [NIP-24](https://github.com/jeffthibault/nips/blob/private-messages-v2/24.md) (Private, Encrypted Direct Messages)
-関連: [NIP-44](#NIP-44-Encrypted-Direct-Message-Versioned) (Encrypted Direct Message (Versioned))
-関連: [NIP-59](#NIP-59-Gift-Wrap) (Gift Wrap)
+関連: [NIP-44](#NIP-44-Encrypted-Payloads-Versioned) (Encrypted Payloads (Versioned))
+関連: [NIP-59](https://github.com/v0l/nips/blob/59/59.md) (Gift Wrap)
 関連: [NIP-76](https://github.com/d-krause/nostr-nips/blob/nip76-draft-2/76.md) (Private Channels)
 関連: [NIP-103](https://github.com/threeseries/nips/blob/nip-103/103.md) (Onion Routed Direct Messages)
 
@@ -156,6 +168,20 @@ https://github.com/arthurfranca/nips/blob/inline-resource-metadata/54.md
 [DIP-01](https://github.com/damus-io/dips/blob/master/01.md) も参照のこと。
 
 PR: https://github.com/nostr-protocol/nips/pull/521
+
+## NIP-59: Gift Wrap
+
+https://github.com/staab/nips/blob/NIP-59/59.md
+
+[NIP-24](#NIP-24-Private-Direct-Messages-and-Small-Group-Chats) (Private Direct Messages and Small Group Chats) から DM 固有のものを省略してより一般化した NIP。
+
+内容的には NIP-24 とほぼ同じ。
+
+`content` の暗号化には [NIP-44](#NIP-44-Encrypted-Payloads-Versioned) (Encrypted Payloads (Versioned)) を使用する。
+
+関連: https://github.com/v0l/nips/blob/59/59.md
+
+PR: https://github.com/nostr-protocol/nips/pull/716
 
 ## NIP-60: Zap Gates
 
@@ -294,6 +320,18 @@ Nostr で使用するファイル サーバー。
 通常の NIP と違って、HTTP REST API によるファイルのアップロードと、HTTP メソッドによるファイルのダウンロード、および削除のための仕様。
 
 PR: https://github.com/nostr-protocol/nips/pull/547
+
+## NIP-97: Files hosted on relay
+
+https://github.com/ondra-novak/nostr-nip-97/blob/version-2/97.md
+
+バイナリー ファイル。
+
+`kind: 1063` (NIP-94: File Metadata) を拡張したイベントと 2 つのメッセージ タイプ (`FILE` と `RETRIEVE`) でバイナリー ファイルを扱う。
+
+関連: https://github.com/nostr-protocol/nips/pull/694
+
+PR: https://github.com/nostr-protocol/nips/pull/719
 
 ## NIP-99: Prediction markets
 
