@@ -219,6 +219,16 @@ kind:
 
 PR: https://github.com/nostr-protocol/nips/pull/530
 
+## NIP-91: Bech32 URL Query
+
+クローズされた。
+
+https://github.com/tyiu/nips/blob/nip91-query-param/91.md
+
+[NIP-21](https://github.com/nostr-protocol/nips/blob/master/21.md) (`nostr:` URI scheme) の HTTP/HTTPS スキーム版。
+
+PR: https://github.com/nostr-protocol/nips/pull/609
+
 ## NIP-97: Attachments
 
 [#719](https://github.com/nostr-protocol/nips/pull/719) に置き換えられた。
