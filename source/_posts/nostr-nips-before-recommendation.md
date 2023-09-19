@@ -99,6 +99,16 @@ https://github.com/alexgleason/nips/blob/media-tag/34.md
 
 PR: https://github.com/nostr-protocol/nips/pull/751
 
+## NIP-34: Wiki
+
+https://github.com/nostr-protocol/nips/blob/wiki/34.md
+
+Nostr で Wiki。
+
+イベントの内容は NIP-23 (Long-form Content) とほぼ同じだが、ユースケースが異なる。
+
+PR: https://github.com/nostr-protocol/nips/pull/787
+
 ## NIP-35: Member List
 
 https://github.com/arthurfranca/nips/blob/nip-35/35.md
@@ -190,6 +200,18 @@ https://github.com/Egge7/nips/blob/zapGates/60.md
 [NIP-98](#NIP-98-HTTP-Auth) (HTTP Auth) のリソースに [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) (Lightning Zaps) でアクセスできるようにする。
 
 PR: https://github.com/nostr-protocol/nips/pull/542
+
+## NIP-61: Unbounded lists
+
+https://github.com/arthurfranca/nips/blob/bunch-of-events/61.md
+
+リレーのイベントのサイズの制限を回避することができるリスト。
+
+`kind` の範囲は 40000 <= n < 50000。
+
+`kind`、pubkey、および `d` タグでリストを定義して、`u` タグでリストを参照する。
+
+PR: https://github.com/nostr-protocol/nips/pull/784
 
 ## NIP-69: Zap Poll event
 
