@@ -237,6 +237,31 @@ https://github.com/mandelmonkey/nostr-share-wallet-demo
 
 PR: https://github.com/nostr-protocol/nips/pull/491
 
+## NIP-76: Key Change
+
+https://github.com/arthurfranca/nips/blob/key-change/76.md
+
+バックアップの鍵ペアを設定するためのイベント (`kind: 1076`) と鍵を交換するためのイベント (`kind: 1077`)。
+
+関連: https://github.com/nostr-protocol/nips/pull/539
+関連: [NIP-77: Trust Clock](#NIP-77-Trust-Clock)
+
+PR: https://github.com/nostr-protocol/nips/pull/782
+
+## NIP-77: Trust Clock
+
+https://github.com/arthurfranca/nips/blob/trust-clock/77.md
+
+ブロックチェーンの代わりに複数のリレーを使用する [NIP-03](https://github.com/nostr-protocol/nips/blob/master/03.md) (OpenTimestamps Attestations for Events) の代替。
+
+https://github.com/arthurfranca/nips/blob/trust-clock/77.md?plain=1#L44-L45
+> The response is a JSON `{ sig: "<signature>", pubkey: "<relay1pubkey>" }`.
+> The signature uses the same Schnorr setup from NIP-01 to sign the received event `id`.
+
+`event.id` に対する署名？
+
+PR: https://github.com/nostr-protocol/nips/pull/781
+
 ## NIP-79: Digital Contracts
 
 https://github.com/xemuj/nips/blob/DigitalContracts/79.md
@@ -440,6 +465,20 @@ https://github.com/vitorpamplona/nips/blob/generative-ai-nip/104.md
 このイベントを受け取ったクライアントが画像や動画を生成する。
 
 PR: https://github.com/nostr-protocol/nips/pull/634
+
+## NIP-105: API Service Marketplace
+
+https://github.com/CoachChuckFF/nips/blob/NIP-105/105.md
+
+API サービス プロバイダー。
+
+API サービス プロバイダーは API サービス オファリング (`kind:31402`) を作成する。
+
+クライアントは `s` タグによって API サービス オファリングを取得および API サービス プロバイダーを選択して、`content` のエンドポイントにサービスを要求する。
+
+[NIP-90](#NIP-90-Data-Vending-Machine) (Data Vending Machine) との比較: https://github.com/nostr-protocol/nips/pull/780#issuecomment-1719606308
+
+PR: https://github.com/nostr-protocol/nips/pull/780
 
 ## NIP-109: Pubkey Deletion
 
