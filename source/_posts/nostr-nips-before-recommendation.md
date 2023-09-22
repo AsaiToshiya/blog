@@ -207,9 +207,7 @@ https://github.com/arthurfranca/nips/blob/bunch-of-events/61.md
 
 リレーのイベントのサイズの制限を回避することができるリスト。
 
-`kind` の範囲は 40000 <= n < 50000。
-
-`kind`、pubkey、および `d` タグでリストを定義して、`u` タグでリストを参照する。
+pubkey および `n` タグでリストを定義して、`u` タグまたは `nunb` でリストを参照する。
 
 PR: https://github.com/nostr-protocol/nips/pull/784
 
