@@ -11,6 +11,18 @@ tags: [Nostr]
 
 <!-- more -->
 
+## NIP-24: Extra metadata fields and tags
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/24.md
+
+https://github.com/nostr-protocol/nips/blob/extra/24.md
+
+NIP で明記されていない追加のフィールド (`kind: 0` の `display_name` など) やタグ (`r` タグなど)。
+
+PR: https://github.com/nostr-protocol/nips/pull/794
+
 ## NIP-24: Rich Text Note
 
 クローズした。

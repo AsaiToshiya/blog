@@ -540,12 +540,6 @@ https://github.com/steliosrammos/nips/blob/nip-3166-geo-location-tag/3166.md
 
 PR: https://github.com/nostr-protocol/nips/pull/763
 
-## NIP-XX: Use Nostr as storage for chart data
-
-https://github.com/nostr-protocol/nips/issues/743
-
-チャート データ。Shino3 さん著。
-
 ## NIP-XX: Decentralized Web Hosting on Nostr
 
 https://github.com/nostr-protocol/nips/issues/742
@@ -563,6 +557,22 @@ kind (パラメーター化された置き換え可能なイベント):
  - `kind: 35394`: JavaScript
 
 実装: https://github.com/studiokaiji/nostr-webhost
+
+## NIP-XX: Nostr Token Login
+
+https://github.com/arthurfranca/nips/blob/token/xx.md
+
+NIP-26 (Delegated Event Signing) の NIP-19 (bech32-encoded entities) のエンティティーを表す `ntoken`。
+
+`nsec` の代わりに使用することを想定。
+
+PR: https://github.com/nostr-protocol/nips/pull/793
+
+## NIP-XX: Use Nostr as storage for chart data
+
+https://github.com/nostr-protocol/nips/issues/743
+
+チャート データ。Shino3 さん著。
 
 ## NIP-XXX: Order
 
