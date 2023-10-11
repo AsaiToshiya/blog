@@ -478,6 +478,27 @@ API サービス プロバイダーは API サービス オファリング (`kin
 
 PR: https://github.com/nostr-protocol/nips/pull/780
 
+## NIP-106: Decentralized Web Hosting on Nostr
+
+https://github.com/studiokaiji/nips/blob/master/106.md
+~~https://github.com/nostr-protocol/nips/issues/742~~
+
+Nostr で Web ホスティング。kaiji さん著。
+
+kind:
+ - `kind: 5392`: HTML
+ - `kind: 5393`: CSS
+ - `kind: 5394`: JavaScript
+
+kind (パラメーター化された置き換え可能なイベント):
+ - `kind: 35392`: HTML
+ - `kind: 35393`: CSS
+ - `kind: 35394`: JavaScript
+
+実装: https://github.com/studiokaiji/nostr-webhost
+
+PR: https://github.com/nostr-protocol/nips/pull/811
+
 ## NIP-109: Pubkey Deletion
 
 https://github.com/alexgleason/nips/blob/delete-pubkey/109.md
@@ -539,24 +560,6 @@ https://github.com/steliosrammos/nips/blob/nip-3166-geo-location-tag/3166.md
 2 文字の ISO 国名コード (JP、US、BR など) を持つ `c` タグ。
 
 PR: https://github.com/nostr-protocol/nips/pull/763
-
-## NIP-XX: Decentralized Web Hosting on Nostr
-
-https://github.com/nostr-protocol/nips/issues/742
-
-Nostr で Web ホスティング。kaiji さん著。
-
-kind:
- - `kind: 5392`: HTML
- - `kind: 5393`: CSS
- - `kind: 5394`: JavaScript
-
-kind (パラメーター化された置き換え可能なイベント):
- - `kind: 35392`: HTML
- - `kind: 35393`: CSS
- - `kind: 35394`: JavaScript
-
-実装: https://github.com/studiokaiji/nostr-webhost
 
 ## NIP-XX: Nostr Token Login
 
