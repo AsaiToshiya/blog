@@ -72,6 +72,16 @@ https://github.com/vitorpamplona/nips/blob/sealed-dms/24.md
 
 PR: https://github.com/nostr-protocol/nips/pull/686
 
+## NIP-29: Time-Based Sync
+
+https://github.com/vitorpamplona/nips/blob/negentropy-sync/29.md
+
+クライアント - リレーやリレー - リレーでイベントを同期するために使用されるハッシュ。
+
+ハッシュの要求と応答は、`WEEKLY-HASHES` メッセージで行う。
+
+PR: https://github.com/nostr-protocol/nips/pull/826
+
 ## NIP-34: Algorithmic Filter
 
 https://github.com/arthurfranca/nips/blob/nip-34/34.md
@@ -137,6 +147,18 @@ kind:
  - `kind: 1521`: 友人が推奨する新しい公開鍵
 
 PR: https://github.com/nostr-protocol/nips/pull/637
+
+## NIP-41: Identity rotation
+
+https://github.com/nostr-protocol/nips/blob/pf7z-nip41/41.md
+
+公開鍵の移行。
+
+事前に作成するバックアップ (移行先) になる公開鍵を示すイベント (`kind: 1776`) と公開鍵を移行するためのイベント (`kind: 1777`)。
+
+これらのイベントには、NIP-03 (OpenTimestamps Attestations for Events) の OpenTimestamps を付ける必要がある。
+
+PR: https://github.com/nostr-protocol/nips/pull/829
 
 ## NIP-43: Fast Authentication
 
@@ -498,6 +520,16 @@ kind (パラメーター化された置き換え可能なイベント):
 実装: https://github.com/studiokaiji/nostr-webhost
 
 PR: https://github.com/nostr-protocol/nips/pull/811
+
+## NIP-108: Lightning Gated Notes
+
+https://github.com/project-excalibur/nips/blob/NIP-108_lightning_gated_content/108.md
+
+有料コンテンツ (任意のイベント)。
+
+この NIP を実装する API サーバーが、有料コンテンツを暗号化するときに使用した任意の秘密鍵を保持し、料金を支払ったユーザーにその秘密鍵を配る仕組み。
+
+PR: https://github.com/nostr-protocol/nips/pull/827
 
 ## NIP-109: Pubkey Deletion
 
