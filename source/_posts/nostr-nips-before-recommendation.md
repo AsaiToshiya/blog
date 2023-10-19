@@ -245,6 +245,17 @@ Zap による投票。
 
 PR: https://github.com/nostr-protocol/nips/pull/320
 
+## NIP-76: Key Change
+
+https://github.com/arthurfranca/nips/blob/key-change/76.md
+
+バックアップの鍵ペアを設定するためのイベント (`kind: 1076`) と鍵を交換するためのイベント (`kind: 1077`)。
+
+関連: https://github.com/nostr-protocol/nips/pull/539
+関連: [NIP-77: Trust Clock](#NIP-77-Trust-Clock)
+
+PR: https://github.com/nostr-protocol/nips/pull/782
+
 ## NIP-77: Nostr Data Sharing URI Scheme
 
 https://github.com/mandelmonkey/nips/blob/master/77.md
@@ -256,17 +267,6 @@ https://github.com/mandelmonkey/nostr-share-sample-game
 https://github.com/mandelmonkey/nostr-share-wallet-demo
 
 PR: https://github.com/nostr-protocol/nips/pull/491
-
-## NIP-76: Key Change
-
-https://github.com/arthurfranca/nips/blob/key-change/76.md
-
-バックアップの鍵ペアを設定するためのイベント (`kind: 1076`) と鍵を交換するためのイベント (`kind: 1077`)。
-
-関連: https://github.com/nostr-protocol/nips/pull/539
-関連: [NIP-77: Trust Clock](#NIP-77-Trust-Clock)
-
-PR: https://github.com/nostr-protocol/nips/pull/782
 
 ## NIP-77: Trust Clock
 
