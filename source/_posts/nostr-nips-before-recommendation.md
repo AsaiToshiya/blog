@@ -245,6 +245,24 @@ Zap による投票。
 
 PR: https://github.com/nostr-protocol/nips/pull/320
 
+## NIP-73: Location Based Communities (Meetup Style)
+
+https://github.com/BrightonBTC/nips/blob/master/73.md
+
+Meetup のようなコミュニティー。
+
+kind:
+ - `kind: 1037`: コミュニティーの作成
+ - `kind: 30037`: コミュニティーのメタデータ
+ - `kind: 10037`: コミュニティーのフォロー
+
+コミュニティーの機能:
+ - イベント: [NIP-52](https://github.com/nostr-protocol/nips/blob/master/52.md) (Calendar Events)
+ - メンバーシップ: [NIP-51](https://github.com/nostr-protocol/nips/blob/master/51.md) (Lists)
+ - チャット: [NIP-28](https://github.com/nostr-protocol/nips/blob/master/28.md) (Public Chat)
+
+PR: https://github.com/nostr-protocol/nips/pull/825
+
 ## NIP-76: Key Change
 
 https://github.com/arthurfranca/nips/blob/key-change/76.md
