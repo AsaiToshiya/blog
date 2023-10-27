@@ -327,3 +327,39 @@ git rebase HEAD~1 --committer-date-is-author-date
 ```bash
 git cherry-pick --abort
 ```
+
+## スタッシュのリストを表示
+
+```bash
+git stash list
+```
+
+## 最新のスタッシュを適用して削除
+
+```bash
+git stash pop
+```
+
+## ファイルの一部をインデックスに追加
+
+```bash
+git add -p
+```
+
+コマンドを実行すると対話モードに入る。
+
+```bash
+diff --git a/src/index.html b/src/index.html
+index 122d41c..4ef223e 100644
+--- a/src/index.html
++++ b/src/index.html
+@@ -1,4 +1,4 @@
+-<!DOCTYPE html>
++<!doctype html>
+ <html style="height: 100%; margin: 0; padding: 0; width: 100%">
+   <head>
+     <link
+(1/5) Stage this hunk [y,n,q,a,d,j,J,g,/,e,?]?
+```
+
+インデックスに追加する場合は `y`、スキップする場合は `n`。
