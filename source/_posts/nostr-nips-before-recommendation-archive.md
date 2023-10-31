@@ -231,6 +231,18 @@ kind:
 
 PR: https://github.com/nostr-protocol/nips/pull/530
 
+## NIP-90: Data Vending Machine
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/90.md
+
+https://github.com/nostr-protocol/nips/blob/vending-machine/90.md
+
+「音声書き起こし」や「要約」などのジョブを実行する汎用的な仕組み。
+
+PR: https://github.com/nostr-protocol/nips/pull/682
+
 ## NIP-91: Bech32 URL Query
 
 クローズされた。

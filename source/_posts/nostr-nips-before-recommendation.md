@@ -148,7 +148,7 @@ kind:
 
 PR: https://github.com/nostr-protocol/nips/pull/637
 
-## NIP-41: Identity rotation
+## NIP-41: Key migration
 
 https://github.com/nostr-protocol/nips/blob/pf7z-nip41/41.md
 
@@ -190,6 +190,18 @@ https://github.com/paulmillr/nips/blob/NIP-44/44.md
 関連: https://github.com/nostr-protocol/nips/pull/715
 
 PR: https://github.com/nostr-protocol/nips/pull/746
+
+## NIP-49: Encrypted Private Key
+
+https://github.com/mikedilger/nips/blob/nip-nn-key-export/49.md
+
+パスワードによる秘密鍵の暗号化と復号化。
+
+クライアントでの秘密鍵の保存やインポート/エクスポートを安全に行えるようにする。
+
+拙作の実装: https://github.com/AsaiToshiya/nip-49
+
+PR: https://github.com/nostr-protocol/nips/pull/133
 
 ## NIP-54: Inline Resource Metadata
 
@@ -353,14 +365,6 @@ Nostr ネイティブなウォレットとミント (造幣局)。
 クライアントはウォレットの役目を負い、リレーはミントの役目を負う。
 
 PR: https://github.com/nostr-protocol/nips/pull/627
-
-## NIP-90: Data Vending Machine
-
-https://github.com/nostr-protocol/nips/blob/vending-machine/90.md
-
-「音声書き起こし」や「要約」などのジョブを実行する汎用的な仕組み。
-
-PR: https://github.com/nostr-protocol/nips/pull/682
 
 ## NIP-93: NSON
 
