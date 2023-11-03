@@ -311,6 +311,16 @@ https://github.com/arthurfranca/nips/blob/social-notes/99.md
 
 PR: https://github.com/nostr-protocol/nips/pull/659
 
+## NIP-100: Default Relay Port Standard
+
+クローズされた。
+
+https://github.com/nostr-protocol/nips/pull/852/files
+
+リレーのデフォルトのポート。`444`
+
+PR: https://github.com/nostr-protocol/nips/pull/852
+
 ## NIP-101: Standard HTTP REST API for Relays
 
 クローズされた。
