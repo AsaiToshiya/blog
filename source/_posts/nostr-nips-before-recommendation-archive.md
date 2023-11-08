@@ -35,16 +35,6 @@ HTML や Markdown などの「リッチ テキスト メモ」。拙著。
 
 PR: https://github.com/nostr-protocol/nips/pull/619
 
-## NIP-29: Simple Group Chat
-
-クローズされた。
-
-https://github.com/nostr-protocol/nips/blob/simple-chat-groups/29.md
-
-リレー主導のグループ チャット。
-
-PR: https://github.com/nostr-protocol/nips/pull/566
-
 ## NIP-30: Custom Emoji
 
 マージされた。
@@ -210,6 +200,18 @@ https://github.com/nostr-protocol/nips/blob/goals/75.md
 パラメーター化された置き換え可能なイベント (PRE) に `goal` タグを指定すると、そのイベントへの Zap も集計対象にすることができる。
 
 PR: https://github.com/nostr-protocol/nips/pull/757
+
+## NIP-84: Highlights
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/84.md
+
+https://github.com/pablof7z/nips/blob/highlights/84.md
+
+コンテンツの引用とハイライト。
+
+PR: https://github.com/nostr-protocol/nips/pull/501
 
 ## NIP-89: Recommended Application Handlers
 

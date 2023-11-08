@@ -72,6 +72,18 @@ https://github.com/vitorpamplona/nips/blob/sealed-dms/24.md
 
 PR: https://github.com/nostr-protocol/nips/pull/686
 
+## NIP-29: Simple Group Chat
+
+再オープンされた。
+
+~~クローズされた。~~
+
+https://github.com/nostr-protocol/nips/blob/simple-chat-groups/29.md
+
+リレー主導のグループ チャット。
+
+PR: https://github.com/nostr-protocol/nips/pull/566
+
 ## NIP-29: Time-Based Sync
 
 https://github.com/vitorpamplona/nips/blob/negentropy-sync/29.md
@@ -348,14 +360,6 @@ https://github.com/vitorpamplona/nips/blob/relationship-status/81.md
 
 PR: https://github.com/nostr-protocol/nips/pull/761
 
-## NIP-84: Highlights
-
-https://github.com/pablof7z/nips/blob/highlights/84.md
-
-コンテンツの引用とハイライト。
-
-PR: https://github.com/nostr-protocol/nips/pull/501
-
 ## NIP-88: Nostr Cash (simple Nostr cash/token/cheque)
 
 https://github.com/arcbtc/nips/blob/nostrcash/88.md
@@ -365,6 +369,18 @@ Nostr ネイティブなウォレットとミント (造幣局)。
 クライアントはウォレットの役目を負い、リレーはミントの役目を負う。
 
 PR: https://github.com/nostr-protocol/nips/pull/627
+
+## NIP-88: Recurring Subscriptions
+
+https://github.com/nostr-protocol/nips/blob/nip88/88.md
+
+Zap によるユーザーへの定期的な支援。
+
+kind:
+ - `kind: 7002`: 支援される側が作成する Patreon のティアのような支援のプラン
+ - `kind: 7001`: 支援する側が作成する支援の表明
+
+PR: https://github.com/nostr-protocol/nips/pull/866
 
 ## NIP-93: NSON
 
@@ -561,6 +577,20 @@ https://github.com/alexgleason/nips/blob/delete-pubkey/109.md
 
 PR: https://github.com/nostr-protocol/nips/pull/377
 
+## NIP-110: License tag
+
+https://github.com/degenrocket/nips/blob/nip-110/110.md
+
+イベントのライセンスを示す `license` タグ。
+
+例:
+
+```
+{"tags": [["license", "CC0"]]}
+```
+
+PR: https://github.com/nostr-protocol/nips/pull/857
+
 ## NIP-111: Accessibility (A11y)
 
 https://github.com/fernandolguevara/nips/blob/a11y/111.md
@@ -576,6 +606,16 @@ https://github.com/earonesty/nips/blob/112/112.md
 [NIP-44](#NIP-44-Encrypted-Direct-Message-Versioned) (Encrypted Direct Message (Versioned)) と [NIP-59](#NIP-59-Gift-Wrap) (Gift Wrap) を使用するプライベート グループ チャット。
 
 PR: https://github.com/nostr-protocol/nips/pull/580
+
+## NIP-117: Bounties
+
+https://github.com/ChristianChiarulli/nips/blob/nip-117-bounties/117.md
+
+タスクに対する報奨金 (`kind: 30050`) とその申請 (`kind: 8050`)。
+
+デモ サイト: https://resolvr-io.vercel.app/
+
+PR: https://github.com/nostr-protocol/nips/pull/865
 
 ## NIP-199: a simple username password login
 
