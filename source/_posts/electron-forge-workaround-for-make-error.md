@@ -1,5 +1,7 @@
 ---
 title: "Electron Forge: `make` でエラーが発生した場合の回避策"
+date: 2023-11-14 12:32:20
+updated: 2023-11-14 12:32:20
 tags: [Electron Forge, トラブルシューティング]
 ---
 
