@@ -213,6 +213,18 @@ https://github.com/pablof7z/nips/blob/highlights/84.md
 
 PR: https://github.com/nostr-protocol/nips/pull/501
 
+## NIP-86: Shared Keys
+
+https://github.com/coracle-social/nips/blob/key-sharing/86.md
+
+クローズされた。
+
+秘密鍵の共有 (共有鍵)。
+
+秘密鍵は [NIP-59: Gift Wrap](https://asaitoshiya.com/nostr-nips-before-recommendation/#NIP-59-Gift-Wrap) でユーザーごとに個別に共有される。
+
+PR: https://github.com/nostr-protocol/nips/pull/876
+
 ## NIP-89: Recommended Application Handlers
 
 マージされた。

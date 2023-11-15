@@ -15,6 +15,19 @@ Nostr の勧告前の NIPs (Nostr Implementation Possibilities)。
 
 <!-- more -->
 
+## NIP-00: Thread
+
+https://github.com/arthurfranca/nips/blob/thread/00.md
+
+マイクロブログにおけるルート イベント (原文では Original Post) や返信、メンションなどの再定義。
+
+この NIP のモチベーション:
+ - ルート イベントと返信のイベントを別のイベントにすることで、個別に取得できるようにする
+ - 特別な意味を持つ `e` タグのマーカー ([NIP-10: Conventions for clients' use of `e` and `p` tags in text events](https://github.com/nostr-protocol/nips/blob/master/10.md)) を使用しないようにする
+ - ルート イベントを編集できるようにする
+
+PR: https://github.com/nostr-protocol/nips/pull/877
+
 ## NIP-17: Event Metadata
 
 https://github.com/arthurfranca/nips/blob/nip-17/17.md
@@ -360,6 +373,39 @@ https://github.com/vitorpamplona/nips/blob/relationship-status/81.md
 
 PR: https://github.com/nostr-protocol/nips/pull/761
 
+## NIP-85: Reviews
+
+https://github.com/coracle-social/nips/blob/reviews/85.md
+
+レビューを表すイベント。
+
+例:
+
+```json
+{
+  "kind": 1986,
+  "content": "This relay is fast!",  // 人間が読めるレビュー
+  "tags": [
+    ["L", "review"],                 // NIP-32 のラベル
+    ["l", "review/relay", "review"], // 同上
+    ["rating", "0.8"],               // レーティング
+    ["rating", "0.2", "smell"],      // オプションのレーティングの属性
+    ["rating", "1", "service"],      // 同上
+    ["r", <relay_url>]               // レビューの対象。ここではリレー
+  ],
+}
+```
+
+PR: https://github.com/nostr-protocol/nips/pull/879
+
+## NIP-87: Closed Communities
+
+https://github.com/coracle-social/nips/blob/groups/87.md
+
+共有鍵 ([NIP-86: Shared Keys](https://asaitoshiya.com/nostr-nips-before-recommendation-archive/#NIP-86-Shared-Keys)) でメッセージをラップ ([NIP-59: Gift Wrap](#NIP-59-Gift-Wrap)) することでプライベートなコミュニティー ([NIP-72: Moderated Communities](https://github.com/nostr-protocol/nips/blob/master/72.md)) を実現する。
+
+PR: https://github.com/nostr-protocol/nips/pull/875
+
 ## NIP-88: Nostr Cash (simple Nostr cash/token/cheque)
 
 https://github.com/arcbtc/nips/blob/nostrcash/88.md
@@ -437,6 +483,16 @@ https://github.com/ekzyis/nips/blob/nip-prediction-markets/99.md
 予測市場 (先物市場)。
 
 PR: https://github.com/nostr-protocol/nips/pull/517
+
+## NIP-100: Android Signer Application
+
+https://github.com/greenart7c3/nips/blob/master/100.md
+
+[NIP-07: `window.nostr` capability for web browsers](https://github.com/nostr-protocol/nips/blob/master/07.md) や [NIP-46: Nostr Connect](https://github.com/nostr-protocol/nips/blob/master/46.md) の Android 版。
+
+インテント、コンテンツ リゾルバー、または URL を介して署名などを行う。
+
+PR: https://github.com/nostr-protocol/nips/pull/868
 
 ## NIP-100: Querying Events by Tags Presence
 
