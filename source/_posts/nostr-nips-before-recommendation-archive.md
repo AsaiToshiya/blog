@@ -11,6 +11,21 @@ tags: [Nostr]
 
 <!-- more -->
 
+## NIP-00: Thread
+
+クローズされた。
+
+https://github.com/arthurfranca/nips/blob/thread/00.md
+
+マイクロブログにおけるルート イベント (原文では Original Post) や返信、メンションなどの再定義。
+
+この NIP のモチベーション:
+ - ルート イベントと返信のイベントを別のイベントにすることで、個別に取得できるようにする
+ - 特別な意味を持つ `e` タグのマーカー ([NIP-10: Conventions for clients' use of `e` and `p` tags in text events](https://github.com/nostr-protocol/nips/blob/master/10.md)) を使用しないようにする
+ - ルート イベントを編集できるようにする
+
+PR: https://github.com/nostr-protocol/nips/pull/877
+
 ## NIP-24: Extra metadata fields and tags
 
 マージされた。
