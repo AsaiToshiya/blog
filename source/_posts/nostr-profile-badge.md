@@ -32,3 +32,20 @@ https://img.shields.io/badge/Nostr-8e30eb.svg?style=for-the-badge&logo=data:imag
 ```
 
 注: [Figma](https://www.figma.com/file/HdlFOxW77gAADyRaOk1GUZ/Nostr-Website-Button-Logo?node-id=0-1&t=EP2Hlw5H20UvaWAm-0) からエクスポートできる SVG ファイルは、サイズが大きく Shields.io で使用できなかったため、PNG ファイルを SVG に変換して使用。
+
+## おまけ: Zap バッジ
+
+[nostr-zap](https://github.com/SamSamskies/nostr-zap) を使用する。
+
+<img src="https://img.shields.io/badge/%E2%9A%A1%20Zap%20Me-8e30eb.svg?style=for-the-badge" alt="Zap Me" style="margin-left:unset;">
+
+```html
+<img
+  data-npub="npub1pgh3nhq6rpte9sasxah36luewy54azfjjekrj7f45hwa69z35fdqfdrs38"
+  data-relays="wss://nos.lol,wss://nostr.bitcoiner.social,wss://nostr.mom,wss://relay.damus.io,wss://relay.nostr.bg"
+  src="https://img.shields.io/badge/%E2%9A%A1%20Zap%20Me-8e30eb.svg?style=for-the-badge"
+  style="cursor: pointer"
+/>
+...
+<script src="https://cdn.jsdelivr.net/npm/nostr-zap@0.21.0"></script>
+```
