@@ -415,6 +415,16 @@ kind:
 
 PR: https://github.com/nostr-protocol/nips/pull/866
 
+## NIP-93: Alternative URLs
+
+https://github.com/nostr-protocol/nips/blob/alt-urls/93.md
+
+代替 URL を示す `alturl` タグと `kind: 4001` のイベント。
+
+リンク切れを防ぐ。
+
+PR: https://github.com/nostr-protocol/nips/pull/898
+
 ## NIP-93: NSON
 
 https://github.com/nostr-protocol/nips/blob/nip93-nson/93.md
@@ -506,6 +516,31 @@ https://github.com/fernandolguevara/nips/blob/nip100/100.md
 ```
 
 PR: https://github.com/nostr-protocol/nips/pull/683
+
+## NIP-101: Descriptor Note
+
+https://github.com/unostr/nips/blob/nip-101---descriptor-note/101.md
+
+「Stuff」を記述するためのメモ。`kind: 101`。
+主に NIP-211: Info Triple Note で使用することを想定。
+
+例 (`content`):
+
+```
+1234567890abcdef1234567890abcdef              // 「Stuff」の識別子 (必須)
+
+order-number_12345                            // 名前
+
+webshop order of a T-shirt                    // 1 行の短い説明
+
+"This is awesome" T-shirt in size L.          // 複数行の説明
+Ordered from the webshop (order number 12345)
+Remember to pack sticker freebies.
+```
+
+詳細: https://descriptor-note.surge.sh/
+
+PR: https://github.com/nostr-protocol/nips/pull/892
 
 ## NIP-101: Enhancing Event Compression and Encoding Support
 
