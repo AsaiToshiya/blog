@@ -18,7 +18,7 @@ vercel-nostr-posts: https://github.com/AsaiToshiya/vercel-nostr-posts
 ### 1. リポジトリをセットアップ
 
 ```bash
-git clone https://github.com/AsaiToshiya/vercel-nostr-posts.git
+git clone --recursive https://github.com/AsaiToshiya/vercel-nostr-posts.git
 cd vercel-nostr-posts
 npm install
 ```
