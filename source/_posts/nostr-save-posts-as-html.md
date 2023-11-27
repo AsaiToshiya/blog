@@ -1,7 +1,7 @@
 ---
 title: "Nostr: 投稿を HTML として保存する"
 date: 2023-02-16 00:08:08
-updated: 2023-03-09 00:05:03
+updated: 2023-11-27 12:42:07
 tags: [Nostr]
 ---
 
