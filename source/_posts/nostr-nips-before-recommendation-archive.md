@@ -88,6 +88,24 @@ https://github.com/jb55/nips/blob/user-statuses/315.md
 
 PR: https://github.com/nostr-protocol/nips/pull/737
 
+## NIP-43: Fast Authentication
+
+クローズされた。
+
+~~再オープンされた。~~
+
+~~クローズされた。~~
+
+https://github.com/arthurfranca/nips/blob/nip-43/43.md
+
+[NIP-42](https://github.com/nostr-protocol/nips/blob/master/42.md) (Authentication of clients to relays) を代替する認証。
+
+リレーに接続するときに、クエリ パラメーターの `authorization` で認証を行う。
+
+`kind` は、[NIP-42](https://github.com/nostr-protocol/nips/blob/master/42.md) と同じ `kind: 22242` を使用する。ただし、`challenge` タグは含めない。
+
+PR: https://github.com/nostr-protocol/nips/pull/571
+
 ## NIP-44: Encrypted Direct Message (Versioned)
 
 [#715](https://github.com/nostr-protocol/nips/pull/715) に置き換えられた。

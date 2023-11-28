@@ -72,6 +72,16 @@ https://github.com/vitorpamplona/nips/blob/sealed-dms/24.md
 
 PR: https://github.com/nostr-protocol/nips/pull/686
 
+## NIP-29: Image Metadata
+
+https://github.com/coracle-social/nips/blob/imeta/29.md
+
+メモ内の画像 (URL) のメタデータ。`imeta` タグ。
+
+関連: https://github.com/damus-io/dips/blob/master/01.md
+
+PR: https://github.com/nostr-protocol/nips/pull/904
+
 ## NIP-29: Simple Group Chat
 
 再オープンされた。
@@ -171,22 +181,6 @@ https://github.com/nostr-protocol/nips/blob/pf7z-nip41/41.md
 これらのイベントには、NIP-03 (OpenTimestamps Attestations for Events) の OpenTimestamps を付ける必要がある。
 
 PR: https://github.com/nostr-protocol/nips/pull/829
-
-## NIP-43: Fast Authentication
-
-再オープンされた。
-
-~~クローズされた。~~
-
-https://github.com/arthurfranca/nips/blob/nip-43/43.md
-
-[NIP-42](https://github.com/nostr-protocol/nips/blob/master/42.md) (Authentication of clients to relays) を代替する認証。
-
-リレーに接続するときに、クエリ パラメーターの `authorization` で認証を行う。
-
-`kind` は、[NIP-42](https://github.com/nostr-protocol/nips/blob/master/42.md) と同じ `kind: 22242` を使用する。ただし、`challenge` タグは含めない。
-
-PR: https://github.com/nostr-protocol/nips/pull/571
 
 ## NIP-44: Encrypted Payloads (Versioned)
 
@@ -402,6 +396,16 @@ Nostr ネイティブなウォレットとミント (造幣局)。
 クライアントはウォレットの役目を負い、リレーはミントの役目を負う。
 
 PR: https://github.com/nostr-protocol/nips/pull/627
+
+## NIP-88: PAY Request
+
+https://github.com/vitorpamplona/nips/blob/pay-spec/88.md
+
+リレーから送信される、支払いを要求する `PAY` メッセージ。
+
+有料リレーへの支払いプロセスを簡略化。
+
+PR: https://github.com/nostr-protocol/nips/pull/901
 
 ## NIP-88: Recurring Subscriptions
 
@@ -703,6 +707,17 @@ https://github.com/nostr-protocol/nips/issues/639
 
 秘密鍵は PBKDF2 (ユーザー名とパスワードから導出された共通鍵) と AES で暗号化されて、`kind: 30669` でリレーに保管される。
 
+## NIP-211: Info Triple Note
+
+https://github.com/unostr/nips/blob/nip-211---info-triple/211.md
+
+「Stuff」間の関係を記述するためのメモ。`kind: 211`。
+
+関連: [NIP-101: Descriptor Note](#NIP-101-Descriptor-Note)
+詳細: https://www.infotriple.org/
+
+PR: https://github.com/nostr-protocol/nips/pull/893
+
 ## NIP-320: Nostr Rating Mass
 
 https://github.com/motorina0/nips/blob/nip-320/320.md
@@ -732,6 +747,14 @@ https://github.com/steliosrammos/nips/blob/nip-3166-geo-location-tag/3166.md
 2 文字の ISO 国名コード (JP、US、BR など) を持つ `c` タグ。
 
 PR: https://github.com/nostr-protocol/nips/pull/763
+
+## NIP-XX: Addendums
+
+https://github.com/nostr-protocol/nips/issues/903
+
+他のイベントを補足するためのイベント。
+
+`kind: 1040` (OpenTimestamps) に近いイメージ。
 
 ## NIP-XX: Nostr Token Login
 
