@@ -248,9 +248,9 @@ PR: https://github.com/nostr-protocol/nips/pull/501
 
 ## NIP-86: Shared Keys
 
-https://github.com/coracle-social/nips/blob/key-sharing/86.md
-
 クローズされた。
+
+https://github.com/coracle-social/nips/blob/key-sharing/86.md
 
 秘密鍵の共有 (共有鍵)。
 
