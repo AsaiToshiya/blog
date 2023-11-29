@@ -397,13 +397,11 @@ Nostr ネイティブなウォレットとミント (造幣局)。
 
 PR: https://github.com/nostr-protocol/nips/pull/627
 
-## NIP-88: PAY Request
+## NIP-88: NOTIFY Request
 
 https://github.com/vitorpamplona/nips/blob/pay-spec/88.md
 
-リレーから送信される、支払いを要求する `PAY` メッセージ。
-
-有料リレーへの支払いプロセスを簡略化。
+リレーから任意のタイミングで送信される、何かしらを通知する `NOTIFY` メッセージ。
 
 PR: https://github.com/nostr-protocol/nips/pull/901
 
@@ -526,6 +524,7 @@ PR: https://github.com/nostr-protocol/nips/pull/683
 https://github.com/unostr/nips/blob/nip-101---descriptor-note/101.md
 
 「Stuff」を記述するためのメモ。`kind: 101`。
+
 主に NIP-211: Info Triple Note で使用することを想定。
 
 例 (`content`):
