@@ -475,14 +475,6 @@ https://github.com/ondra-novak/nostr-nip-97/blob/version-2/97.md
 
 PR: https://github.com/nostr-protocol/nips/pull/719
 
-## NIP-99: Prediction markets
-
-https://github.com/ekzyis/nips/blob/nip-prediction-markets/99.md
-
-予測市場 (先物市場)。
-
-PR: https://github.com/nostr-protocol/nips/pull/517
-
 ## NIP-100: Android Signer Application
 
 https://github.com/greenart7c3/nips/blob/master/100.md

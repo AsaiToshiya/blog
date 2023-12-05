@@ -344,6 +344,16 @@ https://github.com/erskingardner/nips/blob/new-event-for-classifieds/99.md
 
 PR: https://github.com/nostr-protocol/nips/pull/662
 
+## NIP-99: Prediction markets
+
+クローズされた。
+
+https://github.com/ekzyis/nips/blob/nip-prediction-markets/99.md
+
+予測市場 (先物市場)。
+
+PR: https://github.com/nostr-protocol/nips/pull/517
+
 ## NIP-99: Social Note
 
 クローズされた。
