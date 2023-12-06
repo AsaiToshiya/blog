@@ -234,6 +234,23 @@ https://github.com/nostr-protocol/nips/blob/goals/75.md
 
 PR: https://github.com/nostr-protocol/nips/pull/757
 
+## NIP-79: `window.nostr` offline message signature & verificiation
+
+クローズされた。
+
+https://github.com/b35363/nips/blob/master/79.md
+
+`window.nostr` ([NIP-07: `window.nostr` capability for web browsers](07.md)) の拡張で、文字列に対する署名と検証のためのメソッド。
+
+```
+async window.nostr.signMessage(msg : string): string
+async window.nostr.verifyMessage(sig: string, pubkey : string): boolean
+```
+
+Nostr 外から使用されることを想定。
+
+PR: https://github.com/nostr-protocol/nips/pull/730
+
 ## NIP-84: Highlights
 
 マージされた。
@@ -377,6 +394,36 @@ https://github.com/nostr-protocol/nips/pull/852/files
 リレーのデフォルトのポート。`444`
 
 PR: https://github.com/nostr-protocol/nips/pull/852
+
+## NIP-101: Enhancing Event Compression and Encoding Support
+
+クローズされた。
+
+https://github.com/b35363/nips/blob/master/101.md
+
+メッセージのペイロードの圧縮 (エンコード)。
+
+例:
+
+```
+["EVENT", <エンコードされたペイロード>, <エンコード方式>]
+```
+
+クライアントとリレーでサポートされるエンコード方式は、`CAP` メッセージで相互にやりとりする。
+
+例 (クライアントからリレー):
+
+```
+["CAP", {"supportedEncodings": ["base64", "gzip64", "plaintext"]}]
+```
+
+例 (リレーからクライアント):
+
+```
+["CAP", {"selectedEncoding": "gzip64"}]
+```
+
+PR: https://github.com/nostr-protocol/nips/pull/730
 
 ## NIP-101: Standard HTTP REST API for Relays
 
