@@ -26,6 +26,18 @@ https://github.com/arthurfranca/nips/blob/thread/00.md
 
 PR: https://github.com/nostr-protocol/nips/pull/877
 
+## NIP-18: Private Direct Message
+
+クローズされた。
+
+https://github.com/Giszmo/nips/blob/PrivateDmEvent/18.md
+
+DM の受信者 (`p` タグ) を偽る、[NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md) (Encrypted Direct Message) の改良版。
+
+オープンな PR の中で最も古い NIP。
+
+PR: https://github.com/nostr-protocol/nips/pull/17
+
 ## NIP-24: Extra metadata fields and tags
 
 マージされた。

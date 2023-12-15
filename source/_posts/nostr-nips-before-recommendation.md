@@ -36,16 +36,6 @@ Nostr で Git コミットを追跡できるようにする。
 
 PR: https://github.com/nostr-protocol/nips/pull/324
 
-## NIP-18: Private Direct Message
-
-https://github.com/Giszmo/nips/blob/PrivateDmEvent/18.md
-
-DM の受信者 (`p` タグ) を偽る、[NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md) (Encrypted Direct Message) の改良版。
-
-オープンな PR の中で最も古い NIP。
-
-PR: https://github.com/nostr-protocol/nips/pull/17
-
 ## NIP-24: Private Direct Messages and Small Group Chats
 
 https://github.com/vitorpamplona/nips/blob/sealed-dms/24.md
