@@ -23,22 +23,10 @@ https://github.com/arthurfranca/nips/blob/nip-17/17.md
 
 PR: https://github.com/nostr-protocol/nips/pull/605
 
-## NIP-17: Tracking Git Commits with Nostr
+## NIP-17: Private Direct Messages and Group DMs
 
-https://github.com/nip17/nips/blob/master/17.md
-
-Nostr で Git コミットを追跡できるようにする。
-
-この NIP ができるようにするユースケース:
- - GitHub Actions
- - 継続的インテグレーション/継続的デプロイメント (CI/CD)
- - Travis CI
-
-PR: https://github.com/nostr-protocol/nips/pull/324
-
-## NIP-24: Private Direct Messages and Small Group Chats
-
-https://github.com/vitorpamplona/nips/blob/sealed-dms/24.md
+https://github.com/vitorpamplona/nips/blob/sealed-dms/17.md
+~~https://github.com/vitorpamplona/nips/blob/sealed-dms/24.md~~
 
 未署名のイベント (Rumor、`kind: 14`)、Rumor のラップ (Seal、`kind: 13`)、および Seal のラップ (Gift Wrap、`kind: 1059`) で DM のプライバシーを保護。
 
@@ -61,6 +49,19 @@ https://github.com/vitorpamplona/nips/blob/sealed-dms/24.md
 関連: [NIP-103](https://github.com/threeseries/nips/blob/nip-103/103.md) (Onion Routed Direct Messages)
 
 PR: https://github.com/nostr-protocol/nips/pull/686
+
+## NIP-17: Tracking Git Commits with Nostr
+
+https://github.com/nip17/nips/blob/master/17.md
+
+Nostr で Git コミットを追跡できるようにする。
+
+この NIP ができるようにするユースケース:
+ - GitHub Actions
+ - 継続的インテグレーション/継続的デプロイメント (CI/CD)
+ - Travis CI
+
+PR: https://github.com/nostr-protocol/nips/pull/324
 
 ## NIP-29: Image Metadata
 
