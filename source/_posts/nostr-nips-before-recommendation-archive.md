@@ -128,6 +128,25 @@ https://github.com/paulmillr/nips/blob/master-1/44.md
 
 PR: https://github.com/nostr-protocol/nips/pull/574
 
+## NIP-44: Encrypted Payloads (Versioned)
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/44.md
+
+https://github.com/paulmillr/nips/blob/NIP-44/44.md
+
+選択暗号文攻撃 (Chosen-ciphertext attack) に対して安全な暗号化標準。
+
+暗号化アルゴリズムをバージョン管理 (選択) できる。
+
+バージョン 1 では任意の秘密鍵 (ECDH) と XChaCha20 で暗号化する。
+
+関連: https://github.com/nostr-protocol/nips/pull/574
+関連: https://github.com/nostr-protocol/nips/pull/715
+
+PR: https://github.com/nostr-protocol/nips/pull/746
+
 ## NIP-48: Nostr Wallet Connect Receiving
 
 [NIP-47](https://github.com/nostr-protocol/nips/blob/master/47.md) (Wallet Connect) に統合され、NIP としての提案ではなくなった。
