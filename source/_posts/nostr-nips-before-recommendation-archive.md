@@ -50,6 +50,18 @@ NIP で明記されていない追加のフィールド (`kind: 0` の `display
 
 PR: https://github.com/nostr-protocol/nips/pull/794
 
+## NIP-24: Private, Encrypted Direct Messages
+
+クローズされた。
+
+https://github.com/jeffthibault/nips/blob/private-messages-v2/24.md
+
+やり取りするユーザーごとに異なる鍵ペアを使用する DM。
+
+[NIP-43: Nym DM](https://asaitoshiya.com/nostr-nips-before-recommendation/#NIP-43-Nym-DM) に似ている。
+
+PR: https://github.com/nostr-protocol/nips/pull/56
+
 ## NIP-24: Rich Text Note
 
 クローズした。
@@ -73,6 +85,22 @@ https://github.com/alexgleason/nips/blob/emojis/30.md
 カスタム絵文字。
 
 PR: https://github.com/nostr-protocol/nips/pull/484
+
+## NIP-30: Resources
+
+クローズされた。
+
+https://github.com/plantimals/nips/blob/nip-30/30.md
+
+リソースへのリンクを示すイベント。`kind 9`。
+
+1 つの `resource` タグを持つ。
+
+```
+["resource", "https://anchor.fm/s/45563e80/podcast/play/56797105/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-29%2F2cc29ddf-c44f-b38c-ee2c-88e0e1634449.mp3", "audio/mpeg"]
+```
+
+PR: https://github.com/nostr-protocol/nips/pull/43
 
 ## NIP-32: Labeling
 

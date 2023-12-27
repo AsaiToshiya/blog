@@ -173,6 +173,18 @@ https://github.com/nostr-protocol/nips/blob/pf7z-nip41/41.md
 
 PR: https://github.com/nostr-protocol/nips/pull/829
 
+## NIP-43: Nym DM
+
+https://github.com/arthurfranca/nips/blob/dm/43.md
+
+やり取りするユーザーごとに異なる鍵ペアを使用する DM。
+
+ユーザーごとに DM をピンポイントで取得できるため、[NIP-17: Private Direct Messages and Group DMs](#NIP-17-Private-Direct-Messages-and-Group-DMs) のように、無関係なイベントを取得する必要がない。
+
+[NIP-24: Private, Encrypted Direct Messages](https://asaitoshiya.com/nostr-nips-before-recommendation-archive/#NIP-24-Private-Encrypted-Direct-Messages) に似ている。
+
+PR: https://github.com/nostr-protocol/nips/pull/945
+
 ## NIP-49: Encrypted Private Key
 
 https://github.com/mikedilger/nips/blob/nip-nn-key-export/49.md
@@ -689,6 +701,29 @@ NIP-26 (Delegated Event Signing) の NIP-19 (bech32-encoded entities) のエ�
 `nsec` の代わりに使用することを想定。
 
 PR: https://github.com/nostr-protocol/nips/pull/793
+
+## NIP-XX: Read Status
+
+https://github.com/coracle-social/nips/blob/read-status/xx.md
+
+イベントの既読を示すイベント。
+
+```json
+{
+  "kind": "15",
+  "tags": [
+    ["expiration", "<unix-timestamp>"], // NIP-40: Expiration Timestamp
+    ["e", "<event-id>"],
+    ["e", "<event-id>"]
+  ]
+}
+```
+
+[NIP-59: Gift Wrap](#NIP-59-Gift-Wrap) によってプライベートにすることもできる。
+
+関連: https://github.com/nostr-protocol/nips/discussions/932
+
+PR: https://github.com/nostr-protocol/nips/pull/933
 
 ## NIP-XX: Use Nostr as storage for chart data
 
