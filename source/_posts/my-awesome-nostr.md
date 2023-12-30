@@ -1,5 +1,7 @@
 ---
 title: "My Awesome Nostr"
+date: 2023-12-31 01:03:09
+updated: 2023-12-31 01:03:09
 tags: [Nostr]
 ---
 
