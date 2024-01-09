@@ -58,7 +58,7 @@ https://github.com/jeffthibault/nips/blob/private-messages-v2/24.md
 
 やり取りするユーザーごとに異なる鍵ペアを使用する DM。
 
-[NIP-43: Nym DM](https://asaitoshiya.com/nostr-nips-before-recommendation/#NIP-43-Nym-DM) に似ている。
+[NIP-43: CK-based DM](#NIP-43-CK-based-DM) に似ている。
 
 PR: https://github.com/nostr-protocol/nips/pull/56
 
@@ -127,6 +127,20 @@ https://github.com/jb55/nips/blob/user-statuses/315.md
 ユーザーの「仕事中」、「ハイキング中」や視聴中の音楽などの状態。`kind 30315`。
 
 PR: https://github.com/nostr-protocol/nips/pull/737
+
+## NIP-43: CK-based DM
+
+クローズされた。
+
+https://github.com/arthurfranca/nips/blob/dm/43.md
+
+やり取りするユーザーごとに異なる鍵ペアを使用する DM。
+
+ユーザーごとに DM をピンポイントで取得できるため、[NIP-17: Private Direct Messages and Group DMs](https://asaitoshiya.com/nostr-nips-before-recommendation/#NIP-17-Private-Direct-Messages-and-Group-DMs) のように、無関係なイベントを取得する必要がない。
+
+[NIP-24: Private, Encrypted Direct Messages](#NIP-24-Private-Encrypted-Direct-Messages) に似ている。
+
+PR: https://github.com/nostr-protocol/nips/pull/945
 
 ## NIP-43: Fast Authentication
 
@@ -375,6 +389,20 @@ https://github.com/tyiu/nips/blob/nip91-query-param/91.md
 [NIP-21](https://github.com/nostr-protocol/nips/blob/master/21.md) (`nostr:` URI scheme) の HTTP/HTTPS スキーム版。
 
 PR: https://github.com/nostr-protocol/nips/pull/609
+
+## NIP-96: HTTP File Storage Integration
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/96.md
+
+https://github.com/arthurfranca/nips/blob/nip-95-contender/96.md
+
+Nostr で使用するファイル サーバー。
+
+通常の NIP と違って、HTTP REST API によるファイルのアップロードと、HTTP メソッドによるファイルのダウンロード、および削除のための仕様。
+
+PR: https://github.com/nostr-protocol/nips/pull/547
 
 ## NIP-97: Attachments
 

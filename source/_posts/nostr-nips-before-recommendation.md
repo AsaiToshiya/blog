@@ -173,18 +173,6 @@ https://github.com/nostr-protocol/nips/blob/pf7z-nip41/41.md
 
 PR: https://github.com/nostr-protocol/nips/pull/829
 
-## NIP-43: Nym DM
-
-https://github.com/arthurfranca/nips/blob/dm/43.md
-
-やり取りするユーザーごとに異なる鍵ペアを使用する DM。
-
-ユーザーごとに DM をピンポイントで取得できるため、[NIP-17: Private Direct Messages and Group DMs](#NIP-17-Private-Direct-Messages-and-Group-DMs) のように、無関係なイベントを取得する必要がない。
-
-[NIP-24: Private, Encrypted Direct Messages](https://asaitoshiya.com/nostr-nips-before-recommendation-archive/#NIP-24-Private-Encrypted-Direct-Messages) に似ている。
-
-PR: https://github.com/nostr-protocol/nips/pull/945
-
 ## NIP-49: Encrypted Private Key
 
 https://github.com/mikedilger/nips/blob/nip-nn-key-export/49.md
@@ -425,16 +413,6 @@ https://github.com/fostr-dev/nips/blob/master/96.md
 Nostr 上で GitHub のようなコラボレーションを実現する。
 
 PR: https://github.com/nostr-protocol/nips/pull/618
-
-## NIP-96: HTTP File Storage Integration
-
-https://github.com/arthurfranca/nips/blob/nip-95-contender/96.md
-
-Nostr で使用するファイル サーバー。
-
-通常の NIP と違って、HTTP REST API によるファイルのアップロードと、HTTP メソッドによるファイルのダウンロード、および削除のための仕様。
-
-PR: https://github.com/nostr-protocol/nips/pull/547
 
 ## NIP-97: Files hosted on relay
 
