@@ -173,6 +173,22 @@ https://github.com/nostr-protocol/nips/blob/pf7z-nip41/41.md
 
 PR: https://github.com/nostr-protocol/nips/pull/829
 
+## NIP-43: Private DM
+
+https://github.com/arthurfranca/nips/blob/priv-dm/43.md
+
+やり取りするユーザー同士で共通の秘密鍵 (セッション) を使用する DM。
+
+セッションには 3 週間の期限があり、これにより前方秘匿性が確保される。
+
+kind:
+ - `kind: 1043`、`kind: 1044`、`kind: 1045`: 秘密鍵の受け渡し。チャット セッション
+ - `kind: 10043`: 秘密鍵の管理。チャット セッション リスト
+ - `kind: 14`: 実際の DM。セッション チャネル
+ - `kind: 17`、`kind: 18`: DM のステータス
+
+PR: https://github.com/nostr-protocol/nips/pull/978
+
 ## NIP-49: Encrypted Private Key
 
 https://github.com/mikedilger/nips/blob/nip-nn-key-export/49.md
@@ -199,9 +215,9 @@ PR: https://github.com/nostr-protocol/nips/pull/521
 
 https://github.com/staab/nips/blob/NIP-59/59.md
 
-[NIP-24](#NIP-24-Private-Direct-Messages-and-Small-Group-Chats) (Private Direct Messages and Small Group Chats) から DM 固有のものを省略してより一般化した NIP。
+[NIP-17](#NIP-17-Private-Direct-Messages-and-Group-DMs) (Private Direct Messages and Group DMs) から DM 固有のものを省略してより一般化した NIP。
 
-内容的には NIP-24 とほぼ同じ。
+内容的には NIP-17 とほぼ同じ。
 
 `content` の暗号化には [NIP-44](#NIP-44-Encrypted-Payloads-Versioned) (Encrypted Payloads (Versioned)) を使用する。
 
@@ -226,6 +242,18 @@ https://github.com/arthurfranca/nips/blob/bunch-of-events/61.md
 pubkey および `n` タグでリストを定義して、`u` タグまたは `nunb` でリストを参照する。
 
 PR: https://github.com/nostr-protocol/nips/pull/784
+
+## NIP-62: Signed and Versioned Third-Party Objects
+
+https://github.com/buttercat1791/nips/blob/master/62.md
+
+バージョン管理を考慮した、オブジェクト (Git コミット、ドキュメント、画像など) を示すイベント。
+
+オブジェクト (`kind: 32000`) とそのバージョン (`kind: 32001`) で構成される。
+
+[NIP-94: File Metadata](https://github.com/nostr-protocol/nips/blob/master/94.md) に近い印象。
+
+PR: https://github.com/nostr-protocol/nips/pull/986
 
 ## NIP-69: Zap Poll event
 
