@@ -73,7 +73,7 @@ https://github.com/coracle-social/nips/blob/imeta/29.md
 
 PR: https://github.com/nostr-protocol/nips/pull/904
 
-## NIP-29: Simple Group Chat
+## NIP-29: Relay-based Groups
 
 再オープンされた。
 
@@ -81,7 +81,10 @@ PR: https://github.com/nostr-protocol/nips/pull/904
 
 https://github.com/nostr-protocol/nips/blob/simple-chat-groups/29.md
 
-リレー主導のグループ チャット。
+リレー主導のグループ。
+
+PoC: https://github.com/fiatjaf/relay29
+PoC: https://github.com/fiatjaf/chat29
 
 PR: https://github.com/nostr-protocol/nips/pull/566
 
@@ -368,11 +371,23 @@ https://github.com/coracle-social/nips/blob/reviews/85.md
 
 PR: https://github.com/nostr-protocol/nips/pull/879
 
-## NIP-87: Closed Communities
+## NIP-86: Shared Keys
+
+https://github.com/coracle-social/nips/blob/groups/86.md
+~~https://github.com/coracle-social/nips/blob/key-sharing/86.md~~
+
+秘密鍵の共有 (共有鍵)。
+
+秘密鍵は [NIP-59: Gift Wrap](#NIP-59-Gift-Wrap) でユーザーごとに個別に共有される。
+
+PR: https://github.com/nostr-protocol/nips/pull/875
+~~PR: https://github.com/nostr-protocol/nips/pull/876~~
+
+## NIP-87: Closed Groups
 
 https://github.com/coracle-social/nips/blob/groups/87.md
 
-共有鍵 ([NIP-86: Shared Keys](https://asaitoshiya.com/nostr-nips-before-recommendation-archive/#NIP-86-Shared-Keys)) でメッセージをラップ ([NIP-59: Gift Wrap](#NIP-59-Gift-Wrap)) することでプライベートなコミュニティー ([NIP-72: Moderated Communities](https://github.com/nostr-protocol/nips/blob/master/72.md)) を実現する。
+共有鍵 ([NIP-86: Shared Keys](#NIP-86-Shared-Keys)) でメッセージをラップ ([NIP-59: Gift Wrap](#NIP-59-Gift-Wrap)) することでプライベートなコミュニティー ([NIP-72: Moderated Communities](https://github.com/nostr-protocol/nips/blob/master/72.md)) を実現する。
 
 PR: https://github.com/nostr-protocol/nips/pull/875
 
@@ -649,6 +664,19 @@ https://github.com/nostr-protocol/nips/issues/639
 
 秘密鍵は PBKDF2 (ユーザー名とパスワードから導出された共通鍵) と AES で暗号化されて、`kind: 30669` でリレーに保管される。
 
+## NIP-200: Nostr relay communication over HTTP(s) (NoH)
+
+https://github.com/Yonle/nips/blob/nip200/200.md
+
+リレーの HTTP インターフェース。
+
+実装:
+ - [nhttp](https://github.com/Yonle/nhttp): この NIP の実装。HTTP インターフェース
+ - [nhttp-adapter](https://github.com/Yonle/nhttp-adapter): HTTP のアダプターになるリレー
+ - [nostr-relay-http-chunk](https://github.com/mattn/nostr-relay-http-chunk/): チャンク ストリームの PoC (mattn さん)
+
+PR: https://github.com/nostr-protocol/nips/pull/966
+
 ## NIP-211: Info Triple Note
 
 https://github.com/unostr/nips/blob/nip-211---info-triple/211.md
@@ -736,6 +764,14 @@ PR: https://github.com/nostr-protocol/nips/pull/933
 https://github.com/nostr-protocol/nips/issues/743
 
 チャート データ。Shino3 さん著。
+
+## NIP-XX: Versatile event
+
+https://github.com/tiltpapa/nips/blob/versatile-data/XX.md
+
+相互運用性を必要としない汎用的なイベント。`kind: 78`。@tiltpapa さん著。
+
+PR: https://github.com/nostr-protocol/nips/pull/995
 
 ## NIP-XXX: Order
 
