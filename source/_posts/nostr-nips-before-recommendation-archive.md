@@ -519,3 +519,13 @@ https://github.com/MaxHillebrand/nips/blob/NIPlol-private-messages/lol.md
 NIP-04 (Encrypted Direct Message) の代替。
 
 PR: https://github.com/nostr-protocol/nips/pull/564
+
+## NIP-XX: Addendums
+
+クローズされた。
+
+https://github.com/nostr-protocol/nips/issues/903
+
+他のイベントを補足するためのイベント。
+
+`kind: 1040` (OpenTimestamps) に近いイメージ。

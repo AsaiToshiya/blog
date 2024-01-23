@@ -108,6 +108,18 @@ https://github.com/arthurfranca/nips/blob/nip-34/34.md
 
 PR: https://github.com/nostr-protocol/nips/pull/579
 
+## NIP-34: `git` stuff
+
+https://github.com/nostr-protocol/nips/blob/git/34.md
+
+Nostr で Git のコラボレーション。
+
+これ自体が Git リポジトリというわけではない。
+
+CLI の実装: https://github.com/fiatjaf/gitstr
+
+PR: https://github.com/nostr-protocol/nips/pull/997
+
 ## NIP-34: Media Attachments
 
 https://github.com/alexgleason/nips/blob/media-tag/34.md
@@ -717,14 +729,6 @@ https://github.com/steliosrammos/nips/blob/nip-3166-geo-location-tag/3166.md
 2 文字の ISO 国名コード (JP、US、BR など) を持つ `c` タグ。
 
 PR: https://github.com/nostr-protocol/nips/pull/763
-
-## NIP-XX: Addendums
-
-https://github.com/nostr-protocol/nips/issues/903
-
-他のイベントを補足するためのイベント。
-
-`kind: 1040` (OpenTimestamps) に近いイメージ。
 
 ## NIP-XX: Nostr Token Login
 
