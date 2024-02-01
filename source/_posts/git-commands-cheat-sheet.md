@@ -369,3 +369,12 @@ index 122d41c..4ef223e 100644
 ```bash
 git clone --recursive <URL>
 ```
+
+## 特定のディレクトリーのみクローン (スパース チェックアウト)
+
+```bash
+git clone --filter=blob:none --no-checkout --sparse <URL>
+cd <リポジトリ>
+git sparse-checkout set <ディレクトリー>
+git checkout <ブランチ>
+```
