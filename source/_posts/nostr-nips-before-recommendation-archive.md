@@ -297,7 +297,7 @@ https://github.com/staab/nips/blob/NIP-59/59.md
 
 内容的には NIP-17 とほぼ同じ。
 
-`content` の暗号化には [NIP-44](#NIP-44-Encrypted-Payloads-Versioned) (Encrypted Payloads (Versioned)) を使用する。
+`content` の暗号化には [NIP-44](https://github.com/nostr-protocol/nips/blob/master/44.md) (Encrypted Payloads (Versioned)) を使用する。
 
 関連: https://github.com/v0l/nips/blob/59/59.md
 
