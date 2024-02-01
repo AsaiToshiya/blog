@@ -213,6 +213,22 @@ ActivityPub、AT Protocol、RSS、および HTTP/HTTPS などの他のプロト�
 
 PR: https://github.com/nostr-protocol/nips/pull/693
 
+## NIP-49: Private Key Encryption
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/49.md
+
+https://github.com/mikedilger/nips/blob/nip-nn-key-export/49.md
+
+パスワードによる秘密鍵の暗号化と復号化。
+
+クライアントでの秘密鍵の保存やインポート/エクスポートを安全に行えるようにする。
+
+拙作の実装: https://github.com/AsaiToshiya/nip-49
+
+PR: https://github.com/nostr-protocol/nips/pull/133
+
 ## NIP-52: Calendar Events
 
 マージされた。
@@ -268,6 +284,24 @@ https://github.com/v0l/nips/blob/59/59.md
 受信者には、`p` タグで通知する。
 
 PR: https://github.com/nostr-protocol/nips/pull/468
+
+## NIP-59: Gift Wrap
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/59.md
+
+https://github.com/staab/nips/blob/NIP-59/59.md
+
+[NIP-17](https://asaitoshiya.com/nostr-nips-before-recommendation/#NIP-17-Private-Direct-Messages-and-Group-DMs) (Private Direct Messages and Group DMs) から DM 固有のものを省略してより一般化した NIP。
+
+内容的には NIP-17 とほぼ同じ。
+
+`content` の暗号化には [NIP-44](#NIP-44-Encrypted-Payloads-Versioned) (Encrypted Payloads (Versioned)) を使用する。
+
+関連: https://github.com/v0l/nips/blob/59/59.md
+
+PR: https://github.com/nostr-protocol/nips/pull/716
 
 ## NIP-68: Content Labeling (including Reviews & Recommendations)
 

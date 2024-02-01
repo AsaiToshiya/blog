@@ -43,7 +43,7 @@ https://github.com/vitorpamplona/nips/blob/sealed-dms/17.md
  - Gift Wrap: 宛先だけが書かれた差出人不明の封筒
 
 関連: [NIP-24](https://github.com/jeffthibault/nips/blob/private-messages-v2/24.md) (Private, Encrypted Direct Messages)
-関連: [NIP-44](#NIP-44-Encrypted-Payloads-Versioned) (Encrypted Payloads (Versioned))
+関連: [NIP-44](https://github.com/nostr-protocol/nips/blob/master/44.md) (Encrypted Payloads (Versioned))
 関連: [NIP-59](https://github.com/v0l/nips/blob/59/59.md) (Gift Wrap)
 関連: [NIP-76](https://github.com/d-krause/nostr-nips/blob/nip76-draft-2/76.md) (Private Channels)
 関連: [NIP-103](https://github.com/threeseries/nips/blob/nip-103/103.md) (Onion Routed Direct Messages)
@@ -204,18 +204,6 @@ kind:
 
 PR: https://github.com/nostr-protocol/nips/pull/978
 
-## NIP-49: Encrypted Private Key
-
-https://github.com/mikedilger/nips/blob/nip-nn-key-export/49.md
-
-パスワードによる秘密鍵の暗号化と復号化。
-
-クライアントでの秘密鍵の保存やインポート/エクスポートを安全に行えるようにする。
-
-拙作の実装: https://github.com/AsaiToshiya/nip-49
-
-PR: https://github.com/nostr-protocol/nips/pull/133
-
 ## NIP-54: Inline Resource Metadata
 
 https://github.com/arthurfranca/nips/blob/inline-resource-metadata/54.md
@@ -225,20 +213,6 @@ https://github.com/arthurfranca/nips/blob/inline-resource-metadata/54.md
 [DIP-01](https://github.com/damus-io/dips/blob/master/01.md) も参照のこと。
 
 PR: https://github.com/nostr-protocol/nips/pull/521
-
-## NIP-59: Gift Wrap
-
-https://github.com/staab/nips/blob/NIP-59/59.md
-
-[NIP-17](#NIP-17-Private-Direct-Messages-and-Group-DMs) (Private Direct Messages and Group DMs) から DM 固有のものを省略してより一般化した NIP。
-
-内容的には NIP-17 とほぼ同じ。
-
-`content` の暗号化には [NIP-44](#NIP-44-Encrypted-Payloads-Versioned) (Encrypted Payloads (Versioned)) を使用する。
-
-関連: https://github.com/v0l/nips/blob/59/59.md
-
-PR: https://github.com/nostr-protocol/nips/pull/716
 
 ## NIP-60: Zap Gates
 
@@ -372,7 +346,7 @@ https://github.com/coracle-social/nips/blob/groups/86.md
 
 秘密鍵の共有 (共有鍵)。
 
-秘密鍵は [NIP-59: Gift Wrap](#NIP-59-Gift-Wrap) でユーザーごとに個別に共有される。
+秘密鍵は [NIP-59: Gift Wrap](https://github.com/nostr-protocol/nips/blob/master/59.md) でユーザーごとに個別に共有される。
 
 PR: https://github.com/nostr-protocol/nips/pull/875
 ~~PR: https://github.com/nostr-protocol/nips/pull/876~~
@@ -381,7 +355,7 @@ PR: https://github.com/nostr-protocol/nips/pull/875
 
 https://github.com/coracle-social/nips/blob/groups/87.md
 
-共有鍵 ([NIP-86: Shared Keys](#NIP-86-Shared-Keys)) でメッセージをラップ ([NIP-59: Gift Wrap](#NIP-59-Gift-Wrap)) することでプライベートなコミュニティー ([NIP-72: Moderated Communities](https://github.com/nostr-protocol/nips/blob/master/72.md)) を実現する。
+共有鍵 ([NIP-86: Shared Keys](#NIP-86-Shared-Keys)) でメッセージをラップ ([NIP-59: Gift Wrap](https://github.com/nostr-protocol/nips/blob/master/59.md)) することでプライベートなコミュニティー ([NIP-72: Moderated Communities](https://github.com/nostr-protocol/nips/blob/master/72.md)) を実現する。
 
 PR: https://github.com/nostr-protocol/nips/pull/875
 
@@ -636,7 +610,7 @@ PR: https://github.com/nostr-protocol/nips/pull/702
 
 https://github.com/earonesty/nips/blob/112/112.md
 
-[NIP-44](#NIP-44-Encrypted-Direct-Message-Versioned) (Encrypted Direct Message (Versioned)) と [NIP-59](#NIP-59-Gift-Wrap) (Gift Wrap) を使用するプライベート グループ チャット。
+[NIP-44](https://github.com/nostr-protocol/nips/blob/master/44.md) (Encrypted Direct Message (Versioned)) と [NIP-59](https://github.com/nostr-protocol/nips/blob/master/59.md) (Gift Wrap) を使用するプライベート グループ チャット。
 
 PR: https://github.com/nostr-protocol/nips/pull/580
 
@@ -739,7 +713,7 @@ https://github.com/coracle-social/nips/blob/read-status/xx.md
 }
 ```
 
-[NIP-59: Gift Wrap](#NIP-59-Gift-Wrap) によってプライベートにすることもできる。
+[NIP-59: Gift Wrap](https://github.com/nostr-protocol/nips/blob/master/59.md) によってプライベートにすることもできる。
 
 関連: https://github.com/nostr-protocol/nips/discussions/932
 
