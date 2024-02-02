@@ -63,16 +63,6 @@ Nostr で Git コミットを追跡できるようにする。
 
 PR: https://github.com/nostr-protocol/nips/pull/324
 
-## NIP-29: Image Metadata
-
-https://github.com/coracle-social/nips/blob/imeta/29.md
-
-メモ内の画像 (URL) のメタデータ。`imeta` タグ。
-
-関連: https://github.com/damus-io/dips/blob/master/01.md
-
-PR: https://github.com/nostr-protocol/nips/pull/904
-
 ## NIP-29: Relay-based Groups
 
 再オープンされた。

@@ -432,6 +432,20 @@ https://github.com/tyiu/nips/blob/nip91-query-param/91.md
 
 PR: https://github.com/nostr-protocol/nips/pull/609
 
+## NIP-92: Media Attachments
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/92.md
+
+https://github.com/coracle-social/nips/blob/imeta/29.md
+
+メモ内の画像 (URL) のメタデータ。`imeta` タグ。
+
+関連: https://github.com/damus-io/dips/blob/master/01.md
+
+PR: https://github.com/nostr-protocol/nips/pull/904
+
 ## NIP-96: HTTP File Storage Integration
 
 マージされた。
