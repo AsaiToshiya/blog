@@ -1,5 +1,7 @@
 ---
 title: "Vite: `Buffer is not defined` のエラーが発生した場合の対処方法"
+date: 2024-02-02 09:21:53
+updated: 2024-02-02 09:21:53
 tags: [Vite, トラブルシューティング]
 ---
 
