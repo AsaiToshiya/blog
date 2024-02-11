@@ -578,6 +578,16 @@ https://github.com/jacany/nips/blob/101/101.md
 
 PR: https://github.com/nostr-protocol/nips/pull/680
 
+## NIP-102: Private Event
+
+クローズされた。
+
+https://github.com/arthurfranca/nips/blob/private/102.md
+
+NIP-43 (https://github.com/arthurfranca/nips/blob/private/43.md) と `PRIVATE_EVENT` メッセージでイベントの読み取りを制限。
+
+PR: https://github.com/nostr-protocol/nips/pull/739
+
 ## NIP-lol: Truly Private Messages
 
 [ディスカッション](https://github.com/nostr-protocol/nips/discussions/658)に移動された。

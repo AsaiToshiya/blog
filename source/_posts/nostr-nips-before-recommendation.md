@@ -78,6 +78,16 @@ PoC: https://github.com/fiatjaf/chat29
 
 PR: https://github.com/nostr-protocol/nips/pull/566
 
+## NIP-29: Shared Event Ownership Through Trusted DVMs
+
+https://github.com/vitorpamplona/nips/blob/dvm-replaceables/29.md
+
+DVM ([NIP-90: Data Vending Machine](https://github.com/nostr-protocol/nips/blob/master/90.md)) を介したイベントの共同編集。
+
+イベントはユーザーの代わりに DVM の秘密鍵で署名され、イベントを編集できるユーザーは `admin` タグで表される。
+
+PR: https://github.com/nostr-protocol/nips/pull/1015
+
 ## NIP-29: Time-Based Sync
 
 https://github.com/vitorpamplona/nips/blob/negentropy-sync/29.md
@@ -502,14 +512,6 @@ https://github.com/KaffinPX/nips/blob/patch-1/101.md
 メール アドレスは、ユーザーの秘密鍵と `p` タグの公開鍵で暗号化される ([NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md) (Encrypted Direct Message))。
 
 PR: https://github.com/nostr-protocol/nips/pull/691
-
-## NIP-102: Private Event
-
-https://github.com/arthurfranca/nips/blob/private/102.md
-
-NIP-43 (https://github.com/arthurfranca/nips/blob/private/43.md) と `PRIVATE_EVENT` メッセージでイベントの読み取りを制限。
-
-PR: https://github.com/nostr-protocol/nips/pull/739
 
 ## NIP-104: Generative AI Prompt
 
