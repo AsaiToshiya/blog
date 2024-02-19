@@ -437,6 +437,14 @@ https://github.com/ondra-novak/nostr-nip-97/blob/version-2/97.md
 
 PR: https://github.com/nostr-protocol/nips/pull/719
 
+## NIP-97: Nostr Login
+
+https://github.com/nostr-protocol/nips/blob/login/97.md
+
+サービスが NIP-98: HTTP Auth でログインできることを示す `nostr+login:` スキーマ (ログイン URI)？
+
+PR: https://github.com/nostr-protocol/nips/pull/1042
+
 ## NIP-100: Android Signer Application
 
 https://github.com/greenart7c3/nips/blob/master/100.md
@@ -677,6 +685,14 @@ https://github.com/steliosrammos/nips/blob/nip-3166-geo-location-tag/3166.md
 2 文字の ISO 国名コード (JP、US、BR など) を持つ `c` タグ。
 
 PR: https://github.com/nostr-protocol/nips/pull/763
+
+## NIP-XX: Audio Events
+
+https://github.com/coracle-social/nips/blob/music/xx.md
+
+音声/音楽を表すイベント。`kind 31337`。
+
+PR: https://github.com/nostr-protocol/nips/pull/1043
 
 ## NIP-XX: Nostr Token Login
 
