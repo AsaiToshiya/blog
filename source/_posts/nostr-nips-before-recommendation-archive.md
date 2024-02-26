@@ -116,6 +116,25 @@ https://github.com/staab/nips/blob/nip-32-labeling/32.md
 
 PR: https://github.com/nostr-protocol/nips/pull/532
 
+## NIP-34: Media Attachments
+
+クローズされた。
+
+https://github.com/alexgleason/nips/blob/media-tag/34.md
+
+イベントの添付ファイルを示すタグ。
+
+```
+["media", <url>, <data, optional>]
+```
+
+マイクロブログなどでは、`content` にメディア URL が記載されている必要がないため、それを代替する。
+
+関連: [NIP-94](https://github.com/nostr-protocol/nips/blob/master/94.md) (File Metadata)
+関連: [NIP-54](#NIP-54-Inline-Resource-Metadata) (Inline Resource Metadata)
+
+PR: https://github.com/nostr-protocol/nips/pull/751
+
 ## NIP-38: User Statuses
 
 マージされた。

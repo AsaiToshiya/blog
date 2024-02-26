@@ -120,23 +120,6 @@ CLI の実装: https://github.com/fiatjaf/gitstr
 
 PR: https://github.com/nostr-protocol/nips/pull/997
 
-## NIP-34: Media Attachments
-
-https://github.com/alexgleason/nips/blob/media-tag/34.md
-
-イベントの添付ファイルを示すタグ。
-
-```
-["media", <url>, <data, optional>]
-```
-
-マイクロブログなどでは、`content` にメディア URL が記載されている必要がないため、それを代替する。
-
-関連: [NIP-94](https://github.com/nostr-protocol/nips/blob/master/94.md) (File Metadata)
-関連: [NIP-54](#NIP-54-Inline-Resource-Metadata) (Inline Resource Metadata)
-
-PR: https://github.com/nostr-protocol/nips/pull/751
-
 ## NIP-34: Wiki
 
 https://github.com/nostr-protocol/nips/blob/wiki/34.md
@@ -154,6 +137,34 @@ https://github.com/arthurfranca/nips/blob/nip-35/35.md
 グループ、チャンネル、コミュニティーなどに属するユーザーの「連絡可能」、「退席中」などの状態。
 
 PR: https://github.com/nostr-protocol/nips/pull/607
+
+## NIP-37: Editable Short Notes
+
+https://github.com/vitorpamplona/nips/blob/editable-kind1/37.md
+
+編集可能な `kind: 1` (Short Text Note)。
+
+PR: https://github.com/nostr-protocol/nips/pull/1087
+
+## NIP-37: Editable Short Notes
+
+https://github.com/vitorpamplona/nips/blob/content-editable-kind1/37.md
+
+`content` のみ編集可能な `kind: 1` (Short Text Note)。
+
+メタデータ (`kind: 10`) と `content` (`kind: 31010`) に分かれる。
+
+PR: https://github.com/nostr-protocol/nips/pull/1088
+
+## NIP-37: Editable Short Notes
+
+https://github.com/vitorpamplona/nips/blob/content-editable-kind1-2/37.md
+
+編集可能な `kind: 1` (Short Text Note)。
+
+`d` タグの ID に一致する `kind: 1` の `content` を置き換えて表示する。
+
+PR: https://github.com/nostr-protocol/nips/pull/1089
 
 ## NIP-37: Language Tag
 
