@@ -378,3 +378,15 @@ cd <リポジトリ>
 git sparse-checkout set <ディレクトリー>
 git checkout <ブランチ>
 ```
+
+## 最後のコミットを打ち消す
+
+```bash
+git revert HEAD --no-edit
+```
+
+## 最後のマージ コミットを打ち消す
+
+```bash
+git revert -m 1 HEAD --no-edit
+```
