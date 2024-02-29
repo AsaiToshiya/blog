@@ -74,6 +74,25 @@ HTML や Markdown などの「リッチ テキスト メモ」。拙著。
 
 PR: https://github.com/nostr-protocol/nips/pull/619
 
+## NIP-29: Relay-based Groups
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/29.md
+
+再オープンされた。
+
+~~クローズされた。~~
+
+https://github.com/nostr-protocol/nips/blob/simple-chat-groups/29.md
+
+リレー主導のグループ。
+
+PoC: https://github.com/fiatjaf/relay29
+PoC: https://github.com/fiatjaf/chat29
+
+PR: https://github.com/nostr-protocol/nips/pull/566
+
 ## NIP-30: Custom Emoji
 
 マージされた。

@@ -63,21 +63,6 @@ Nostr で Git コミットを追跡できるようにする。
 
 PR: https://github.com/nostr-protocol/nips/pull/324
 
-## NIP-29: Relay-based Groups
-
-再オープンされた。
-
-~~クローズされた。~~
-
-https://github.com/nostr-protocol/nips/blob/simple-chat-groups/29.md
-
-リレー主導のグループ。
-
-PoC: https://github.com/fiatjaf/relay29
-PoC: https://github.com/fiatjaf/chat29
-
-PR: https://github.com/nostr-protocol/nips/pull/566
-
 ## NIP-29: Shared Event Ownership Through Trusted DVMs
 
 https://github.com/vitorpamplona/nips/blob/dvm-replaceables/29.md
@@ -165,6 +150,24 @@ https://github.com/vitorpamplona/nips/blob/content-editable-kind1-2/37.md
 `d` タグの ID に一致する `kind: 1` の `content` を置き換えて表示する。
 
 PR: https://github.com/nostr-protocol/nips/pull/1089
+
+## NIP-37: Editable Short Notes
+
+https://github.com/vitorpamplona/nips/blob/content-editable-kind1-unboundlist/37.md
+
+`kind: 1` (Short Text Note) の `content` の履歴。`kind: 1010`
+
+`n` タグの ID に一致する `kind: 1` の `content` を置き換えて表示する
+
+PR: https://github.com/nostr-protocol/nips/pull/1090
+
+## NIP-37: Annotations
+
+https://github.com/coracle-social/nips/blob/annotations/37.md
+
+自分の他のイベントに付けることができる注釈 (コメント)。
+
+PR: https://github.com/nostr-protocol/nips/pull/1091
 
 ## NIP-37: Language Tag
 
