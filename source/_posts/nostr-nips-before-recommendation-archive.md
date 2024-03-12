@@ -135,6 +135,22 @@ https://github.com/staab/nips/blob/nip-32-labeling/32.md
 
 PR: https://github.com/nostr-protocol/nips/pull/532
 
+## NIP-34: `git` stuff
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/34.md
+
+https://github.com/nostr-protocol/nips/blob/git/34.md
+
+Nostr で Git のコラボレーション。
+
+これ自体が Git リポジトリというわけではない。
+
+CLI の実装: https://github.com/fiatjaf/gitstr
+
+PR: https://github.com/nostr-protocol/nips/pull/997
+
 ## NIP-34: Media Attachments
 
 クローズされた。
@@ -153,6 +169,40 @@ https://github.com/alexgleason/nips/blob/media-tag/34.md
 関連: [NIP-54](#NIP-54-Inline-Resource-Metadata) (Inline Resource Metadata)
 
 PR: https://github.com/nostr-protocol/nips/pull/751
+
+## NIP-37: Editable Short Notes
+
+クローズされた。
+
+https://github.com/vitorpamplona/nips/blob/editable-kind1/37.md
+
+編集可能な `kind: 1` (Short Text Note)。
+
+PR: https://github.com/nostr-protocol/nips/pull/1087
+
+## NIP-37: Editable Short Notes
+
+クローズされた。
+
+https://github.com/vitorpamplona/nips/blob/content-editable-kind1/37.md
+
+`content` のみ編集可能な `kind: 1` (Short Text Note)。
+
+メタデータ (`kind: 10`) と `content` (`kind: 31010`) に分かれる。
+
+PR: https://github.com/nostr-protocol/nips/pull/1088
+
+## NIP-37: Editable Short Notes
+
+クローズされた。
+
+https://github.com/vitorpamplona/nips/blob/content-editable-kind1-2/37.md
+
+編集可能な `kind: 1` (Short Text Note)。
+
+`d` タグの ID に一致する `kind: 1` の `content` を置き換えて表示する。
+
+PR: https://github.com/nostr-protocol/nips/pull/1089
 
 ## NIP-38: User Statuses
 
