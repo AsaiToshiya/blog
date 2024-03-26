@@ -218,6 +218,20 @@ https://github.com/buttercat1791/nips/blob/master/62.md
 
 PR: https://github.com/nostr-protocol/nips/pull/986
 
+## NIP-64: Inbox model
+
+https://github.com/nostr-protocol/nips/blob/inbox-model/64.md
+
+受信ボックス (`kind: 10064`) とフォロー インテント (`kind: 6401`) を使用するインボックス モデル。
+
+ユーザーは受信ボックス (A) を作成して、フォロワーは A のリレーにフォロー インテント (B) を送信する。
+
+ユーザーは A のリレーから B をフェッチして、フェッチした B のリレーにイベントを送信する。
+
+関連: https://github.com/nostr-protocol/nips/discussions/1134
+
+PR: https://github.com/nostr-protocol/nips/pull/1135
+
 ## NIP-69: Zap Poll event
 
 https://github.com/toadlyBroodle/nips/blob/master/69.md
