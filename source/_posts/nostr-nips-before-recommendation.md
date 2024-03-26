@@ -1,7 +1,7 @@
 ---
 title: "Nostr: 勧告前の NIPs"
 date: 2023-05-12 23:15:50
-updated: 2024-03-12 12:37:19
+updated: 2024-03-26 21:14:18
 tags: [Nostr]
 ---
 
