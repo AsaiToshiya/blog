@@ -534,6 +534,22 @@ https://github.com/coracle-social/nips/blob/imeta/29.md
 
 PR: https://github.com/nostr-protocol/nips/pull/904
 
+## NIP-95: Relay File Storage
+
+クローズされた。
+
+https://github.com/arthurfranca/nips/blob/nip-95-revisit/95.md
+
+Nostr でファイル ストレージ。
+
+base64 でエンコードされたファイルを持つイベントと、そのイベントを示す [NIP-19](https://github.com/nostr-protocol/nips/blob/master/19.md) (bech32-encoded entities) の `nfile`。
+
+ファイルは `c` タグでチャンク化できる。
+
+関連: https://github.com/nostr-protocol/nips/pull/345
+
+PR: https://github.com/nostr-protocol/nips/pull/1145
+
 ## NIP-96: HTTP File Storage Integration
 
 マージされた。
@@ -695,3 +711,23 @@ https://github.com/nostr-protocol/nips/issues/903
 他のイベントを補足するためのイベント。
 
 `kind: 1040` (OpenTimestamps) に近いイメージ。
+
+## NIP-xx: Indexes
+
+クローズされた。
+
+https://github.com/coracle-social/nips/blob/indexes/xx.md (削除済み)
+
+関連するイベントのインデックスを表す `~` (チルダ) タグ。
+
+インデックスのソースは、リレー、[NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md)、または GUN。
+
+例:
+
+- `["~", "wss://relay.example.com", "relay"]`
+- `["~", "user@example.com", "nip05"]`
+- `["~", "b0635d6a9851d3aed0cd6c495b282167acf761729078d975fc341b22650b07b9", "gundb"]`
+
+参考: [GUN](https://gun.eco/)
+
+PR: https://github.com/nostr-protocol/nips/pull/1130

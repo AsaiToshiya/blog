@@ -103,6 +103,16 @@ Nostr で Wiki。
 
 PR: https://github.com/nostr-protocol/nips/pull/787
 
+## NIP-35: Draft Events
+
+https://github.com/vitorpamplona/nips/blob/draft-event/35.md
+
+下書き用の汎用的なイベント。
+
+任意のイベント (下書き) を [NIP-44](https://github.com/nostr-protocol/nips/blob/master/44.md) (Encrypted Payloads (Versioned)) で暗号化して `.content` に含める。
+
+PR: https://github.com/nostr-protocol/nips/pull/1124
+
 ## NIP-35: Member List
 
 https://github.com/arthurfranca/nips/blob/nip-35/35.md
@@ -728,6 +738,17 @@ https://github.com/tiltpapa/nips/blob/versatile-data/XX.md
 相互運用性を必要としない汎用的なイベント。`kind: 78`。@tiltpapa さん著。
 
 PR: https://github.com/nostr-protocol/nips/pull/995
+
+## NIP-XXX: Internationalization & Localization
+
+https://github.com/eznix86/nips/blob/patch-2/nip-xxx.md
+
+イベントの言語タグ (`language`) とプロフィール (`kind 0`) の言語属性 (`allowed_language`、`language`)。
+
+関連: [NIP-37: Language Tag](#NIP-37-Language-Tag)
+関連: https://github.com/nostr-protocol/nips/pull/1129
+
+PR: https://github.com/nostr-protocol/nips/pull/1127
 
 ## NIP-XXX: Order
 
