@@ -242,6 +242,17 @@ https://github.com/nostr-protocol/nips/blob/inbox-model/64.md
 
 PR: https://github.com/nostr-protocol/nips/pull/1135
 
+## NIP-69: Linked Crytographic Identities
+
+https://github.com/fr4nzap/nips/blob/linked-cryptographic-identities/69.md
+
+NIP-39: External Identities in Profiles の PGP や SSL 版で、これらの暗号鍵と Nostr の公開鍵をリンクする。
+
+関連: https://github.com/nostr-protocol/nips/pull/1041
+関連: https://github.com/nostr-protocol/nips/commit/afbb8dd008969c863f6075645d09fcb1ef283ed2
+
+PR: https://github.com/nostr-protocol/nips/pull/1182
+
 ## NIP-69: Zap Poll event
 
 https://github.com/toadlyBroodle/nips/blob/master/69.md
@@ -691,6 +702,23 @@ https://github.com/coracle-social/nips/blob/music/xx.md
 音声/音楽を表すイベント。`kind 31337`。
 
 PR: https://github.com/nostr-protocol/nips/pull/1043
+
+## NIP-XX: External Content IDs
+
+https://github.com/MerryOscar/nips/blob/external-content-ids/XX.md
+
+ISBN やポッドキャストの GUID などの外部コンテンツを示す `i` タグ。
+
+例:
+
+```json
+["i", "book:isbn:123"]         // ISBN
+["i", "podcast:guid:123"]      // ポッドキャスト
+["i", "podcast:item:guid:123"] // ポッドキャスト (エピソード)
+["i", "movie:eidr:123"]        // EIDR
+```
+
+PR: https://github.com/nostr-protocol/nips/pull/1185
 
 ## NIP-XX: Nostr Token Login
 
