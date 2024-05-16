@@ -23,33 +23,6 @@ https://github.com/arthurfranca/nips/blob/nip-17/17.md
 
 PR: https://github.com/nostr-protocol/nips/pull/605
 
-## NIP-17: Private Direct Messages and Group DMs
-
-https://github.com/vitorpamplona/nips/blob/sealed-dms/17.md
-~~https://github.com/vitorpamplona/nips/blob/sealed-dms/24.md~~
-
-未署名のイベント (Rumor、`kind: 14`)、Rumor のラップ (Seal、`kind: 13`)、および Seal のラップ (Gift Wrap、`kind: 1059`) で DM のプライバシーを保護。
-
-`content` の暗号化には XChaCha を使用する。
-
-各イベントの目的:
- - Rumor: ブロードキャストを防ぐ
- - Seal: 署名
- - Gift Wrap: メタデータ (送信者) の漏えいを防ぐ
-
-各イベントの例え:
- - Rumor: 署名されていない手紙
- - Seal: 署名だけされた中封筒
- - Gift Wrap: 宛先だけが書かれた差出人不明の封筒
-
-関連: [NIP-24](https://github.com/jeffthibault/nips/blob/private-messages-v2/24.md) (Private, Encrypted Direct Messages)
-関連: [NIP-44](https://github.com/nostr-protocol/nips/blob/master/44.md) (Encrypted Payloads (Versioned))
-関連: [NIP-59](https://github.com/v0l/nips/blob/59/59.md) (Gift Wrap)
-関連: [NIP-76](https://github.com/d-krause/nostr-nips/blob/nip76-draft-2/76.md) (Private Channels)
-関連: [NIP-103](https://github.com/threeseries/nips/blob/nip-103/103.md) (Onion Routed Direct Messages)
-
-PR: https://github.com/nostr-protocol/nips/pull/686
-
 ## NIP-17: Tracking Git Commits with Nostr
 
 https://github.com/nip17/nips/blob/master/17.md
@@ -62,6 +35,16 @@ Nostr で Git コミットを追跡できるようにする。
  - Travis CI
 
 PR: https://github.com/nostr-protocol/nips/pull/324
+
+## NIP-22: Comment
+
+https://github.com/arthurfranca/nips/blob/comment/22.md
+
+あらゆるイベントへのコメント (返信)。`kind: 1111`。
+
+[NIP-00: Thread](https://asaitoshiya.com/nostr-nips-before-recommendation-archive/#NIP-00-Thread) のブラッシュアップな印象。
+
+PR: https://github.com/nostr-protocol/nips/pull/1233
 
 ## NIP-29: Shared Event Ownership Through Trusted DVMs
 
@@ -92,16 +75,6 @@ https://github.com/arthurfranca/nips/blob/nip-34/34.md
 `["REQ", <subscription_id>, { ..., limit: 5, nip34: "asc" }]` のように指定する。
 
 PR: https://github.com/nostr-protocol/nips/pull/579
-
-## NIP-34: Wiki
-
-https://github.com/nostr-protocol/nips/blob/wiki/34.md
-
-Nostr で Wiki。
-
-イベントの内容は NIP-23 (Long-form Content) とほぼ同じだが、ユースケースが異なる。
-
-PR: https://github.com/nostr-protocol/nips/pull/787
 
 ## NIP-35: Draft Events
 
@@ -171,22 +144,6 @@ https://github.com/nostr-protocol/nips/blob/pf7z-nip41/41.md
 これらのイベントには、NIP-03 (OpenTimestamps Attestations for Events) の OpenTimestamps を付ける必要がある。
 
 PR: https://github.com/nostr-protocol/nips/pull/829
-
-## NIP-43: Private DM
-
-https://github.com/arthurfranca/nips/blob/priv-dm/43.md
-
-やり取りするユーザー同士で共通の秘密鍵 (セッション) を使用する DM。
-
-セッションには 3 週間の期限があり、これにより前方秘匿性が確保される。
-
-kind:
- - `kind: 1043`、`kind: 1044`、`kind: 1045`: 秘密鍵の受け渡し。チャット セッション
- - `kind: 10043`: 秘密鍵の管理。チャット セッション リスト
- - `kind: 14`: 実際の DM。セッション チャネル
- - `kind: 17`、`kind: 18`: DM のステータス
-
-PR: https://github.com/nostr-protocol/nips/pull/978
 
 ## NIP-54: Inline Resource Metadata
 
@@ -265,17 +222,6 @@ Zap による投票。
 
 PR: https://github.com/nostr-protocol/nips/pull/320
 
-## NIP-76: Key Change
-
-https://github.com/arthurfranca/nips/blob/key-change/76.md
-
-バックアップの鍵ペアを設定するためのイベント (`kind: 1076`) と鍵を交換するためのイベント (`kind: 1077`)。
-
-関連: https://github.com/nostr-protocol/nips/pull/539
-関連: [NIP-77: Trust Clock](#NIP-77-Trust-Clock)
-
-PR: https://github.com/nostr-protocol/nips/pull/782
-
 ## NIP-77: Nostr Data Sharing URI Scheme
 
 https://github.com/mandelmonkey/nips/blob/master/77.md
@@ -287,20 +233,6 @@ https://github.com/mandelmonkey/nostr-share-sample-game
 https://github.com/mandelmonkey/nostr-share-wallet-demo
 
 PR: https://github.com/nostr-protocol/nips/pull/491
-
-## NIP-77: Trust Clock
-
-https://github.com/arthurfranca/nips/blob/trust-clock/77.md
-
-ブロックチェーンの代わりに複数のリレーを使用する [NIP-03](https://github.com/nostr-protocol/nips/blob/master/03.md) (OpenTimestamps Attestations for Events) の代替。
-
-https://github.com/arthurfranca/nips/blob/trust-clock/77.md?plain=1#L44-L45
-> The response is a JSON `{ sig: "<signature>", pubkey: "<relay1pubkey>" }`.
-> The signature uses the same Schnorr setup from NIP-01 to sign the received event `id`.
-
-`event.id` に対する署名？
-
-PR: https://github.com/nostr-protocol/nips/pull/781
 
 ## NIP-79: Digital Contracts
 
