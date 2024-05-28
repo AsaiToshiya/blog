@@ -201,6 +201,18 @@ https://github.com/alexgleason/nips/blob/media-tag/34.md
 
 PR: https://github.com/nostr-protocol/nips/pull/751
 
+## NIP-35: Torrents
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/35.md
+
+https://github.com/nostr-protocol/nips/blob/feat/nip35/35.md
+
+torrent の検索やマグネット リンクを作成するためのインデックスとなるイベント。
+
+PR: https://github.com/nostr-protocol/nips/pull/1175
+
 ## NIP-37: Editable Short Notes
 
 クローズされた。
@@ -463,6 +475,20 @@ https://github.com/rabble/nips/blob/nip-69/68.md
 [NIP-32](#NIP-32-Labeling) も参照のこと。
 
 PR: https://github.com/nostr-protocol/nips/pull/457
+
+## NIP-71: Video Events
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/71.md
+
+https://github.com/zmeyer44/nips/blob/patch-1/71.md
+
+ビデオ (`kind: 34235`、`kind: 34236`) とビデオの視聴状況 (`kind: 34237`) を表すイベント。
+
+Netflix や YouTube のような動画共有サービスで使用されることを想定。
+
+PR: https://github.com/nostr-protocol/nips/pull/923
 
 ## NIP-72: Moderated Communities (Reddit Style)
 

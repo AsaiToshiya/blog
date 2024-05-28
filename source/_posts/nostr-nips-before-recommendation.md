@@ -652,6 +652,28 @@ ISBN やポッドキャストの GUID などの外部コンテンツを示す `i
 
 PR: https://github.com/nostr-protocol/nips/pull/1185
 
+## NIP-XX: Improved event signing scheme
+
+https://github.com/sant0s12/nips/blob/master/XX.md
+
+タグ (`tags` プロパティー) だけではなく、純粋なプロパティーを使用できるようにするための署名。
+
+```
+{
+  "id": ...,
+  "pubkey": ...,
+  "created_at": ...,
+  "kind": ...,
+  "tags": ...,
+  "content": ...,
+  "sig": ...,
+  "super_cool": ..., // このように純粋なプロパティーを使用できる
+  "sig_v2": ...      // この NIP で追加される署名のプロパティー
+}
+```
+
+PR: https://github.com/nostr-protocol/nips/pull/1258
+
 ## NIP-XX: Nostr Token Login
 
 https://github.com/arthurfranca/nips/blob/token/xx.md
