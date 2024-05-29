@@ -163,7 +163,7 @@ https://github.com/Egge7/nips/blob/zapGates/60.md
 
 PR: https://github.com/nostr-protocol/nips/pull/542
 
-## NIP-61: Unbounded lists
+## NIP-61: Event Set
 
 https://github.com/arthurfranca/nips/blob/bunch-of-events/61.md
 
@@ -184,6 +184,18 @@ https://github.com/buttercat1791/nips/blob/master/62.md
 [NIP-94: File Metadata](https://github.com/nostr-protocol/nips/blob/master/94.md) に近い印象。
 
 PR: https://github.com/nostr-protocol/nips/pull/986
+
+## NIP-62: Right to Vanish
+
+https://github.com/vitorpamplona/nips/blob/right-to-vanish/62.md
+
+忘れられる権利。すべてのイベントをリレーから削除。
+
+kind:
+ - `kind: 62`: 特定のリレー
+ - `kind: 63`: すべてのリレー
+
+PR: https://github.com/nostr-protocol/nips/pull/1256
 
 ## NIP-64: Inbox model
 
@@ -712,14 +724,6 @@ PR: https://github.com/nostr-protocol/nips/pull/933
 https://github.com/nostr-protocol/nips/issues/743
 
 チャート データ。Shino3 さん著。
-
-## NIP-XX: Versatile event
-
-https://github.com/tiltpapa/nips/blob/versatile-data/XX.md
-
-相互運用性を必要としない汎用的なイベント。`kind: 78`。@tiltpapa さん著。
-
-PR: https://github.com/nostr-protocol/nips/pull/995
 
 ## NIP-XXX: Internationalization & Localization
 
