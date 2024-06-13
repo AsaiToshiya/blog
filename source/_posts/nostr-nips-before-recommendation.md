@@ -234,6 +234,18 @@ Zap による投票。
 
 PR: https://github.com/nostr-protocol/nips/pull/320
 
+## NIP-74: Proxy and Broadcasting Relay Lists
+
+https://github.com/vitorpamplona/nips/blob/broadcasting-proxy-relay-lists/74.md
+
+クライアントで優先されるプロキシー (読み取り) リレーとブロードキャスト (書き込み) リレーのプライベート リスト。`kind: 10017`、`kind: 10018`。
+
+この NIP は https://github.com/nostr-protocol/nips/discussions/1301 を解決するわけではなさそう。
+
+関連: https://github.com/nostr-protocol/nips/discussions/1301
+
+PR: https://github.com/nostr-protocol/nips/pull/1303
+
 ## NIP-77: Nostr Data Sharing URI Scheme
 
 https://github.com/mandelmonkey/nips/blob/master/77.md
@@ -397,16 +409,6 @@ https://github.com/nostr-protocol/nips/blob/login/97.md
 サービスが NIP-98: HTTP Auth でログインできることを示す `nostr+login:` スキーマ (ログイン URI)？
 
 PR: https://github.com/nostr-protocol/nips/pull/1042
-
-## NIP-100: Android Signer Application
-
-https://github.com/greenart7c3/nips/blob/master/100.md
-
-[NIP-07: `window.nostr` capability for web browsers](https://github.com/nostr-protocol/nips/blob/master/07.md) や [NIP-46: Nostr Connect](https://github.com/nostr-protocol/nips/blob/master/46.md) の Android 版。
-
-インテント、コンテンツ リゾルバー、または URL を介して署名などを行う。
-
-PR: https://github.com/nostr-protocol/nips/pull/868
 
 ## NIP-100: Querying Events by Tags Presence
 

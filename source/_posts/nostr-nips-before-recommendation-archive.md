@@ -432,6 +432,20 @@ Nostr で Wiki。
 
 PR: https://github.com/nostr-protocol/nips/pull/787
 
+## NIP-55: Android Signer Application
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/55.md
+
+https://github.com/greenart7c3/nips/blob/master/100.md
+
+[NIP-07: `window.nostr` capability for web browsers](https://github.com/nostr-protocol/nips/blob/master/07.md) や [NIP-46: Nostr Connect](https://github.com/nostr-protocol/nips/blob/master/46.md) の Android 版。
+
+インテント、コンテンツ リゾルバー、または URL を介して署名などを行う。
+
+PR: https://github.com/nostr-protocol/nips/pull/868
+
 ## NIP-59: Gift Wrap
 
 [#716](https://github.com/nostr-protocol/nips/pull/716) に置き換えられた。
