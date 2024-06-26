@@ -478,6 +478,20 @@ https://github.com/staab/nips/blob/NIP-59/59.md
 
 PR: https://github.com/nostr-protocol/nips/pull/716
 
+## NIP-61: Event Set
+
+クローズされた。
+
+理由: https://njump.me/nevent1qqspk2fwtnyr32ava9skgm27f8l5plveswxvk28dhd86tyxpjkccg9czyr78ppwrswa8zazhqj7ur3h0eal6kqvh2qw7txx9umzn0tqtx2jvkyq3kj3
+
+https://github.com/arthurfranca/nips/blob/bunch-of-events/61.md
+
+リレーのイベントのサイズの制限を回避することができるリスト。
+
+pubkey および `n` タグでリストを定義して、`u` タグまたは `nunb` でリストを参照する。
+
+PR: https://github.com/nostr-protocol/nips/pull/784
+
 ## NIP-68: Content Labeling (including Reviews & Recommendations)
 
 クローズされた。

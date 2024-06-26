@@ -163,16 +163,6 @@ https://github.com/Egge7/nips/blob/zapGates/60.md
 
 PR: https://github.com/nostr-protocol/nips/pull/542
 
-## NIP-61: Event Set
-
-https://github.com/arthurfranca/nips/blob/bunch-of-events/61.md
-
-リレーのイベントのサイズの制限を回避することができるリスト。
-
-pubkey および `n` タグでリストを定義して、`u` タグまたは `nunb` でリストを参照する。
-
-PR: https://github.com/nostr-protocol/nips/pull/784
-
 ## NIP-62: Signed and Versioned Third-Party Objects
 
 https://github.com/buttercat1791/nips/blob/master/62.md
@@ -303,6 +293,53 @@ https://github.com/coracle-social/nips/blob/reviews/85.md
 ```
 
 PR: https://github.com/nostr-protocol/nips/pull/879
+
+## NIP-86: Relay Management API
+
+https://github.com/nostr-protocol/nips/blob/relay-management-api/86.md
+
+リレーを管理するための JSON RPC 風の API。
+
+リクエスト:
+
+```
+{
+  "method": "<method-name>",
+  "params": ["<array>", "<of>", "<parameters>"]
+}
+```
+
+レスポンス:
+
+```
+{
+  "result": {"<arbitrary>": "<value>"},
+  "error": "<optional error message, if the call has errored>"
+}
+```
+
+メソッド:
+
+  * `supportedmethods`
+  * `banpubkey`
+  * `listbannedpubkeys`
+  * `allowpubkey`
+  * `listallowedpubkeys`
+  * `listeventsneedingmoderation`
+  * `allowevent`
+  * `banevent`
+  * `listbannedevents`
+  * `changerelayname`
+  * `changerelaydescription`
+  * `changerelayicon`
+  * `allowkind`
+  * `disallowkind`
+  * `listallowedkinds`
+  * `blockip`
+  * `unblockip`
+  * `listblockedips`
+
+PR: https://github.com/nostr-protocol/nips/pull/1325
 
 ## NIP-86: Shared Keys
 
@@ -568,6 +605,14 @@ https://github.com/earonesty/nips/blob/112/112.md
 [NIP-44](https://github.com/nostr-protocol/nips/blob/master/44.md) (Encrypted Direct Message (Versioned)) と [NIP-59](https://github.com/nostr-protocol/nips/blob/master/59.md) (Gift Wrap) を使用するプライベート グループ チャット。
 
 PR: https://github.com/nostr-protocol/nips/pull/580
+
+## NIP-122: Request for Events
+
+https://github.com/cameri/nips/blob/nip-122/122.md
+
+見つからないイベントを他のユーザーにブロードキャストしてもらうための仕組み。
+
+PR: https://github.com/nostr-protocol/nips/pull/1326
 
 ## NIP-117: Bounties
 
