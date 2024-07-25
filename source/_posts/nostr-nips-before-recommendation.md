@@ -112,14 +112,6 @@ https://github.com/coracle-social/nips/blob/annotations/37.md
 
 PR: https://github.com/nostr-protocol/nips/pull/1091
 
-## NIP-37: Language Tag
-
-https://github.com/alexgleason/nips/blob/lang/37.md
-
-イベントの言語を示すタグ。
-
-PR: https://github.com/nostr-protocol/nips/pull/632
-
 ## NIP-37: Methods for dealing with lost or compromised keys
 
 https://github.com/nostr-protocol/nips/blob/key-invalidation-and-migration/37.md
@@ -447,6 +439,18 @@ https://github.com/nostr-protocol/nips/blob/login/97.md
 
 PR: https://github.com/nostr-protocol/nips/pull/1042
 
+## NIP-97: Nostr Name System (NNS)
+
+https://github.com/vitorpamplona/nips/blob/relay-hints-v2/97.md
+
+DNS (ドメイン名) を [NIP-19: bech32-encoded entities](https://github.com/nostr-protocol/nips/blob/master/19.md) の `naddr1` に置き換える。
+
+例: `https://asaitoshiya.com/image.jpg` -> `https://naddr1...ccpzu/image.jpg`
+
+Nostr で広く使用されている DNS に対するアンチテーゼ。
+
+PR: https://github.com/nostr-protocol/nips/pull/1330
+
 ## NIP-100: Querying Events by Tags Presence
 
 https://github.com/fernandolguevara/nips/blob/nip100/100.md
@@ -606,14 +610,6 @@ https://github.com/earonesty/nips/blob/112/112.md
 
 PR: https://github.com/nostr-protocol/nips/pull/580
 
-## NIP-122: Request for Events
-
-https://github.com/cameri/nips/blob/nip-122/122.md
-
-見つからないイベントを他のユーザーにブロードキャストしてもらうための仕組み。
-
-PR: https://github.com/nostr-protocol/nips/pull/1326
-
 ## NIP-117: Bounties
 
 https://github.com/ChristianChiarulli/nips/blob/nip-117-bounties/117.md
@@ -623,6 +619,50 @@ https://github.com/ChristianChiarulli/nips/blob/nip-117-bounties/117.md
 デモ サイト: https://resolvr-io.vercel.app/
 
 PR: https://github.com/nostr-protocol/nips/pull/865
+
+## NIP-122: Request for Events
+
+https://github.com/cameri/nips/blob/nip-122/122.md
+
+見つからないイベントを他のユーザーにブロードキャストしてもらうための仕組み。
+
+PR: https://github.com/nostr-protocol/nips/pull/1326
+
+## NIP-136: Code packages
+
+https://github.com/brugeman/nips/blob/nip/136/136.md
+
+ファイル パッケージ (インデックス)
+
+例:
+
+```
+{
+  "content": "Super cool!",
+  "kind": 1036,
+  "tags": [
+    ["title", "Taste"],
+    ["summary", "A Ghost theme"],
+    ["version", "1.0.0"],
+    ["changes", "Great improvements"],
+    ["license", "MIT"],
+    ["x", <パッケージ ハッシュ>],
+
+    // ファイルのリスト
+    // ["f", <ファイル ハッシュ>, <相対ファイル パス>, <ファイルの URL>]
+    [
+      "f",
+      "7db7d6130b9b667001841b79ee67760619a80b9df305b8bfb872e22265313cf5",
+      "LICENSE",
+      "https://blossom.nostr.hu/7db7d6130b9b667001841b79ee67760619a80b9df305b8bfb872e22265313cf5"
+    ],
+    ...,
+  ],
+  ...,
+}
+```
+
+PR: https://github.com/nostr-protocol/nips/pull/1347
 
 ## NIP-199: a simple username password login
 

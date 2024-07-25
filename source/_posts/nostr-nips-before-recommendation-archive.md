@@ -247,6 +247,16 @@ https://github.com/vitorpamplona/nips/blob/content-editable-kind1-2/37.md
 
 PR: https://github.com/nostr-protocol/nips/pull/1089
 
+## NIP-37: Language Tag
+
+クローズされた。
+
+https://github.com/alexgleason/nips/blob/lang/37.md
+
+イベントの言語を示すタグ。
+
+PR: https://github.com/nostr-protocol/nips/pull/632
+
 ## NIP-38: User Statuses
 
 マージされた。
