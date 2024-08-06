@@ -216,6 +216,23 @@ Zap による投票。
 
 PR: https://github.com/nostr-protocol/nips/pull/320
 
+## NIP-73: External Content IDs
+
+https://github.com/MerryOscar/nips/blob/external-content-ids/XX.md
+
+ISBN やポッドキャストの GUID などの外部コンテンツを示す `i` タグ。
+
+例:
+
+```json
+["i", "book:isbn:123"]         // ISBN
+["i", "podcast:guid:123"]      // ポッドキャスト
+["i", "podcast:item:guid:123"] // ポッドキャスト (エピソード)
+["i", "movie:eidr:123"]        // EIDR
+```
+
+PR: https://github.com/nostr-protocol/nips/pull/1185
+
 ## NIP-74: Proxy and Broadcasting Relay Lists
 
 https://github.com/vitorpamplona/nips/blob/broadcasting-proxy-relay-lists/74.md
@@ -734,23 +751,6 @@ https://github.com/coracle-social/nips/blob/music/xx.md
 
 PR: https://github.com/nostr-protocol/nips/pull/1043
 
-## NIP-XX: External Content IDs
-
-https://github.com/MerryOscar/nips/blob/external-content-ids/XX.md
-
-ISBN やポッドキャストの GUID などの外部コンテンツを示す `i` タグ。
-
-例:
-
-```json
-["i", "book:isbn:123"]         // ISBN
-["i", "podcast:guid:123"]      // ポッドキャスト
-["i", "podcast:item:guid:123"] // ポッドキャスト (エピソード)
-["i", "movie:eidr:123"]        // EIDR
-```
-
-PR: https://github.com/nostr-protocol/nips/pull/1185
-
 ## NIP-XX: Improved event signing scheme
 
 https://github.com/sant0s12/nips/blob/master/XX.md
@@ -782,29 +782,6 @@ NIP-26 (Delegated Event Signing) の NIP-19 (bech32-encoded entities) のエ�
 `nsec` の代わりに使用することを想定。
 
 PR: https://github.com/nostr-protocol/nips/pull/793
-
-## NIP-XX: Read Status
-
-https://github.com/coracle-social/nips/blob/read-status/xx.md
-
-イベントの既読を示すイベント。
-
-```json
-{
-  "kind": "15",
-  "tags": [
-    ["expiration", "<unix-timestamp>"], // NIP-40: Expiration Timestamp
-    ["e", "<event-id>"],
-    ["e", "<event-id>"]
-  ]
-}
-```
-
-[NIP-59: Gift Wrap](https://github.com/nostr-protocol/nips/blob/master/59.md) によってプライベートにすることもできる。
-
-関連: https://github.com/nostr-protocol/nips/discussions/932
-
-PR: https://github.com/nostr-protocol/nips/pull/933
 
 ## NIP-XX: Use Nostr as storage for chart data
 

@@ -730,6 +730,32 @@ https://github.com/ondra-novak/nostr-nip-97/blob/master/97.md
 
 PR: https://github.com/nostr-protocol/nips/pull/694
 
+## NIP-97: Read Status
+
+[#1405](https://github.com/nostr-protocol/nips/pull/1405) に置き換えられた。
+
+https://github.com/coracle-social/nips/blob/read-status/97.md
+~~https://github.com/coracle-social/nips/blob/read-status/xx.md~~
+
+イベントの既読を示すイベント。
+
+```json
+{
+  "kind": "15",
+  "tags": [
+    ["expiration", "<unix-timestamp>"], // NIP-40: Expiration Timestamp
+    ["e", "<event-id>"],
+    ["e", "<event-id>"]
+  ]
+}
+```
+
+[NIP-59: Gift Wrap](https://github.com/nostr-protocol/nips/blob/master/59.md) によってプライベートにすることもできる。
+
+関連: https://github.com/nostr-protocol/nips/discussions/932
+
+PR: https://github.com/nostr-protocol/nips/pull/933
+
 ## NIP-98: HTTP Auth
 
 マージされた。
