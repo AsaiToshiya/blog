@@ -216,23 +216,6 @@ Zap による投票。
 
 PR: https://github.com/nostr-protocol/nips/pull/320
 
-## NIP-73: External Content IDs
-
-https://github.com/MerryOscar/nips/blob/external-content-ids/XX.md
-
-ISBN やポッドキャストの GUID などの外部コンテンツを示す `i` タグ。
-
-例:
-
-```json
-["i", "book:isbn:123"]         // ISBN
-["i", "podcast:guid:123"]      // ポッドキャスト
-["i", "podcast:item:guid:123"] // ポッドキャスト (エピソード)
-["i", "movie:eidr:123"]        // EIDR
-```
-
-PR: https://github.com/nostr-protocol/nips/pull/1185
-
 ## NIP-74: Proxy and Broadcasting Relay Lists
 
 https://github.com/vitorpamplona/nips/blob/broadcasting-proxy-relay-lists/74.md
@@ -467,6 +450,16 @@ DNS (ドメイン名) を [NIP-19: bech32-encoded entities](https://github.com/n
 Nostr で広く使用されている DNS に対するアンチテーゼ。
 
 PR: https://github.com/nostr-protocol/nips/pull/1330
+
+## NIP-100: Lock user
+
+https://github.com/anurag-l1nt/nostr-protocol-nipns/blob/lock-user/100.md
+
+公開鍵をロックする (使用できなくする) ためのイベント。`kind: 1000`。
+
+この NIP を実装するリレーは、ロックされた公開鍵によるイベントを受け入れない。
+
+PR: https://github.com/nostr-protocol/nips/pull/1411
 
 ## NIP-100: Querying Events by Tags Presence
 

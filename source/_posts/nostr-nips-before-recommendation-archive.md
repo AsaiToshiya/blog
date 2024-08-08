@@ -540,6 +540,27 @@ https://github.com/vitorpamplona/nips/blob/moderated-communities/172.md
 
 PR: https://github.com/nostr-protocol/nips/pull/602
 
+## NIP-73: External Content IDs
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/73.md
+
+https://github.com/MerryOscar/nips/blob/external-content-ids/73.md
+
+ISBN やポッドキャストの GUID などの外部コンテンツを示す `i` タグ。
+
+例:
+
+```json
+["i", "book:isbn:123"]         // ISBN
+["i", "podcast:guid:123"]      // ポッドキャスト
+["i", "podcast:item:guid:123"] // ポッドキャスト (エピソード)
+["i", "movie:eidr:123"]        // EIDR
+```
+
+PR: https://github.com/nostr-protocol/nips/pull/1185
+
 ## NIP-73: Location Based Communities (Meetup Style)
 
 クローズされた。
