@@ -1,5 +1,7 @@
 ---
 title: Windows 11 と MX Linux をデュアル ブートする
+date: 2024-08-21 22:48:34
+updated: 2024-08-21 22:48:34
 tags: [Linux, Windows, MX Linux]
 ---
 
