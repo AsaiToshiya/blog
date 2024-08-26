@@ -17,8 +17,8 @@ Windows 11 がインストールされているマシンに MX Linux をイン�
 - メモリー: DDR4-3200 2 x 16 GB (Crucial CT2K16G4DFRA32A)
 - ストレージ: M.2 SSD 1 TB (Western Digital WD_BLACK SN770 NVMe SSD)、M.2 SSD 128 GB (Transcend TS128GMTE110S)
 - ビデオ カード: NVIDIA GeForce RTX 3060 (玄人志向 GG-RTX3060-E12GB/OC/DF)
-- OS: Windows 11 Home、MX Linux 23.2 (Libretto)
-- UEFI バージョン: ASRock B760M Pro RS/D4 WiFi
+- OS: Windows 11 Home、MX Linux 23.2 (Libretto) Xfce
+- UEFI バージョン: B760M Pro RS/D4 WiFi 4.09
 
 ## 手順
 
