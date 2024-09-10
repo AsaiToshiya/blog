@@ -939,6 +939,6 @@ PR: https://github.com/nostr-protocol/nips/pull/1130
 
 https://github.com/tiltpapa/nips/blob/versatile-data/XX.md
 
-相互運用性を必要としない汎用的なイベント。`kind: 78`。@tiltpapa さん著。
+相互運用性を必要としない汎用的なイベント。`kind: 78`。
 
 PR: https://github.com/nostr-protocol/nips/pull/995

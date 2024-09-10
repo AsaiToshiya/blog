@@ -1,7 +1,7 @@
 ---
 title: "Nostr: 勧告前の NIPs"
 date: 2023-05-12 23:15:50
-updated: 2024-08-08 09:35:20
+updated: 2024-08-10 13:13:01
 tags: [Nostr]
 ---
 
@@ -45,6 +45,20 @@ https://github.com/arthurfranca/nips/blob/comment/22.md
 [NIP-00: Thread](https://asaitoshiya.com/nostr-nips-before-recommendation-archive/#NIP-00-Thread) のブラッシュアップな印象。
 
 PR: https://github.com/nostr-protocol/nips/pull/1233
+
+## NIP-22: Smart Widgets – interactive components
+
+https://github.com/Seddik-Boukhalfa/nips/blob/master/22.md
+
+スマート ウィジェット (インタラクティブなコンポーネント) の構造を定義するためのイベント。
+
+スマート ウィジェットは `kind: 1` (Short Text Note) や `kind: 30023` (Long-form Content) に埋め込むことができる。
+
+スマート ウィジェットのイメージ:
+
+https://image.nostr.build/4c1f08cb84bf4ea721404cf00ae0f456b320d05ac30488828079560ed3d3d7e5.png
+
+PR: https://github.com/nostr-protocol/nips/pull/1454
 
 ## NIP-29: Shared Event Ownership Through Trusted DVMs
 
@@ -556,7 +570,7 @@ PR: https://github.com/nostr-protocol/nips/pull/780
 https://github.com/studiokaiji/nips/blob/master/106.md
 ~~https://github.com/nostr-protocol/nips/issues/742~~
 
-Nostr で Web ホスティング。kaiji さん著。
+Nostr で Web ホスティング。
 
 kind:
  - `kind: 5392`: HTML
@@ -780,7 +794,7 @@ PR: https://github.com/nostr-protocol/nips/pull/793
 
 https://github.com/nostr-protocol/nips/issues/743
 
-チャート データ。Shino3 さん著。
+チャート データ。
 
 ## NIP-XXX: Internationalization & Localization
 
