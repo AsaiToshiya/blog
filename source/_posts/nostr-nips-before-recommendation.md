@@ -36,16 +36,6 @@ Nostr で Git コミットを追跡できるようにする。
 
 PR: https://github.com/nostr-protocol/nips/pull/324
 
-## NIP-22: Comment
-
-https://github.com/arthurfranca/nips/blob/comment/22.md
-
-あらゆるイベントへのコメント (返信)。`kind: 1111`。
-
-[NIP-00: Thread](https://asaitoshiya.com/nostr-nips-before-recommendation-archive/#NIP-00-Thread) のブラッシュアップな印象。
-
-PR: https://github.com/nostr-protocol/nips/pull/1233
-
 ## NIP-22: Smart Widgets – interactive components
 
 https://github.com/Seddik-Boukhalfa/nips/blob/master/22.md
@@ -230,6 +220,16 @@ Zap による投票。
 
 PR: https://github.com/nostr-protocol/nips/pull/320
 
+## NIP-73: Comment
+
+https://github.com/arthurfranca/nips/blob/comment/73.md
+
+あらゆるイベントへのコメント (返信)。`kind: 1111`。
+
+[NIP-00: Thread](https://asaitoshiya.com/nostr-nips-before-recommendation-archive/#NIP-00-Thread) のブラッシュアップな印象。
+
+PR: https://github.com/nostr-protocol/nips/pull/1233
+
 ## NIP-74: Proxy and Broadcasting Relay Lists
 
 https://github.com/vitorpamplona/nips/blob/broadcasting-proxy-relay-lists/74.md
@@ -241,6 +241,21 @@ https://github.com/vitorpamplona/nips/blob/broadcasting-proxy-relay-lists/74.md
 関連: https://github.com/nostr-protocol/nips/discussions/1301
 
 PR: https://github.com/nostr-protocol/nips/pull/1303
+
+## NIP-76: Relay Read Permissions
+
+https://github.com/vitorpamplona/nips/blob/read-permission/76.md
+
+イベントの読み取りを制限。
+
+[NIP-42](https://github.com/nostr-protocol/nips/blob/master/57.md) (Authentication of clients to relays) の `AUTH` で認証されたユーザーと `rp` (read permission) タグまたはブルーム フィルターを使用した `prp` (probabilistic read permission) タグを比較して制御。
+
+`rp` タグ: `["rp", "<pubkey>"]`
+`prp` タグ: `["prp", "<bits>:<rounds>:<base64>"]`
+
+参考: https://www.google.co.jp/search?q=ブルーム+フィルター
+
+PR: https://github.com/nostr-protocol/nips/pull/1497
 
 ## NIP-77: Nostr Data Sharing URI Scheme
 
@@ -705,7 +720,7 @@ https://github.com/Yonle/nips/blob/nip200/200.md
 実装:
  - [nhttp](https://github.com/Yonle/nhttp): この NIP の実装。HTTP インターフェース
  - [nhttp-adapter](https://github.com/Yonle/nhttp-adapter): HTTP のアダプターになるリレー
- - [nostr-relay-http-chunk](https://github.com/mattn/nostr-relay-http-chunk/): チャンク ストリームの PoC (mattn さん)
+ - [nostr-relay-http-chunk](https://github.com/mattn/nostr-relay-http-chunk/): チャンク ストリームの PoC
 
 PR: https://github.com/nostr-protocol/nips/pull/966
 
