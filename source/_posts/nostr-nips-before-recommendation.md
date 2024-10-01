@@ -36,6 +36,16 @@ Nostr で Git コミットを追跡できるようにする。
 
 PR: https://github.com/nostr-protocol/nips/pull/324
 
+## NIP-22: Comment
+
+https://github.com/arthurfranca/nips/blob/comment/22.md
+
+あらゆるイベントへのコメント (返信)。`kind: 1111`。
+
+[NIP-00: Thread](https://asaitoshiya.com/nostr-nips-before-recommendation-archive/#NIP-00-Thread) のブラッシュアップな印象。
+
+PR: https://github.com/nostr-protocol/nips/pull/1233
+
 ## NIP-22: Smart Widgets – interactive components
 
 https://github.com/Seddik-Boukhalfa/nips/blob/master/22.md
@@ -219,16 +229,6 @@ Zap による投票。
 一部のクライアントでは既に実装されている。
 
 PR: https://github.com/nostr-protocol/nips/pull/320
-
-## NIP-73: Comment
-
-https://github.com/arthurfranca/nips/blob/comment/73.md
-
-あらゆるイベントへのコメント (返信)。`kind: 1111`。
-
-[NIP-00: Thread](https://asaitoshiya.com/nostr-nips-before-recommendation-archive/#NIP-00-Thread) のブラッシュアップな印象。
-
-PR: https://github.com/nostr-protocol/nips/pull/1233
 
 ## NIP-74: Proxy and Broadcasting Relay Lists
 
@@ -440,14 +440,6 @@ Nostr でファイル ストレージ。
 
 PR: https://github.com/nostr-protocol/nips/pull/345
 
-## NIP-96: Code Collaboration over Nostr
-
-https://github.com/fostr-dev/nips/blob/master/96.md
-
-Nostr 上で GitHub のようなコラボレーションを実現する。
-
-PR: https://github.com/nostr-protocol/nips/pull/618
-
 ## NIP-97: Files hosted on relay
 
 https://github.com/ondra-novak/nostr-nip-97/blob/version-2/97.md
@@ -541,20 +533,6 @@ Remember to pack sticker freebies.
 詳細: https://descriptor-note.surge.sh/
 
 PR: https://github.com/nostr-protocol/nips/pull/892
-
-## NIP-101: Mailing lists
-
-https://github.com/KaffinPX/nips/blob/patch-1/101.md
-
-メーリングリスト。
-
-`kind: 1923`。
-
-`p` タグにメールの送信者となる個人や組織。`content` に受信者の暗号化されたメール アドレス。
-
-メール アドレスは、ユーザーの秘密鍵と `p` タグの公開鍵で暗号化される ([NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md) (Encrypted Direct Message))。
-
-PR: https://github.com/nostr-protocol/nips/pull/691
 
 ## NIP-104: Generative AI Prompt
 
@@ -829,3 +807,13 @@ https://github.com/civkit/nips/blob/2023-07-nip-xxx-order/XXX.md
 オファー (BOLT12) のイベント。
 
 PR: https://github.com/nostr-protocol/nips/pull/638
+
+## 番外編: base256 emoji
+
+https://github.com/nostr-protocol/nips/discussions/1061
+
+base256 絵文字形式の秘密鍵/公開鍵。
+
+![306029571-508ddc72-633e-4e40-bdfd-a79d25a0ad48.png](nostr-nips-before-recommendation/306029571-508ddc72-633e-4e40-bdfd-a79d25a0ad48.png)
+
+関連: https://github.com/pfraze/base-emoji

@@ -725,6 +725,16 @@ base64 でエンコードされたファイルを持つイベントと、その�
 
 PR: https://github.com/nostr-protocol/nips/pull/1145
 
+## NIP-96: Code Collaboration over Nostr
+
+クローズされた。
+
+https://github.com/fostr-dev/nips/blob/master/96.md
+
+Nostr 上で GitHub のようなコラボレーションを実現する。
+
+PR: https://github.com/nostr-protocol/nips/pull/618
+
 ## NIP-96: HTTP File Storage Integration
 
 マージされた。
@@ -872,6 +882,22 @@ https://github.com/b35363/nips/blob/master/101.md
 ```
 
 PR: https://github.com/nostr-protocol/nips/pull/730
+
+## NIP-101: Mailing lists
+
+クローズされた。
+
+https://github.com/KaffinPX/nips/blob/patch-1/101.md
+
+メーリングリスト。
+
+`kind: 1923`。
+
+`p` タグにメールの送信者となる個人や組織。`content` に受信者の暗号化されたメール アドレス。
+
+メール アドレスは、ユーザーの秘密鍵と `p` タグの公開鍵で暗号化される ([NIP-04](https://github.com/nostr-protocol/nips/blob/master/04.md) (Encrypted Direct Message))。
+
+PR: https://github.com/nostr-protocol/nips/pull/691
 
 ## NIP-101: Standard HTTP REST API for Relays
 
