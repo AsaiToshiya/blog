@@ -1,7 +1,7 @@
 ---
 title: Raspberry Pi のメモ
 date: 2020-11-11 00:07:38
-updated: 2022-05-14 21:06:30
+updated: 2024-10-25 23:25:56
 tags: [メモ]
 ---
 
