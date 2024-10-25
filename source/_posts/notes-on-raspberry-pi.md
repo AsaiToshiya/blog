@@ -197,6 +197,27 @@ pi@raspberrypi:~ $ sudo raspi-config
 
 ![locale-9.png](notes-on-raspberry-pi/locale-9.png)
 
+### Wi-Fi 設定を変更
+
+`/etc/wpa_supplicant` の `wpa_supplicant.conf` を編集して再起動する。
+
+```bash
+pi@raspberrypi:~ $ sudo vi /etc/wpa_supplicant/wpa_supplicant.conf
+```
+
+`wpa_supplicant.conf`:
+
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=JP
+
+network={
+	ssid="アクセス ポイントの SSID"
+	psk="パスワード"
+}
+```
+
 ## 電子工作
 
 ### GPIO のピンの配置
