@@ -69,6 +69,20 @@ DM の受信者 (`p` タグ) を偽る、[NIP-04](https://github.com/nostr-proto
 
 PR: https://github.com/nostr-protocol/nips/pull/17
 
+## NIP-22: Comment
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/22.md
+
+https://github.com/arthurfranca/nips/blob/comment/22.md
+
+あらゆるイベントへのコメント (返信)。`kind: 1111`。
+
+[NIP-00: Thread](#NIP-00-Thread) のブラッシュアップな印象。
+
+PR: https://github.com/nostr-protocol/nips/pull/1233
+
 ## NIP-24: Extra metadata fields and tags
 
 マージされた。

@@ -15,6 +15,35 @@ Nostr の勧告前の NIPs (Nostr Implementation Possibilities)。
 
 <!-- more -->
 
+## NIP-00: Editable Event
+
+https://github.com/arthurfranca/nips/blob/editable/00.md
+
+kind の種類と範囲に依存しない置き換え可能/アドレス可能なイベント。
+
+イベントのパラメーターには、`d` タグの代わりにインデックス タグ (1 文字のタグ) のリストを指定する `dd` (deduplication) タグを使用する。
+
+```
+["dd", "<タグ 1><タグ 2>..."]
+```
+
+このイベントへの参照には、`u` (unique) タグを使用する。
+
+```
+["u", "<kind>:<pubkey>:<インデックス タグ><タグの値>"]
+```
+
+または
+
+```
+["u", "<kind>:<pubkey>:<タグ 1><タグ 1 の値><区切り文字><タグ 2><タグ 2 の値><区切り文字>..."]
+```
+
+関連: https://github.com/nostr-protocol/nips/pull/1510
+参考: https://github.com/nostr-protocol/nips/pull/1501#issuecomment-2357027635
+
+PR: https://github.com/nostr-protocol/nips/pull/1540
+
 ## NIP-17: Event Metadata
 
 https://github.com/arthurfranca/nips/blob/nip-17/17.md
@@ -35,16 +64,6 @@ Nostr で Git コミットを追跡できるようにする。
  - Travis CI
 
 PR: https://github.com/nostr-protocol/nips/pull/324
-
-## NIP-22: Comment
-
-https://github.com/arthurfranca/nips/blob/comment/22.md
-
-あらゆるイベントへのコメント (返信)。`kind: 1111`。
-
-[NIP-00: Thread](https://asaitoshiya.com/nostr-nips-before-recommendation-archive/#NIP-00-Thread) のブラッシュアップな印象。
-
-PR: https://github.com/nostr-protocol/nips/pull/1233
 
 ## NIP-22: Smart Widgets – interactive components
 
