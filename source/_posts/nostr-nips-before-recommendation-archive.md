@@ -11,6 +11,37 @@ tags: [Nostr]
 
 <!-- more -->
 
+クローズされた。
+
+## NIP-00: Editable Event
+
+https://github.com/arthurfranca/nips/blob/editable/00.md
+
+kind の種類と範囲に依存しない置き換え可能/アドレス可能なイベント。
+
+イベントのパラメーターには、`d` タグの代わりにインデックス タグ (1 文字のタグ) のリストを指定する `dd` (deduplication) タグを使用する。
+
+```
+["dd", "<タグ 1><タグ 2>..."]
+```
+
+このイベントへの参照には、`u` (unique) タグを使用する。
+
+```
+["u", "<kind>:<pubkey>:<インデックス タグ><タグの値>"]
+```
+
+または
+
+```
+["u", "<kind>:<pubkey>:<タグ 1><タグ 1 の値><区切り文字><タグ 2><タグ 2 の値><区切り文字>..."]
+```
+
+関連: https://github.com/nostr-protocol/nips/pull/1510
+参考: https://github.com/nostr-protocol/nips/pull/1501#issuecomment-2357027635
+
+PR: https://github.com/nostr-protocol/nips/pull/1540
+
 ## NIP-00: Thread
 
 クローズされた。
@@ -666,6 +697,57 @@ https://github.com/pablof7z/nips/blob/highlights/84.md
 コンテンツの引用とハイライト。
 
 PR: https://github.com/nostr-protocol/nips/pull/501
+
+## NIP-86: Relay Management API
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/86.md
+
+https://github.com/nostr-protocol/nips/blob/relay-management-api/86.md
+
+リレーを管理するための JSON RPC 風の API。
+
+リクエスト:
+
+```
+{
+  "method": "<method-name>",
+  "params": ["<array>", "<of>", "<parameters>"]
+}
+```
+
+レスポンス:
+
+```
+{
+  "result": {"<arbitrary>": "<value>"},
+  "error": "<optional error message, if the call has errored>"
+}
+```
+
+メソッド:
+
+  * `supportedmethods`
+  * `banpubkey`
+  * `listbannedpubkeys`
+  * `allowpubkey`
+  * `listallowedpubkeys`
+  * `listeventsneedingmoderation`
+  * `allowevent`
+  * `banevent`
+  * `listbannedevents`
+  * `changerelayname`
+  * `changerelaydescription`
+  * `changerelayicon`
+  * `allowkind`
+  * `disallowkind`
+  * `listallowedkinds`
+  * `blockip`
+  * `unblockip`
+  * `listblockedips`
+
+PR: https://github.com/nostr-protocol/nips/pull/1325
 
 ## NIP-89: Recommended Application Handlers
 

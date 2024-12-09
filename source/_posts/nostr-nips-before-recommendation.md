@@ -15,35 +15,6 @@ Nostr の勧告前の NIPs (Nostr Implementation Possibilities)。
 
 <!-- more -->
 
-## NIP-00: Editable Event
-
-https://github.com/arthurfranca/nips/blob/editable/00.md
-
-kind の種類と範囲に依存しない置き換え可能/アドレス可能なイベント。
-
-イベントのパラメーターには、`d` タグの代わりにインデックス タグ (1 文字のタグ) のリストを指定する `dd` (deduplication) タグを使用する。
-
-```
-["dd", "<タグ 1><タグ 2>..."]
-```
-
-このイベントへの参照には、`u` (unique) タグを使用する。
-
-```
-["u", "<kind>:<pubkey>:<インデックス タグ><タグの値>"]
-```
-
-または
-
-```
-["u", "<kind>:<pubkey>:<タグ 1><タグ 1 の値><区切り文字><タグ 2><タグ 2 の値><区切り文字>..."]
-```
-
-関連: https://github.com/nostr-protocol/nips/pull/1510
-参考: https://github.com/nostr-protocol/nips/pull/1501#issuecomment-2357027635
-
-PR: https://github.com/nostr-protocol/nips/pull/1540
-
 ## NIP-17: Event Metadata
 
 https://github.com/arthurfranca/nips/blob/nip-17/17.md
@@ -212,6 +183,18 @@ kind:
 
 PR: https://github.com/nostr-protocol/nips/pull/1256
 
+## NIP-63: Interactive Stories
+
+https://github.com/vitorpamplona/nips/blob/byos/63.md
+
+ゲームブック。選択肢があるインタラクティブなメモ。
+
+エントリー ポイント (`kind: 30296`)、選択肢であるシーン (`kind: 30297`)、および読み込みの状態 (`kind: 30298`) で構成される。
+
+デモ動画: https://video.nostr.build/3be38941d3123f8b72f13cac9ed46ae4f158edf52e4afdfdfbffc77abdd402c8.mp4
+
+PR: https://github.com/nostr-protocol/nips/pull/1606
+
 ## NIP-64: Inbox model
 
 https://github.com/nostr-protocol/nips/blob/inbox-model/64.md
@@ -333,53 +316,6 @@ https://github.com/coracle-social/nips/blob/reviews/85.md
 ```
 
 PR: https://github.com/nostr-protocol/nips/pull/879
-
-## NIP-86: Relay Management API
-
-https://github.com/nostr-protocol/nips/blob/relay-management-api/86.md
-
-リレーを管理するための JSON RPC 風の API。
-
-リクエスト:
-
-```
-{
-  "method": "<method-name>",
-  "params": ["<array>", "<of>", "<parameters>"]
-}
-```
-
-レスポンス:
-
-```
-{
-  "result": {"<arbitrary>": "<value>"},
-  "error": "<optional error message, if the call has errored>"
-}
-```
-
-メソッド:
-
-  * `supportedmethods`
-  * `banpubkey`
-  * `listbannedpubkeys`
-  * `allowpubkey`
-  * `listallowedpubkeys`
-  * `listeventsneedingmoderation`
-  * `allowevent`
-  * `banevent`
-  * `listbannedevents`
-  * `changerelayname`
-  * `changerelaydescription`
-  * `changerelayicon`
-  * `allowkind`
-  * `disallowkind`
-  * `listallowedkinds`
-  * `blockip`
-  * `unblockip`
-  * `listblockedips`
-
-PR: https://github.com/nostr-protocol/nips/pull/1325
 
 ## NIP-86: Shared Keys
 
@@ -731,6 +667,28 @@ https://github.com/unostr/nips/blob/nip-211---info-triple/211.md
 詳細: https://www.infotriple.org/
 
 PR: https://github.com/nostr-protocol/nips/pull/893
+
+## NIP-FA (NIP-250): Kind-scoped follows
+
+https://github.com/nostr-protocol/nips/blob/1187d2ba5d3c914b62e2d1360a5d6532dfb18b53/FA.md
+
+kind ごとのフォロー リスト。
+
+kind は複数指定できる。
+
+```
+{
+  "kind": 967,
+  "tags": [
+    ["p", "<pubkey1>", "<relay-url>"],
+    ["p", "<pubkey2>", "<relay-url>"],
+    ["k", "<some-kind>"],
+    ["k", "<some-other-kind>"]
+  ]
+}
+```
+
+PR: https://github.com/nostr-protocol/nips/pull/1605
 
 ## NIP-320: Nostr Rating Mass
 
