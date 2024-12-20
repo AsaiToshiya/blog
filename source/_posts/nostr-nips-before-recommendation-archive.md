@@ -258,6 +258,20 @@ torrent の検索やマグネット リンクを作成するためのインデ�
 
 PR: https://github.com/nostr-protocol/nips/pull/1175
 
+## NIP-37: Draft Events
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/37.md
+
+https://github.com/vitorpamplona/nips/blob/draft-event/35.md
+
+下書き用の汎用的なイベント。
+
+任意のイベント (下書き) を [NIP-44](https://github.com/nostr-protocol/nips/blob/master/44.md) (Encrypted Payloads (Versioned)) で暗号化して `.content` に含める。
+
+PR: https://github.com/nostr-protocol/nips/pull/1124
+
 ## NIP-37: Editable Short Notes
 
 クローズされた。

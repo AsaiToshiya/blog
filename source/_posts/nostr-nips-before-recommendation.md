@@ -80,16 +80,6 @@ https://github.com/arthurfranca/nips/blob/nip-34/34.md
 
 PR: https://github.com/nostr-protocol/nips/pull/579
 
-## NIP-35: Draft Events
-
-https://github.com/vitorpamplona/nips/blob/draft-event/35.md
-
-下書き用の汎用的なイベント。
-
-任意のイベント (下書き) を [NIP-44](https://github.com/nostr-protocol/nips/blob/master/44.md) (Encrypted Payloads (Versioned)) で暗号化して `.content` に含める。
-
-PR: https://github.com/nostr-protocol/nips/pull/1124
-
 ## NIP-35: Member List
 
 https://github.com/arthurfranca/nips/blob/nip-35/35.md
