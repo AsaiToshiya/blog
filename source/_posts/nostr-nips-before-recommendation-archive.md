@@ -11,9 +11,9 @@ tags: [Nostr]
 
 <!-- more -->
 
-クローズされた。
-
 ## NIP-00: Editable Event
+
+クローズされた。
 
 https://github.com/arthurfranca/nips/blob/editable/00.md
 
