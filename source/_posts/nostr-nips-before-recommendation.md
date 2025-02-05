@@ -331,7 +331,7 @@ PR: https://github.com/nostr-protocol/nips/pull/875
 
 https://github.com/arcbtc/nips/blob/nostrcash/88.md
 
-Nostr ネイティブなウォレットとミント (造幣局)。
+Nostr ネイティブなウォレットとミント (トークンの生成)。
 
 クライアントはウォレットの役目を負い、リレーはミントの役目を負う。
 
