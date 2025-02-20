@@ -561,6 +561,22 @@ pubkey および `n` タグでリストを定義して、`u` タグまたは `nu
 
 PR: https://github.com/nostr-protocol/nips/pull/784
 
+## NIP-62: Right to Vanish
+
+マージされた。
+
+https://github.com/nostr-protocol/nips/blob/master/62.md
+
+https://github.com/vitorpamplona/nips/blob/right-to-vanish/62.md
+
+忘れられる権利。すべてのイベントをリレーから削除。
+
+kind:
+ - `kind: 62`: 特定のリレー
+ - `kind: 63`: すべてのリレー
+
+PR: https://github.com/nostr-protocol/nips/pull/1256
+
 ## NIP-68: Content Labeling (including Reviews & Recommendations)
 
 クローズされた。

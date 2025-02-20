@@ -161,18 +161,6 @@ https://github.com/buttercat1791/nips/blob/master/62.md
 
 PR: https://github.com/nostr-protocol/nips/pull/986
 
-## NIP-62: Right to Vanish
-
-https://github.com/vitorpamplona/nips/blob/right-to-vanish/62.md
-
-忘れられる権利。すべてのイベントをリレーから削除。
-
-kind:
- - `kind: 62`: 特定のリレー
- - `kind: 63`: すべてのリレー
-
-PR: https://github.com/nostr-protocol/nips/pull/1256
-
 ## NIP-63: Interactive Stories
 
 https://github.com/vitorpamplona/nips/blob/byos/63.md
